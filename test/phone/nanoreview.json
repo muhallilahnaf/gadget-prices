@@ -1,0 +1,922 @@
+[
+    {
+        "name": "A14 Bionic",
+        "antutu": "615236",
+        "geekbench": "1616 / 3932",
+        "cores": " (2+4)",
+        "clock": "2990 Mhz",
+        "gpu": "Apple GPU"
+    },
+    {
+        "name": "Snapdragon 888",
+        "antutu": "724362",
+        "geekbench": "1127 / 3721",
+        "cores": " (1+3+4)",
+        "clock": "2840 Mhz",
+        "gpu": "Adreno 660"
+    },
+    {
+        "name": "Exynos 2100",
+        "antutu": "687799",
+        "geekbench": "1100 / 3648",
+        "cores": " (1+3+4)",
+        "clock": "2900 Mhz",
+        "gpu": "Mali-G78 MP14"
+    },
+    {
+        "name": "Kirin 9000",
+        "antutu": "693799",
+        "geekbench": "1049 / 3767",
+        "cores": " (1+3+4)",
+        "clock": "3130 Mhz",
+        "gpu": "Mali-G78 MP24"
+    },
+    {
+        "name": "Snapdragon 870",
+        "antutu": "655763",
+        "geekbench": "1050 / 3561",
+        "cores": " (1+3+4)",
+        "clock": "3200 Mhz",
+        "gpu": "Adreno 650"
+    },
+    {
+        "name": "A13 Bionic",
+        "antutu": "526298",
+        "geekbench": "1355 / 3527",
+        "cores": " (2+4)",
+        "clock": "2660 Mhz",
+        "gpu": "Apple A13 Bionic GPU"
+    },
+    {
+        "name": "Exynos 1080",
+        "antutu": "646817",
+        "geekbench": "855 / 2996",
+        "cores": " (1+3+4)",
+        "clock": "2800 Mhz",
+        "gpu": "Mali-G78 MP10"
+    },
+    {
+        "name": "Snapdragon 865 Plus",
+        "antutu": "615703",
+        "geekbench": "937 / 3323",
+        "cores": " (1+3+4)",
+        "clock": "3100 Mhz",
+        "gpu": "Adreno 650"
+    },
+    {
+        "name": "Snapdragon 865",
+        "antutu": "600139",
+        "geekbench": "945 / 3460",
+        "cores": " (1+3+4)",
+        "clock": "2840 Mhz",
+        "gpu": "Adreno 650"
+    },
+    {
+        "name": "Kirin 9000E",
+        "antutu": "641715",
+        "geekbench": "1064 / 3772",
+        "cores": " (1+3+4)",
+        "clock": "3130 Mhz",
+        "gpu": "Mali-G78 MP22"
+    },
+    {
+        "name": "Dimensity 1100",
+        "antutu": "610314",
+        "geekbench": "864 / 3595",
+        "cores": " (4+4)",
+        "clock": "2600 Mhz",
+        "gpu": "Mali-G77 MC9"
+    },
+    {
+        "name": "Dimensity 1200",
+        "antutu": "630647",
+        "geekbench": "943 / 3318",
+        "cores": " (1+3+4)",
+        "clock": "3000 Mhz",
+        "gpu": "Mali-G77 MC9"
+    },
+    {
+        "name": "Exynos 990",
+        "antutu": "534371",
+        "geekbench": "943 / 2734",
+        "cores": " (2+2+4)",
+        "clock": "2730 Mhz",
+        "gpu": "Mali-G77 MP11"
+    },
+    {
+        "name": "A12 Bionic",
+        "antutu": "407564",
+        "geekbench": "1125 / 2913",
+        "cores": " (2+4)",
+        "clock": "2490 Mhz",
+        "gpu": "Apple A12 Bionic GPU"
+    },
+    {
+        "name": "Snapdragon 855 Plus",
+        "antutu": "488400",
+        "geekbench": "783 / 2844",
+        "cores": " (1+3+4)",
+        "clock": "2960 Mhz",
+        "gpu": "Adreno 640"
+    },
+    {
+        "name": "Snapdragon 780G",
+        "antutu": "510274",
+        "geekbench": "804 / 2946",
+        "cores": " (1+3+4)",
+        "clock": "2400 Mhz",
+        "gpu": "Adreno 642"
+    },
+    {
+        "name": "Dimensity 1000",
+        "antutu": "514469",
+        "geekbench": "809 / 3083",
+        "cores": " (4+4)",
+        "clock": "2600 Mhz",
+        "gpu": "Mali-G77 MP9"
+    },
+    {
+        "name": "Kirin 990 (5G)",
+        "antutu": "505886",
+        "geekbench": "780 / 3077",
+        "cores": " (2+2+4)",
+        "clock": "2860 Mhz",
+        "gpu": "Mali G76 MP16"
+    },
+    {
+        "name": "Dimensity 1000 Plus",
+        "antutu": "494138",
+        "geekbench": "804 / 2807",
+        "cores": " (4+4)",
+        "clock": "2600 Mhz",
+        "gpu": "Mali-G77 MC9"
+    },
+    {
+        "name": "Snapdragon 855",
+        "antutu": "435307",
+        "geekbench": "744 / 2627",
+        "cores": " (1+3+4)",
+        "clock": "2840 Mhz",
+        "gpu": "Adreno 640"
+    },
+    {
+        "name": "Snapdragon 860",
+        "antutu": "454314",
+        "geekbench": "735 / 2591",
+        "cores": " (1+3+4)",
+        "clock": "2960 Mhz",
+        "gpu": "Adreno 640"
+    },
+    {
+        "name": "Exynos 9825",
+        "antutu": "459523",
+        "geekbench": "773 / 2401",
+        "cores": " (2+2+4)",
+        "clock": "2730 Mhz",
+        "gpu": "Mali G76 MP12"
+    },
+    {
+        "name": "Kirin 990 (4G)",
+        "antutu": "436526",
+        "geekbench": "743 / 3060",
+        "cores": " (2+2+4)",
+        "clock": "2860 Mhz",
+        "gpu": "Mali G76 MP16"
+    },
+    {
+        "name": "Exynos 9820",
+        "antutu": "397223",
+        "geekbench": "845 / 2321",
+        "cores": " (2+2+4)",
+        "clock": "2700 Mhz",
+        "gpu": "Mali G76 MP12"
+    },
+    {
+        "name": "Kirin 985",
+        "antutu": "424880",
+        "geekbench": "689 / 2583",
+        "cores": " (1+3+4)",
+        "clock": "2580 Mhz",
+        "gpu": "Mali-G77 MP8"
+    },
+    {
+        "name": "Kirin 980",
+        "antutu": "405378",
+        "geekbench": "703 / 2512",
+        "cores": " (2+2+4)",
+        "clock": "2600 Mhz",
+        "gpu": "Mali G76 MP10"
+    },
+    {
+        "name": "Dimensity 820",
+        "antutu": "409295",
+        "geekbench": "656 / 2682",
+        "cores": " (4+4)",
+        "clock": "2600 Mhz",
+        "gpu": "Mali-G57 MC5"
+    },
+    {
+        "name": "Kirin 820",
+        "antutu": "381037",
+        "geekbench": "646 / 2452",
+        "cores": " (1+3+4)",
+        "clock": "2360 Mhz",
+        "gpu": "Mali-G57 MP6"
+    },
+    {
+        "name": "Snapdragon 768G",
+        "antutu": "354795",
+        "geekbench": "712 / 2012",
+        "cores": " (1+1+6)",
+        "clock": "2800 Mhz",
+        "gpu": "Adreno 620"
+    },
+    {
+        "name": "Snapdragon 845",
+        "antutu": "362922",
+        "geekbench": "518 / 2235",
+        "cores": " (4+4)",
+        "clock": "2800 Mhz",
+        "gpu": "Adreno 630"
+    },
+    {
+        "name": "A11 Bionic",
+        "antutu": "316962",
+        "geekbench": "932 / 2362",
+        "cores": " (2+4)",
+        "clock": "2390 Mhz",
+        "gpu": "Apple GPU"
+    },
+    {
+        "name": "Exynos 980",
+        "antutu": "336083",
+        "geekbench": "701 / 1858",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Mali G76MP5"
+    },
+    {
+        "name": "Snapdragon 765G",
+        "antutu": "314075",
+        "geekbench": "594 / 1812",
+        "cores": " (1+1+6)",
+        "clock": "2400 Mhz",
+        "gpu": "Adreno 620"
+    },
+    {
+        "name": "Exynos 9810",
+        "antutu": "320171",
+        "geekbench": "686 / 2021",
+        "cores": " (4+4)",
+        "clock": "2900 Mhz",
+        "gpu": "Mali-G72MP18"
+    },
+    {
+        "name": "Kirin 810",
+        "antutu": "322646",
+        "geekbench": "610 / 2021",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Mali-G52 MP6"
+    },
+    {
+        "name": "Snapdragon 750G",
+        "antutu": "330199",
+        "geekbench": "658 / 2009",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Adreno 619"
+    },
+    {
+        "name": "Dimensity 800",
+        "antutu": "315986",
+        "geekbench": "550 / 2218",
+        "cores": " (4+4)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G57 MC4"
+    },
+    {
+        "name": "Snapdragon 765",
+        "antutu": "287663",
+        "geekbench": "482 / 1809",
+        "cores": " (1+1+6)",
+        "clock": "2300 Mhz",
+        "gpu": "Adreno 620"
+    },
+    {
+        "name": "Dimensity 800U",
+        "antutu": "323515",
+        "geekbench": "630 / 1910",
+        "cores": " (2+6)",
+        "clock": "2400 Mhz",
+        "gpu": "Mali-G57 MC3"
+    },
+    {
+        "name": "Exynos 880",
+        "antutu": "289855",
+        "geekbench": "661 / 1849",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali G76 MP5"
+    },
+    {
+        "name": "Dimensity 1000L",
+        "antutu": "341767",
+        "geekbench": "309 / 1381",
+        "cores": " (4+4)",
+        "clock": "2600 Mhz",
+        "gpu": "Mali-G77 MC9"
+    },
+    {
+        "name": "Snapdragon 732G",
+        "antutu": "281215",
+        "geekbench": "575 / 1805",
+        "cores": " (2+6)",
+        "clock": "2300 Mhz",
+        "gpu": "Adreno 618"
+    },
+    {
+        "name": "Snapdragon 690",
+        "antutu": "321293",
+        "geekbench": "630 / 1809",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Adreno 619L"
+    },
+    {
+        "name": "Snapdragon 480",
+        "antutu": "265601",
+        "geekbench": "513 / 1664",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Adreno 619"
+    },
+    {
+        "name": "Snapdragon 720G",
+        "antutu": "281220",
+        "geekbench": "578 / 1707",
+        "cores": " (2+6)",
+        "clock": "2300 Mhz",
+        "gpu": "Adreno 618"
+    },
+    {
+        "name": "Snapdragon 730G",
+        "antutu": "282065",
+        "geekbench": "541 / 1729",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Adreno 618"
+    },
+    {
+        "name": "Snapdragon 835",
+        "antutu": "283451",
+        "geekbench": "390 / 1715",
+        "cores": " (4+4)",
+        "clock": "2450 Mhz",
+        "gpu": "Adreno 540"
+    },
+    {
+        "name": "Dimensity 700",
+        "antutu": "294803",
+        "geekbench": "540 / 1727",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Mali-G57 MC2"
+    },
+    {
+        "name": "Dimensity 720",
+        "antutu": "291131",
+        "geekbench": "522 / 1687",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G57 MC3"
+    },
+    {
+        "name": "A10 Fusion",
+        "antutu": "251120",
+        "geekbench": "779 / 1432",
+        "cores": " (2+2)",
+        "clock": "2340 Mhz",
+        "gpu": "PowerVR GT7600"
+    },
+    {
+        "name": "Snapdragon 730",
+        "antutu": "254789",
+        "geekbench": "541 / 1804",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Adreno 618"
+    },
+    {
+        "name": "Helio G95",
+        "antutu": "301940",
+        "geekbench": "516 / 1623",
+        "cores": " (2+6)",
+        "clock": "2050 Mhz",
+        "gpu": "Mali-G76 3EEMC4"
+    },
+    {
+        "name": "Helio G90T",
+        "antutu": "284065",
+        "geekbench": "495 / 1620",
+        "cores": " (2+6)",
+        "clock": "2050 Mhz",
+        "gpu": "Mali-G76MC4"
+    },
+    {
+        "name": "Snapdragon 712",
+        "antutu": "227555",
+        "geekbench": "409 / 1534",
+        "cores": " (2+6)",
+        "clock": "2300 Mhz",
+        "gpu": "Adreno 616"
+    },
+    {
+        "name": "Snapdragon 678",
+        "antutu": "238628",
+        "geekbench": "513 / 1514",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Adreno 612"
+    },
+    {
+        "name": "Helio G90",
+        "antutu": "224814",
+        "geekbench": "511 / 1634",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G76 MC4"
+    },
+    {
+        "name": "Kirin 970",
+        "antutu": "238832",
+        "geekbench": "391 / 1374",
+        "cores": " (4+4)",
+        "clock": "2360 Mhz",
+        "gpu": "Mali G72 MP12"
+    },
+    {
+        "name": "Snapdragon 710",
+        "antutu": "220486",
+        "geekbench": "391 / 1453",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Adreno 616"
+    },
+    {
+        "name": "Exynos 9611",
+        "antutu": "183649",
+        "geekbench": "330 / 1213",
+        "cores": " (4+4)",
+        "clock": "2300 Mhz",
+        "gpu": "Mali-G72 MP3"
+    },
+    {
+        "name": "Snapdragon 670",
+        "antutu": "179972",
+        "geekbench": "349 / 1322",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Adreno 615"
+    },
+    {
+        "name": "Exynos 8895",
+        "antutu": "178403",
+        "geekbench": "382 / 1596",
+        "cores": " (4+4)",
+        "clock": "2314 Mhz",
+        "gpu": "Mali-G71 MP20"
+    },
+    {
+        "name": "Helio P95",
+        "antutu": "211698",
+        "geekbench": "399 / 1503",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "PowerVR GM9446"
+    },
+    {
+        "name": "Exynos 9609",
+        "antutu": "186628",
+        "geekbench": "334 / 1265",
+        "cores": " (4+4)",
+        "clock": "2200 Mhz",
+        "gpu": "Mali-G72 MP3"
+    },
+    {
+        "name": "Snapdragon 665",
+        "antutu": "177530",
+        "geekbench": "315 / 1371",
+        "cores": " (4+4)",
+        "clock": "2200 Mhz",
+        "gpu": "Adreno 610"
+    },
+    {
+        "name": "Snapdragon 675",
+        "antutu": "205931",
+        "geekbench": "427 / 1410",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Adreno 612"
+    },
+    {
+        "name": "Helio P90",
+        "antutu": "220164",
+        "geekbench": "394 / 1507",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "PowerVR GM9446"
+    },
+    {
+        "name": "Snapdragon 662",
+        "antutu": "180079",
+        "geekbench": "314 / 1416",
+        "cores": " (4+4)",
+        "clock": "2000 Mhz",
+        "gpu": "Adreno 610"
+    },
+    {
+        "name": "Snapdragon 821",
+        "antutu": "176069",
+        "geekbench": "344 / 752",
+        "cores": " (2+2)",
+        "clock": "2342 Mhz",
+        "gpu": "Adreno 530"
+    },
+    {
+        "name": "Kirin 960",
+        "antutu": "207164",
+        "geekbench": "382 / 1610",
+        "cores": " (4+4)",
+        "clock": "2360 Mhz",
+        "gpu": "Mali-G71 MP8"
+    },
+    {
+        "name": "Exynos 9610",
+        "antutu": "176340",
+        "geekbench": "345 / 1140",
+        "cores": " (4+4)",
+        "clock": "2300 Mhz",
+        "gpu": "Mali-G72 MP3"
+    },
+    {
+        "name": "Exynos 850",
+        "antutu": "127136",
+        "geekbench": "162 / 952",
+        "cores": " (8)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G52 MP1"
+    },
+    {
+        "name": "Snapdragon 460",
+        "antutu": "148976",
+        "geekbench": "255 / 1156",
+        "cores": " (4+4)",
+        "clock": "1800 Mhz",
+        "gpu": "Adreno 610"
+    },
+    {
+        "name": "Helio G80",
+        "antutu": "202852",
+        "geekbench": "351 / 1302",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G52 MP2"
+    },
+    {
+        "name": "Helio G70",
+        "antutu": "196076",
+        "geekbench": "363 / 1274",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G52 2EEMC2"
+    },
+    {
+        "name": "Kirin 710F",
+        "antutu": "170545",
+        "geekbench": "327 / 1355",
+        "cores": " (4+4)",
+        "clock": "2200 Mhz",
+        "gpu": "Mali-G51"
+    },
+    {
+        "name": "Helio P65",
+        "antutu": "187305",
+        "geekbench": "349 / 1274",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Arm Mali-G52 2EEMC2"
+    },
+    {
+        "name": "Helio P70",
+        "antutu": "191340",
+        "geekbench": "303 / 1395",
+        "cores": " (4+4)",
+        "clock": "2100 Mhz",
+        "gpu": "Mali-G72 MP3"
+    },
+    {
+        "name": "Apple A9",
+        "antutu": "171268",
+        "geekbench": "542 / 1008",
+        "cores": " (2)",
+        "clock": "1850 Mhz",
+        "gpu": "PowerVR GT7600"
+    },
+    {
+        "name": "Snapdragon 820",
+        "antutu": "169004",
+        "geekbench": "321 / 810",
+        "cores": " (2+2)",
+        "clock": "2150 Mhz",
+        "gpu": "Adreno 530"
+    },
+    {
+        "name": "Kirin 710A",
+        "antutu": "161262",
+        "geekbench": "320 / 1166",
+        "cores": " (4+4)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G51"
+    },
+    {
+        "name": "Helio G85",
+        "antutu": "197092",
+        "geekbench": "359 / 1273",
+        "cores": " (2+6)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G52 MP2"
+    },
+    {
+        "name": "Kirin 710",
+        "antutu": "167425",
+        "geekbench": "329 / 1197",
+        "cores": " (4+4)",
+        "clock": "2200 Mhz",
+        "gpu": "Mali-G51"
+    },
+    {
+        "name": "Snapdragon 660",
+        "antutu": "156869",
+        "geekbench": "336 / 1337",
+        "cores": " (4+4)",
+        "clock": "2200 Mhz",
+        "gpu": "Adreno 512"
+    },
+    {
+        "name": "Snapdragon 636",
+        "antutu": "147597",
+        "geekbench": "274 / 1127",
+        "cores": " (4+4)",
+        "clock": "1800 Mhz",
+        "gpu": "Adreno 509"
+    },
+    {
+        "name": "Exynos 8890",
+        "antutu": "178051",
+        "geekbench": "373 / 1310",
+        "cores": " (4+4)",
+        "clock": "2300 Mhz",
+        "gpu": "Mali-T880 MP12"
+    },
+    {
+        "name": "Helio P60",
+        "antutu": "171434",
+        "geekbench": "272 / 1134",
+        "cores": " (4+4)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-G72 MP3"
+    },
+    {
+        "name": "Exynos 7885",
+        "antutu": "139631",
+        "geekbench": "321 / 1055",
+        "cores": " (2+6)",
+        "clock": "2200 Mhz",
+        "gpu": "Mali-G71 MP2"
+    },
+    {
+        "name": "Exynos 7904",
+        "antutu": "119180",
+        "geekbench": "273 / 1016",
+        "cores": " (2+6)",
+        "clock": "1800 Mhz",
+        "gpu": "Mali-G71 MP2"
+    },
+    {
+        "name": "Kirin 950",
+        "antutu": "174367",
+        "geekbench": "341 / 1298",
+        "cores": " (4+4)",
+        "clock": "2400 Mhz",
+        "gpu": "Mali-T880 MP4"
+    },
+    {
+        "name": "Snapdragon 632",
+        "antutu": "121056",
+        "geekbench": "264 / 1049",
+        "cores": " (4+4)",
+        "clock": "1800 Mhz",
+        "gpu": "Adreno 506"
+    },
+    {
+        "name": "Helio G35",
+        "antutu": "110128",
+        "geekbench": "176 / 1004",
+        "cores": " (8)",
+        "clock": "2300 Mhz",
+        "gpu": "IMG PowerVR GE8320"
+    },
+    {
+        "name": "Exynos 7884B",
+        "antutu": "109070",
+        "geekbench": "250 / 902",
+        "cores": " (2+6)",
+        "clock": "1560 Mhz",
+        "gpu": "Mali-G71 MP2"
+    },
+    {
+        "name": "Snapdragon 630",
+        "antutu": "117572",
+        "geekbench": "176 / 988",
+        "cores": " (4+4)",
+        "clock": "2200 Mhz",
+        "gpu": "Adreno 508"
+    },
+    {
+        "name": "Snapdragon 439",
+        "antutu": "97952",
+        "geekbench": "177 / 805",
+        "cores": " (4+4)",
+        "clock": "2000 Mhz",
+        "gpu": "Adreno 505"
+    },
+    {
+        "name": "Kirin 955",
+        "antutu": "120413",
+        "geekbench": "342 / 1094",
+        "cores": " (4+4)",
+        "clock": "2500 Mhz",
+        "gpu": "ARM Mali-T880 MP4"
+    },
+    {
+        "name": "Helio P35",
+        "antutu": "99304",
+        "geekbench": "170 / 988",
+        "cores": " (8)",
+        "clock": "2300 Mhz",
+        "gpu": "IMG PowerVR GE8320"
+    },
+    {
+        "name": "Helio G25",
+        "antutu": "91014",
+        "geekbench": "135 / 471",
+        "cores": " (8)",
+        "clock": "2000 Mhz",
+        "gpu": "IMG PowerVR GE8320"
+    },
+    {
+        "name": "Exynos 7420",
+        "antutu": "114292",
+        "geekbench": "263 / 882",
+        "cores": " (4+4)",
+        "clock": "2100 Mhz",
+        "gpu": "Mali-T760 MP8"
+    },
+    {
+        "name": "Helio P22",
+        "antutu": "99333",
+        "geekbench": "156 / 753",
+        "cores": " (8)",
+        "clock": "2000 Mhz",
+        "gpu": "PowerVR GE8320"
+    },
+    {
+        "name": "Snapdragon 450",
+        "antutu": "88269",
+        "geekbench": "151 / 955",
+        "cores": " (8)",
+        "clock": "1800 Mhz",
+        "gpu": "Adreno 506"
+    },
+    {
+        "name": "Exynos 7880",
+        "antutu": "106219",
+        "geekbench": "146 / 927",
+        "cores": " (8)",
+        "clock": "1900 Mhz",
+        "gpu": "Mali-T830 MP3"
+    },
+    {
+        "name": "Snapdragon 625",
+        "antutu": "103408",
+        "geekbench": "171 / 1041",
+        "cores": " (8)",
+        "clock": "2000 Mhz",
+        "gpu": "Adreno 506"
+    },
+    {
+        "name": "Helio P23",
+        "antutu": "103064",
+        "geekbench": "153 / 867",
+        "cores": " (4+4)",
+        "clock": "2300 Mhz",
+        "gpu": "Mali-G71 MP2"
+    },
+    {
+        "name": "Snapdragon 429",
+        "antutu": "83230",
+        "geekbench": "169 / 555",
+        "cores": " (4)",
+        "clock": "1950 Mhz",
+        "gpu": "Adreno 504"
+    },
+    {
+        "name": "Snapdragon 652",
+        "antutu": "99440",
+        "geekbench": "262 / 988",
+        "cores": " (4+4)",
+        "clock": "1800 Mhz",
+        "gpu": "Adreno 510"
+    },
+    {
+        "name": "Helio X20",
+        "antutu": "93641",
+        "geekbench": "265 / 814",
+        "cores": " (2+4+4)",
+        "clock": "2100 Mhz",
+        "gpu": "Mali-T880 MP4"
+    },
+    {
+        "name": "Kirin 650",
+        "antutu": "64703",
+        "geekbench": "169 / 803",
+        "cores": " (4+4)",
+        "clock": "2000 Mhz",
+        "gpu": "Mali-T830 MP2"
+    },
+    {
+        "name": "Kirin 655",
+        "antutu": "66164",
+        "geekbench": "173 / 843",
+        "cores": " (4+4)",
+        "clock": "2120 Mhz",
+        "gpu": "Mali-T830 MP2"
+    },
+    {
+        "name": "Helio A22",
+        "antutu": "81126",
+        "geekbench": "163 / 541",
+        "cores": " (4)",
+        "clock": "2000 Mhz",
+        "gpu": "PowerVR GE8320"
+    },
+    {
+        "name": "Exynos 7870",
+        "antutu": "84559",
+        "geekbench": "128 / 490",
+        "cores": " (8)",
+        "clock": "1600 Mhz",
+        "gpu": "Mali-T830 MP1"
+    },
+    {
+        "name": "Snapdragon 801",
+        "antutu": "63106",
+        "geekbench": "156 / 577",
+        "cores": " (4)",
+        "clock": "2500 Mhz",
+        "gpu": "Adreno 330"
+    },
+    {
+        "name": "Exynos 7570",
+        "antutu": "57390",
+        "geekbench": "109 / 363",
+        "cores": " (4)",
+        "clock": "1400 Mhz",
+        "gpu": "Mali T-720 MP2"
+    },
+    {
+        "name": "Snapdragon 435",
+        "antutu": "73335",
+        "geekbench": "126 / 587",
+        "cores": " (8)",
+        "clock": "1400 Mhz",
+        "gpu": "Adreno 505"
+    },
+    {
+        "name": "MediaTek MT6739",
+        "antutu": "50115",
+        "geekbench": "104 / 348",
+        "cores": " (4)",
+        "clock": "1500 Mhz",
+        "gpu": "PowerVR GE8100"
+    },
+    {
+        "name": "MediaTek MT6737",
+        "antutu": "41675",
+        "geekbench": "129 / 435",
+        "cores": " (4)",
+        "clock": "1300 Mhz",
+        "gpu": "Mali-T720 MP2"
+    }
+]

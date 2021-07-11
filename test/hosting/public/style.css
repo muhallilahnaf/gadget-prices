@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#logo {
+    height: 70px;
+    padding: 10px;
+}
+
+#logo svg {
+    height: 50px;
+}
+
+.path {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 300;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+
+div.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+div.input > div {
+    margin-bottom: 20px;
+}
+
+div.input > div span:first-child {
+    margin-right: 10px;
+}
+
+#price input {
+    width: 100px;
+    height: 2em;
+    border-radius: 3px;
+}
+
+#shops input:hover, #availability input:hover, #shops label:hover, #availability label:hover {
+    cursor: pointer;
+}
+
+#shops label, #availability label {
+    margin-right: 20px;
+}
+
+button#get {
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+button#get:hover {
+    cursor: pointer;
+}
+
+#price-error, #shop-error {
+    color: red;
+    padding: 3px;
+    font-size: small;
+}
+
+#sort-table-container {
+    visibility: hidden;
+    margin: 10px 30px;
+    background-color: lightcyan;
+}
+
+#sort-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sort-table-group {
+    margin: 10px 0 5px 20px;
+    font-size: smaller;
+}
+
+#table {
+    margin-bottom: 50px;
+    padding: 0 10px;
+    overflow-x: auto;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid darkslategray;
+}
+
+thead tr {
+    background-color: lightpink;
+}
+
+thead th {
+    padding: 10px;
+    border: 1px solid darkslategray;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+tbody td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid darkslategray;
+    font-size: smaller;
+}
+
+#footer {
+    margin-top: auto;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+}
+
+#loading-screen {
+    visibility: hidden;
+    position: fixed;
+    width: 150px;
+    margin-left: -75px;
+    height: 150px;
+    margin-top: -75px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading-screen p {
+    font-size: larger;
+    font-weight: 700;
+}

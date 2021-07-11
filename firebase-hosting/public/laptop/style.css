@@ -1,0 +1,139 @@
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.brand-logo {
+    margin: 10px 5px 5px 5px;
+}
+
+#logo-path {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 200;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.input-field label {
+    color: #fff;
+}
+
+#min-price {
+    color: #e0e0e0 !important;
+} 
+
+#max-price {
+    color: #e0e0e0 !important;
+}
+
+#shop-error, #sort-by-error, #sort-direction-error {
+    color: red;
+}
+
+#sort {
+    padding-top: 10px;
+    display: none;
+}
+
+#loader-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-content {
+    background-color: #546e7a !important;
+}
+
+.dropdown-content li > span, .dropdown-content li > a {
+    color: white !important;
+}
+
+.dropdown-content .disabled > span, .dropdown-content .disabled > a {
+    color: black !important;
+}
+
+.dropdown-content .selected > span, .dropdown-content .selected > a {
+    background-color: #37474f !important;
+}
+
+.select-dropdown {
+    color: #e0e0e0 !important;
+}
+
+.card-header {
+    margin-bottom: 10px;
+}
+
+.card-header span {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.card-title a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card-body > p {
+    margin-bottom: 10px !important;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+.cpu-details {
+    display: none;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.description-details {
+    display: none;
+    margin-left: 10px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cpu-button, .description-button {
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-action {
+    border-top: 1px solid #263238 !important;
+}
+
+.card-action a {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.card-action a:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+#footer .copyright {
+    width: 100%;
+    text-align: center;
+}
