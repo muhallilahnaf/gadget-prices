@@ -6,6 +6,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // select
     let elemsSelect = document.querySelectorAll('select')
     let instancesSelect = M.FormSelect.init(elemsSelect)
+
+    // tooltip
+    let elemsTooltip = document.querySelectorAll('.tooltipped')
+    let instancesTooltip = M.Tooltip.init(elemsTooltip)
+
+    // floating button
+    let elemsFloatingBtn = document.querySelectorAll('.fixed-action-btn')
+    let instancesFloatingBtn = M.FloatingActionButton.init(elemsFloatingBtn)
+
+    // modal
+    let elemsModal = document.querySelectorAll('.modal')
+    let instancesModal = M.Modal.init(elemsModal)
 })
 
 
@@ -26,12 +38,21 @@ const all = document.getElementById('all')
 const shopError = document.getElementById('shop-error')
 const buttonGet = document.getElementById('get')
 
+const sortFilterCard = document.getElementById('sort-filter-card')
 const sort = document.getElementById('sort')
 const sortBy = document.getElementById('sort-by')
 const sortByError = document.getElementById('sort-by-error')
+const minPrice = document.getElementById('min-price')
+const maxPrice = document.getElementById('max-price')
+const buttonPriceFilter = document.getElementById('filter-price')
+const buttonPriceFilterCancel = document.getElementById('filter-price-cancel')
 const viewSwitch = document.getElementById('view-switch')
 
 const output = document.getElementById('output')
+
+const buttonCompareFloating = document.querySelector('.compare-floating')
+const modalCollection = document.querySelector('#modal-compare ul.collection')
+const buttonViewCompare = document.getElementById('view-compare')
 
 const allShops = {
     fdl, oppo, realme, robishop, transcom, vivo, mi, excel, salextra
@@ -40,6 +61,8 @@ const allShops = {
 const sortValues = [
     'price-asc',
     'price-desc',
+    'antutu-asc',
+    'antutu-desc',
 ]
 
 const detailButtonsCls = [
@@ -58,7 +81,10 @@ let headers = new Headers({
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41",
 })
 let parsedResults = []
+let filteredResults = []
 let salextraLinks = []
+let priceFilter = {}
+let compareList = []
 
 
 const brands = [

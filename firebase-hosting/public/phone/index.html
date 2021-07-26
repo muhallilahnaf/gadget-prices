@@ -136,7 +136,6 @@
                         </label>
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="input-field col s12">
                         <button id="get" type="submit" class="btn waves-effect waves-light light-blue darken-4">
@@ -148,21 +147,46 @@
         </div>
 
         <!-- sort form -->
-        <div class="row">
-            <form id="sort" class="hoverable col s12 m8 offset-m2 l6 offset-l3 blue-grey darken-4 white-text">
-                <div class="row">
-                    <div class="input-field col s6 l8">
-                        <select name="sort-by" id="sort-by">
-                            <option value="" disabled selected>sort by</option>
-                            <option value="price-asc" class="white-text">price (low to high)</option>
-                            <option value="price-desc">price (high to low)</option>
-                        </select>
-                        <label for="sort-by">sort items</label>
-                        <p id="sort-by-error"></p>
+        <div class="row" id="sort-filter-card">
+            <div class="hoverable col s12 m10 offset-m1 l8 offset-l2 xl6 offset-xl3 blue-grey darken-4 white-text">
+                <form id="sort">
+                    <div class="row">
+                        <div class="input-field col s6 l8">
+                            <select name="sort-by" id="sort-by">
+                                <option value="" disabled selected>sort by</option>
+                                <option value="price-asc" class="white-text">price (low to high)</option>
+                                <option value="price-desc">price (high to low)</option>
+                                <option value="antutu-asc" class="white-text">Antutu v8 score (low to high)</option>
+                                <option value="antutu-desc">Antutu v8 score (high to low)</option>
+                            </select>
+                            <label for="sort-by">sort items</label>
+                            <p id="sort-by-error"></p>
+                        </div>
+                        <div class="col s6 l4  center-align">
+                            <button id="sort-button" type="submit" class="btn btn-small light-blue darken-4">
+                                <i class="material-icons left">sort</i>sort
+                            </button>
+                        </div>
                     </div>
-                    <div class="col s6 l4  center-align">
-                        <button id="sort-button" type="submit" class="btn light-blue darken-4">
-                            <i class="material-icons left">sort</i>sort
+                </form>
+                <div class="row" id="filter-price-row">
+                    <div class="input-field col s6 m4">
+                        <input type="text" class="validate" autocomplete="off" name="min-price" value="" id="min-price">
+                        <label for="min-price">minimum price</label>
+                        <span class="helper-text" data-error="required & must be a number" data-success=""></span>
+                    </div>
+                    <div class="input-field col s6 m4">
+                        <input type="text" class="validate" autocomplete="off" name="max-price" value="" id="max-price">
+                        <label for="max-price">maximum price</label>
+                        <span class="helper-text" data-error="required & must be a number" data-success=""></span>
+                    </div>
+                    <div class="col s6 m4" id="filter-price-buttons">
+                        <button id="filter-price" class="btn waves-effect waves-light btn-small light-blue darken-4">
+                            <i class="material-icons">check</i>
+                        </button>
+                        <button id="filter-price-cancel"
+                            class="btn waves-effect waves-light btn-small light-blue darken-4">
+                            <i class="material-icons">clear</i>
                         </button>
                     </div>
                 </div>
@@ -170,15 +194,15 @@
                     <div class="col s12 center-align">
                         <div class="switch">
                             <label>
-                                Compact
+                                Compact view
                                 <input type="checkbox" id="view-switch">
                                 <span class="lever"></span>
-                                Full
+                                Details view
                             </label>
                         </div>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
 
         <!-- loader -->
@@ -234,8 +258,325 @@
         </div>
 
         <!-- output -->
-        <div id="output"></div>
+        <div id="output">
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="card blue-grey darken-3 hoverable">
+                        <div class="card-content white-text">
+                            <div class="card-header">
+                                <span class="cyan darken-4">Brand: Xiaomi</span>
+                                <span class="cyan darken-4">Shop: mi</span>
+                                <button
+                                    class="compare-button right tooltipped btn-floating  btn-small light-blue darken-4"
+                                    data-position="top" data-tooltip="add to compare" data-compare="1">
+                                    <i class="material-icons">add</i>
+                                </button>
+                            </div>
+                            <div class="card-title"><a class="white-text" href="https://www.mi.com/bd/poco-x3-pro/"
+                                    target="_blank">Xiaomi POCO X3 Pro</a></div>
+                            <div class="card-body">
+                                <div class="card-body-compact row hide">
+                                    <div class="col s12">
+                                        <p class="compact-chipset">Qualcomm Snapdragon 860</p>
+                                        <p class="compact-os">Android 11, MIUI 12.5 for POCO</p>
+                                        <p class="compact-memory"></p>
+                                        <p class="compact-display">IPS 6.67" 1080p</p>
+                                        <p class="compact-rearcam">48 MP wide, 8 MP ultrawide, 2 MP macro, 2 MP depth
+                                        </p>
+                                        <p class="compact-frontcam">20 MP wide</p>
+                                        <p class="compact-battery">5160 mAh</p>
+                                    </div>
+                                </div>
+                                <div class="card-body-full">
+                                    <div class="date-content row">
+                                        <div class="col s1"><i class="fas fa-calendar fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="date">Released: 2021, March </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="chipset-content row">
+                                        <div class="col s1"><i class="fas fa-microchip fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="chipset">Qualcomm Snapdragon 860 <span
+                                                    class="chipset-button detail-button" data-chipset-button="1">(see
+                                                    details)</span></p>
+                                            <ul class="chipset-details" data-chipset-details="1">
+                                                <li class="antutu">Antutu score: 453223</li>
+                                                <li class="geekbench">Geekbench score: 2574</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="os-content row">
+                                        <div class="col s1"><i class="fab fa-android fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="os">Android 11, MIUI 12.5 for POCO </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="memory-content row">
+                                        <div class="col s1"><i class="fas fa-memory fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="memory">6/128, 8/128, 8/256 </p>
+                                            <p class="memory-speed">UFS 3.1 </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="display-content row">
+                                        <div class="col s1"><i class="fas fa-mobile-alt fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="display">IPS 6.67" 1080p </p>
+                                            <p class="display-details">395 PPI Corning Gorilla Glass 6 </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="camera-content row">
+                                        <div class="col s1"><i class="fas fa-camera fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="rearcam">48 MP wide, 8 MP ultrawide, 2 MP macro, 2 MP depth <span
+                                                    class="rearcam-button detail-button" data-rearcam-button="1">(see
+                                                    details)</span></p>
+                                            <ul class="rearcam-details" data-rearcam-details="1">
+                                                <li class="rearvideo">video: 4K@30fps, 1080p@30/60/120/240fps,
+                                                    1080p@960fps</li>
+                                                <li class="rearvideostable">stabilization: gyro-EIS</li>
+                                            </ul>
+                                            <p class="frontcam">20 MP wide <span class="frontcam-button detail-button"
+                                                    data-frontcam-button="1">(see details)</span></p>
+                                            <ul class="frontcam-details" data-frontcam-details="1">
+                                                <li class="frontvideo">video: 1080p@30fps</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="battery-content row">
+                                        <div class="col s1"><i class="fas fa-battery-full fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="battery">5160 mAh </p>
+                                            <p class="battery-charging">Fast 33W, 59% in 30 min, 100% in 59 min
+                                                (advertised)
+                                                charging </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="connectivity-content row">
+                                        <div class="col s1"><i class="fas fa-network-wired fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="sim">SIM: hybrid dual </p>
+                                            <p class="connectivity"> <span class="connectivity-button detail-button"
+                                                    data-connectivity-button="1">(see more connectivity)</span></p>
+                                            <ul class="connectivity-details" data-connectivity-details="1">
+                                                <li class="wlan">WiFi: AC</li>
+                                                <li class="bluetooth">BlueTooth: 5.0</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="sensor-port-content row">
+                                        <div class="col s1"><i class="fas fa-fingerprint fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="fingerprint">fingerprint: side-mounted </p>
+                                            <p class="usb">USB: Type-C 2.0 </p>
+                                            <p class="hpjack">headphone jack: Yes </p>
+                                            <p class="sensor-port"> <span class="sensor-port-button detail-button"
+                                                    data-sensor-port-button="1">(see more sensors)</span></p>
+                                            <ul class="sensor-port-details" data-sensor-port-details="1">
+                                                <li class="sensors">sensors: gyroscope, compass</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="body-content row">
+                                        <div class="col s1"><i class="fas fa-mobile fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="body">IP53, dust and splash protection </p>
+                                            <p class="height">height: 165mm </p>
+                                            <p class="thiccness">thickness: 9mm </p>
+                                            <p class="weight">weight: 215g </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-action"><a class="cyan black-text price"
+                                href="https://www.mi.com/bd/poco-x3-pro/" target="_blank">BDT 29,999</a><span
+                                class="white-text status"></span></div>
+                    </div>
+                </div>
+                <div class="col s12 l6">
+                    <div class="card blue-grey darken-3 hoverable">
+                        <div class="card-content white-text">
+                            <div class="card-header">
+                                <span class="cyan darken-4">Brand: Xiaomi</span>
+                                <span class="cyan darken-4">Shop: mi</span>
+                                <button
+                                    class="compare-button right tooltipped btn-floating waves-effect waves-light btn-small light-blue darken-4"
+                                    data-position="top" data-tooltip="add to compare" data-compare="2">
+                                    <i class="material-icons">add</i>
+                                </button>
+                            </div>
+                            <div class="card-title"><a class="white-text"
+                                    href="https://www.mi.com/bd/product/mi-11-lite/overview" target="_blank">Xiaomi Mi
+                                    11 Lite</a></div>
+                            <div class="card-body">
+                                <div class="card-body-compact row hide">
+                                    <div class="col s12">
+                                        <p class="compact-chipset">Qualcomm Snapdragon 732G</p>
+                                        <p class="compact-os">Android 11, MIUI 12</p>
+                                        <p class="compact-memory"></p>
+                                        <p class="compact-display">OLED 6.55" 1080p</p>
+                                        <p class="compact-rearcam">64 MP wide, 8 MP ultrawide, 5 MP macro</p>
+                                        <p class="compact-frontcam">16 MP wide</p>
+                                        <p class="compact-battery">4250 mAh</p>
+                                    </div>
+                                </div>
+                                <div class="card-body-full">
+                                    <div class="date-content row">
+                                        <div class="col s1"><i class="fas fa-calendar fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="date">Released: 2021, March </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="chipset-content row">
+                                        <div class="col s1"><i class="fas fa-microchip fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="chipset">Qualcomm Snapdragon 732G <span
+                                                    class="chipset-button detail-button" data-chipset-button="2">(see
+                                                    details)</span></p>
+                                            <ul class="chipset-details" data-chipset-details="2">
+                                                <li class="antutu">Antutu score: 290172</li>
+                                                <li class="geekbench">Geekbench score: 1796</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="os-content row">
+                                        <div class="col s1"><i class="fab fa-android fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="os">Android 11, MIUI 12 </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="memory-content row">
+                                        <div class="col s1"><i class="fas fa-memory fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="memory">4/64, 6/64, 6/128, 8/128 </p>
+                                            <p class="memory-speed">UFS 2.2 </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="display-content row">
+                                        <div class="col s1"><i class="fas fa-mobile-alt fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="display">OLED 6.55" 1080p </p>
+                                            <p class="display-details">402 PPI Corning Gorilla Glass 5 </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="camera-content row">
+                                        <div class="col s1"><i class="fas fa-camera fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="rearcam">64 MP wide, 8 MP ultrawide, 5 MP macro <span
+                                                    class="rearcam-button detail-button" data-rearcam-button="2">(see
+                                                    details)</span></p>
+                                            <ul class="rearcam-details" data-rearcam-details="2">
+                                                <li class="rearvideo">video: 4K@30fps</li>
+                                                <li class="rearvideostable">stabilization: 1080p@30/60/120fps; gyro-EIS
+                                                </li>
+                                            </ul>
+                                            <p class="frontcam">16 MP wide <span class="frontcam-button detail-button"
+                                                    data-frontcam-button="2">(see details)</span></p>
+                                            <ul class="frontcam-details" data-frontcam-details="2">
+                                                <li class="frontvideo">video: 1080p@30fps, 720p@120fps</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="battery-content row">
+                                        <div class="col s1"><i class="fas fa-battery-full fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="battery">4250 mAh </p>
+                                            <p class="battery-charging">Fast 33W charging </p>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="connectivity-content row">
+                                        <div class="col s1"><i class="fas fa-network-wired fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="sim">SIM: hybrid dual </p>
+                                            <p class="connectivity"> <span class="connectivity-button detail-button"
+                                                    data-connectivity-button="2">(see more connectivity)</span></p>
+                                            <ul class="connectivity-details" data-connectivity-details="2">
+                                                <li class="wlan">WiFi: AC</li>
+                                                <li class="bluetooth">BlueTooth: 5.1</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="sensor-port-content row">
+                                        <div class="col s1"><i class="fas fa-fingerprint fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="fingerprint">fingerprint: side-mounted </p>
+                                            <p class="usb">USB: Type-C 2.0 </p>
+                                            <p class="hpjack">headphone jack: No </p>
+                                            <p class="sensor-port"> <span class="sensor-port-button detail-button"
+                                                    data-sensor-port-button="2">(see more sensors)</span></p>
+                                            <ul class="sensor-port-details" data-sensor-port-details="2">
+                                                <li class="sensors">sensors: gyroscope, compass</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="body-content row">
+                                        <div class="col s1"><i class="fas fa-mobile fa-2x"></i></div>
+                                        <div class="col s10 offset-s1">
+                                            <p class="body">IP53, dust and splash protection </p>
+                                            <p class="height">height: 160mm </p>
+                                            <p class="thiccness">thickness: 7mm </p>
+                                            <p class="weight">weight: 157g </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-action"><a class="cyan black-text price"
+                                href="https://www.mi.com/bd/product/mi-11-lite/overview" target="_blank">BDT
+                                29,999</a><span class="white-text status"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <!-- compare floating button -->
+    <div class="fixed-action-btn compare-floating">
+        <a href="#modal-compare"
+            class="btn-floating btn-large waves-effect waves-light modal-trigger cyan black-text"></a>
+    </div>
+
+    <!-- compare bottom sheet -->
+    <div id="modal-compare" class="modal bottom-sheet">
+        <div class="modal-content grey darken-4 white-text">
+            <h4>Compare</h4>
+            <ul class="collection ">
+                <li class="collection-item blue-grey darken-3 white-text">
+                    <div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">clear</i></a></div>
+                </li>
+                <li class="collection-item blue-grey darken-3 white-text">
+                    <div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">clear</i></a></div>
+                </li>
+                <li class="collection-item blue-grey darken-3 white-text">
+                    <div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">clear</i></a></div>
+                </li>
+            </ul>
+        </div>
+        <div class="modal-footer grey darken-4">
+            <a id="view-compare" href="#!" class="modal-close waves-effect waves-green btn-flat cyan black-text">View
+                Comparison</a>
+        </div>
+    </div>
 
     <footer id="footer" class="page-footer light-blue darken-4 white-text valign-wrapper">
         <p class="copyright">© no rights reserved</p>
@@ -258,6 +599,7 @@
     <script src="./dom.js"></script>
     <script src="./processing.js"></script>
     <script src="./sort.js"></script>
+    <script src="./filter.js"></script>
     <script src="./phones.js"></script>
     <script src="./main.js"></script>
 </body>

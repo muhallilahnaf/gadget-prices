@@ -8,7 +8,9 @@
 // create output
 const createOutput = () => {
 
-    const cols = parsedResults.map((phone, i) => {
+    let arr = filteredResults.length == 0 ? parsedResults : filteredResults
+
+    const cols = arr.map((phone, i) => {
 
         const col = createNode('div', ['col', 's12', 'l6'])
 
@@ -21,8 +23,27 @@ const createOutput = () => {
 
         const shop = createNode('span', ['cyan', 'darken-4'], `Shop: ${phone['shop']}`)
 
+        const compare = createNode('button', ['compare-button', 'right', 'tooltipped', 'btn-floating', 'btn-small', 'light-blue', 'darken-4'])
+        const compareIcon = createNode('i', ['material-icons'], 'add')
+        compare.appendChild(compareIcon)
+
+        compare.setAttribute('data-position', 'top')
+        compare.setAttribute('data-tooltip', 'add to compare')
+        compare.setAttribute('data-compare', `${i}`)
+        compare.addEventListener('click', () => {
+            const icon = compare.querySelector('i')
+            if (icon.textContent === 'add') {
+                compareItemAdd(`${i}`, compare, icon)
+                checkCompareFloating()
+                return
+            }
+            compareItemRemove(`${i}`, compare, icon)
+            checkCompareFloating()
+        })
+
         cardHeader.appendChild(brand)
         cardHeader.appendChild(shop)
+        cardHeader.appendChild(compare)
 
         const cardTitle = createNode('div', ['card-title'])
 
@@ -381,14 +402,14 @@ const createContentNode = (contentCls, iconClsList, mainList, i) => {
         main.appendChild(text)
         if (item['button']) {
             const detailButton = createNode('span', [`${item['class']}-button`, 'detail-button'], item['button'])
-            detailButton.setAttribute(`data-${item['class']}-button`, `${i + 1}`)
+            detailButton.setAttribute(`data-${item['class']}-button`, `${i}`)
             main.appendChild(detailButton)
         }
         contentDiv.appendChild(main)
 
         if (item['details']) {
             const details = createNode('ul', [`${item['class']}-details`])
-            details.setAttribute(`data-${item['class']}-details`, `${i + 1}`)
+            details.setAttribute(`data-${item['class']}-details`, `${i}`)
 
             item['details'].forEach(detail => {
                 if (detail['value'] !== '') {

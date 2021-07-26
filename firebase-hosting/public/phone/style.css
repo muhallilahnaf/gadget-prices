@@ -36,18 +36,37 @@ main {
     color: #fff;
 }
 
-
 #shop-error, #sort-by-error {
     color: red;
 }
 
-#sort {
+#sort-filter-card {
     padding-top: 10px;
-    display: none;
+    /* display: none; */
+}
+
+#sort {
+    margin-top: 20px;
 }
 
 #sort-button {
     margin-top: 10px;
+}
+
+#filter-price-row {
+    margin-bottom: 3rem;
+}
+
+#min-price {
+    color: #e0e0e0 !important;
+} 
+
+#max-price {
+    color: #e0e0e0 !important;
+}
+
+#filter-price {
+    margin-right: 15px;
 }
 
 #loader-container {
@@ -76,7 +95,7 @@ main {
 }
 
 .card-header {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .card-header span {
@@ -139,7 +158,15 @@ main {
 
 .card-action a:hover {
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.compare-floating {
+    display: none;
+}
+
+#modal-compare ul.collection a {
+    cursor: pointer;
 }
 
 #footer .copyright {
