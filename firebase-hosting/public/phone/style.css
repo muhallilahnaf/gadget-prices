@@ -42,7 +42,7 @@ main {
 
 #sort-filter-card {
     padding-top: 10px;
-    /* display: none; */
+    display: none;
 }
 
 #sort {
@@ -173,3 +173,27 @@ main {
     width: 100%;
     text-align: center;
 }
+
+/* compare.html */
+
+tbody tr:nth-child(even) {
+    background-color: #455a64;
+}
+
+tbody tr {
+    opacity: 0.8;
+}
+
+tbody tr:hover {
+    opacity: 1;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+td[scope=row] {
+    font-weight: 700;
+}
+

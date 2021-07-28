@@ -58,9 +58,9 @@ const fetchEnd = () => {
     sortFilterCard.style.display = 'block'
     createOutput()
     detailButtonsAdd()
-    compareAdd()
+    resetCompare()
     stopLoading()
-    output.scrollIntoView({ behavior: "smooth" })
+    output.scrollIntoView({ behavior: "smooth", block: "nearest" })
 }
 
 
@@ -96,8 +96,8 @@ sort.addEventListener('submit', (e) => {
         sortData(checkedValue)
         createOutput()
         detailButtonsAdd()
-        compareAdd()
-        output.scrollIntoView({ behavior: "smooth" })
+        resetCompare()
+        output.scrollIntoView({ behavior: "smooth", block: "nearest" })
     }
 })
 
@@ -136,8 +136,8 @@ buttonPriceFilter.addEventListener('click', () => {
         filterData('price')
         createOutput()
         detailButtonsAdd()
-        compareAdd()
-        output.scrollIntoView({ behavior: "smooth" })
+        resetCompare()
+        output.scrollIntoView({ behavior: "smooth", block: "nearest" })
     }
 })
 
@@ -151,8 +151,8 @@ buttonPriceFilterCancel.addEventListener('click', () => {
     priceFilter = {}
     createOutput()
     detailButtonsAdd()
-    compareAdd()
-    output.scrollIntoView({ behavior: "smooth" })
+    resetCompare()
+    output.scrollIntoView({ behavior: "smooth", block: "nearest" })
 })
 
 
@@ -182,31 +182,6 @@ const detailButtonsAdd = () => {
                 details.style.display = 'block'
                 button.textContent = item['label'].replace(/see more|see/g, 'hide')
             })
-        })
-    })
-}
-
-
-// add to compare listener
-const compareAdd = () => {
-    const buttons = document.querySelectorAll('.compare-button')
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            const id = button.getAttribute('data-compare')
-            const icon = button.querySelector('i')
-            if (icon.textContent === 'add') {
-                compareList.push(id)
-                icon.textContent = 'clear'
-                button.classList.remove('light-blue')
-                button.classList.add('red')
-                checkCompareFloating()
-                return
-            }
-            compareList = compareList.filter(a => a !== id)
-            icon.textContent = 'add'
-            button.classList.remove('red')
-            button.classList.add('light-blue')
-            checkCompareFloating()
         })
     })
 }
@@ -251,6 +226,14 @@ const checkCompareFloating = () => {
 }
 
 
+// reset compare
+const resetCompare = () => {
+    compareList = []
+    buttonCompareFloating.style.display = 'none'
+    buttonViewCompare.classList.add('disabled')
+}
+
+
 // compare floating event listener
 buttonCompareFloating.querySelector('a').addEventListener('click', () => {
     while (modalCollection.firstChild) {
@@ -261,8 +244,8 @@ buttonCompareFloating.querySelector('a').addEventListener('click', () => {
         li.setAttribute('data-compare-collection-item', item)
         const div = createNode('div')
         const i = parseInt(item)
-        // const name = filteredResults.length === 0 ? parsedResults[i]['name'] : filteredResults[i]['name']
-        const name = 'hehe'
+        const name = filteredResults.length === 0 ? parsedResults[i]['name'] : filteredResults[i]['name']
+        // const name = 'hehe'
         const txt = document.createTextNode(name)
         const a = createNode('a', ['secondary-content'])
         a.setAttribute('data-compare-modal', item)
@@ -278,6 +261,16 @@ buttonCompareFloating.querySelector('a').addEventListener('click', () => {
         li.appendChild(div)
         modalCollection.appendChild(li)
     })
+})
+
+
+// view comparison button event listener
+buttonViewCompare.addEventListener('click', () => {
+    if (compareList.length > 0) {
+        const compareItems = compareList.map(i => filteredResults.length === 0 ? parsedResults[i] : filteredResults[i])
+        sessionStorage.setItem('compareItems', JSON.stringify(compareItems))
+        location.href = './compare.html'
+    }
 })
 
 

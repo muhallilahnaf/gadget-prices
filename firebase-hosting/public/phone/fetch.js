@@ -1,6 +1,6 @@
 // get array of fetch promises
 const getFetchs = (urls) => {
-    console.log(urls)
+    // console.log(urls)
     return urls.map(url => fetch(proxy + url, {
         headers: headers,
         referrer: ''
@@ -31,7 +31,7 @@ const processResponses = (responses, isSecondary) => {
                 if (response.url.includes(key)) resDict[key].push(response.text())
             }
         } else {
-            console.log(status, response.statusText)
+            // console.log(status, response.statusText)
         }
     })
 
@@ -97,7 +97,7 @@ const processResponses = (responses, isSecondary) => {
         if (!isSecondary && urls.length > 0) {
             secondaryFetch(urls)
         } else {
-            console.log(parsedResults)
+            // console.log(parsedResults)
             fetchEnd()
         }
     }).catch(e => console.log(e))
@@ -106,7 +106,7 @@ const processResponses = (responses, isSecondary) => {
 
 // secondary fetch
 const secondaryFetch = (urls) => {
-    console.log('secondary');
+    // console.log('secondary');
     let secondaryPromises = getFetchs(urls)
     Promise.all(secondaryPromises).then(responses => {
         processResponses(responses, true)

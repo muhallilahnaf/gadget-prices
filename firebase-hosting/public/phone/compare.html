@@ -11,17 +11,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
-        integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
-        integrity="sha512-jQqzj2vHVxA/yCojT8pVZjKGOe9UmoYvnOuM/2sQ110vxiajBU+4WkyRs1ODMmd4AfntwUEV4J+VfM6DkfjLRg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
-        integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
-    <title>phone prices</title>
+    <title>phone compare</title>
 </head>
 
 <body class="grey darken-4">
@@ -36,230 +27,12 @@
                             fill="#01579b" stroke="white" stroke-width="1" />
                     </svg>
                 </a>
-                <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-                    <i class="material-icons">menu</i>
-                </a>
-                <!-- menu -->
-                <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a href="../laptop/index.html">laptops</a>
-                    </li>
-                    <li class="active">
-                        <a href="./index.html">phones</a>
-                    </li>
-                </ul>
             </div>
         </nav>
     </header>
 
-    <!-- sidenav -->
-    <ul class="sidenav light-blue darken-4" id="mobile-nav">
-        <li>
-            <a href="../laptop/index.html" class="white-text">laptops</a>
-        </li>
-        <li class="active">
-            <a href="./index.html" class="white-text">phones</a>
-        </li>
-    </ul>
-
-    <main class="container">
-        <!-- search form -->
-        <div class="row section">
-            <form id="search" class="hoverable col s12 l10 offset-l1 xl8 offset-xl2 blue-grey darken-4 white-text">
-                <p>Shops</p>
-                <p id="shop-error"></p>
-                <div class="row">
-                    <div class="col s4">
-                        <label for="fdl">
-                            <input type="checkbox" class="filled-in" name="fdl" value="fdl" id="fdl">
-                            <span>FDL (Samsung)</span>
-                        </label>
-                    </div>
-                    <div class="col s4">
-                        <label for="oppo">
-                            <input type="checkbox" class="filled-in" name="oppo" value="oppo" id="oppo">
-                            <span>Oppo</span>
-                        </label>
-                    </div>
-                    <div class="col s4">
-                        <label for="realme">
-                            <input type="checkbox" class="filled-in" name="realme" value="realme" id="realme">
-                            <span>realme</span>
-                        </label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s4">
-                        <label for="robishop">
-                            <input type="checkbox" class="filled-in" name="robishop" value="robishop" id="robishop">
-                            <span>Robishop</span>
-                        </label>
-                    </div>
-                    <div class="col s4">
-                        <label for="transcom">
-                            <input type="checkbox" class="filled-in" name="transcom" value="transcom" id="transcom">
-                            <span>Transcom</span>
-                        </label>
-                    </div>
-                    <div class="col s4">
-                        <label for="vivo">
-                            <input type="checkbox" class="filled-in" name="vivo" value="vivo" id="vivo">
-                            <span>Vivo</span>
-                        </label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s4">
-                        <label for="mi">
-                            <input type="checkbox" class="filled-in" name="mi" value="mi" id="mi">
-                            <span>Xiaomi</span>
-                        </label>
-                    </div>
-                    <div class="col s4">
-                        <label for="excel">
-                            <input type="checkbox" class="filled-in" name="excel" value="excel" id="excel">
-                            <span>Excel</span>
-                        </label>
-                    </div>
-                    <div class="col s4">
-                        <label for="salextra">
-                            <input type="checkbox" class="filled-in" name="salextra" value="salextra" id="salextra">
-                            <span>Salextra</span>
-                        </label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s4">
-                        <label for="all">
-                            <input type="checkbox" class="filled-in" name="all" value="all" id="all">
-                            <span>all</span>
-                        </label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <button id="get" type="submit" class="btn waves-effect waves-light light-blue darken-4">
-                            <i class="material-icons left">search</i>search
-                        </button>
-                    </div>
-                </div>
-            </form>
-        </div>
-
-        <!-- sort form -->
-        <div class="row" id="sort-filter-card">
-            <div class="hoverable col s12 m10 offset-m1 l8 offset-l2 xl6 offset-xl3 blue-grey darken-4 white-text">
-                <form id="sort">
-                    <div class="row">
-                        <div class="input-field col s6 l8">
-                            <select name="sort-by" id="sort-by">
-                                <option value="" disabled selected>sort by</option>
-                                <option value="price-asc" class="white-text">price (low to high)</option>
-                                <option value="price-desc">price (high to low)</option>
-                                <option value="antutu-asc" class="white-text">Antutu v8 score (low to high)</option>
-                                <option value="antutu-desc">Antutu v8 score (high to low)</option>
-                            </select>
-                            <label for="sort-by">sort items</label>
-                            <p id="sort-by-error"></p>
-                        </div>
-                        <div class="col s6 l4  center-align">
-                            <button id="sort-button" type="submit" class="btn btn-small light-blue darken-4">
-                                <i class="material-icons left">sort</i>sort
-                            </button>
-                        </div>
-                    </div>
-                </form>
-                <div class="row" id="filter-price-row">
-                    <div class="input-field col s6 m4">
-                        <input type="text" class="validate" autocomplete="off" name="min-price" value="" id="min-price">
-                        <label for="min-price">minimum price</label>
-                        <span class="helper-text" data-error="required & must be a number" data-success=""></span>
-                    </div>
-                    <div class="input-field col s6 m4">
-                        <input type="text" class="validate" autocomplete="off" name="max-price" value="" id="max-price">
-                        <label for="max-price">maximum price</label>
-                        <span class="helper-text" data-error="required & must be a number" data-success=""></span>
-                    </div>
-                    <div class="col s6 m4" id="filter-price-buttons">
-                        <button id="filter-price" class="btn waves-effect waves-light btn-small light-blue darken-4">
-                            <i class="material-icons">check</i>
-                        </button>
-                        <button id="filter-price-cancel"
-                            class="btn waves-effect waves-light btn-small light-blue darken-4">
-                            <i class="material-icons">clear</i>
-                        </button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 center-align">
-                        <div class="switch">
-                            <label>
-                                Compact view
-                                <input type="checkbox" id="view-switch">
-                                <span class="lever"></span>
-                                Details view
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- loader -->
-        <div class="row">
-            <div class="col s12" id="loader-container">
-                <div class="preloader-wrapper big" id="loader">
-                    <div class="spinner-layer spinner-blue">
-                        <div class="circle-clipper left">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="gap-patch">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="circle-clipper right">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
-                    <div class="spinner-layer spinner-red">
-                        <div class="circle-clipper left">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="gap-patch">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="circle-clipper right">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
-                    <div class="spinner-layer spinner-yellow">
-                        <div class="circle-clipper left">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="gap-patch">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="circle-clipper right">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
-                    <div class="spinner-layer spinner-green">
-                        <div class="circle-clipper left">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="gap-patch">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="circle-clipper right">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- output -->
-        <div id="output"></div>
-    </main>
+    <div class="table-container"></div>
+    <main class="container"></main>
 
     <!-- compare floating button -->
     <div class="fixed-action-btn compare-floating">
@@ -267,53 +40,18 @@
             class="btn-floating btn-large waves-effect waves-light modal-trigger cyan black-text"></a>
     </div>
 
-    <!-- compare bottom sheet -->
-    <div id="modal-compare" class="modal bottom-sheet">
-        <div class="modal-content grey darken-4 white-text">
-            <h4>Compare</h4>
-            <ul class="collection ">
-                <li class="collection-item blue-grey darken-3 white-text">
-                    <div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">clear</i></a></div>
-                </li>
-                <li class="collection-item blue-grey darken-3 white-text">
-                    <div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">clear</i></a></div>
-                </li>
-                <li class="collection-item blue-grey darken-3 white-text">
-                    <div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">clear</i></a></div>
-                </li>
-            </ul>
-        </div>
-        <div class="modal-footer grey darken-4">
-            <a id="view-compare" class="modal-close waves-effect waves-green btn-flat cyan black-text">
-                View Comparison
-            </a>
-        </div>
-    </div>
-
     <footer id="footer" class="page-footer light-blue darken-4 white-text valign-wrapper">
         <p class="copyright">© no rights reserved</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
     </script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/floatthead"></script> -->
 
     <!-- my codes -->
-    <script src="./index.js"></script>
-    <script src="./shops/fdl.js"></script>
-    <script src="./shops/oppo.js"></script>
-    <script src="./shops/realme.js"></script>
-    <script src="./shops/robishop.js"></script>
-    <script src="./shops/transom.js"></script>
-    <script src="./shops/vivo.js"></script>
-    <script src="./shops/mi.js"></script>
-    <script src="./shops/excel.js"></script>
-    <script src="./shops/salextra.js"></script>
-    <script src="./fetch.js"></script>
     <script src="./dom.js"></script>
-    <script src="./processing.js"></script>
-    <script src="./sort.js"></script>
-    <script src="./filter.js"></script>
-    <script src="./phones.js"></script>
-    <script src="./main.js"></script>
+    <script src="./compare.js"></script>
 </body>
 
 </html>
