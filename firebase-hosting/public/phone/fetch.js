@@ -12,15 +12,17 @@ const getFetchs = (urls) => {
 const processResponses = (responses, isSecondary) => {
     let urls = []
     let resDict = {
-        fdl: [],
-        oppo: [],
-        realme: [],
-        robishop: [],
-        transcom: [],
-        vivo: [],
-        'mi.com': [],
-        excel: [],
-        salextra: []
+        'estorefdl.com.bd': [],
+        'www.pickaboo.com': [],
+        'robishop.com.bd': [],
+        'transcomdigital.com': [],
+        'www.excelestore.com.bd': [],
+        'www.salextra.com.bd': [],
+        'www.galaxyshopbd.com': [],
+        'opposhop.online': [],
+        'vivo.pickaboo.com': [],
+        'www.realme.com': [],
+        'mi.com/bd': [],
     }
     let promiseArrArr = []
     let arrPosTracker = {}
@@ -47,49 +49,59 @@ const processResponses = (responses, isSecondary) => {
     biggerPromise.then(resultArrArr => {
 
         for (const [key, value] of Object.entries(arrPosTracker)) {
-            if (key === 'fdl') {
+            if (key === 'estorefdl.com.bd') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextFdl(text, isSecondary))
                 })
             }
-            if (key === 'oppo') {
+            if (key === 'opposhop.online') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextOppo(text, isSecondary))
                 })
             }
-            if (key === 'realme') {
+            if (key === 'www.realme.com') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextRealme(text, isSecondary))
                 })
             }
-            if (key === 'robishop') {
+            if (key === 'robishop.com.bd') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextRobishop(text, isSecondary))
                 })
             }
-            if (key === 'transcom') {
+            if (key === 'transcomdigital.com') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextTranscom(text, isSecondary))
                 })
             }
-            if (key === 'vivo') {
+            if (key === 'vivo.pickaboo.com') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextVivo(text, isSecondary))
                 })
             }
-            if (key === 'mi.com') {
+            if (key === 'mi.com/bd') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextMi(text, isSecondary))
                 })
             }
-            if (key === 'excel') {
+            if (key === 'www.excelestore.com.bd') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextExcel(text, isSecondary))
                 })
             }
-            if (key === 'salextra') {
+            if (key === 'www.salextra.com.bd') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextSalextra(text, isSecondary))
+                })
+            }
+            if (key === 'www.pickaboo.com') {
+                resultArrArr[value].forEach(text => {
+                    urls = urls.concat(parseTextPickaboo(text, isSecondary))
+                })
+            }
+            if (key === 'www.galaxyshopbd.com') {
+                resultArrArr[value].forEach(text => {
+                    urls = urls.concat(parseTextGalaxyshop(text, isSecondary))
                 })
             }
         }
@@ -145,6 +157,12 @@ const primaryFetch = (data) => {
                 break
             case 'salextra':
                 urls.push(salextraBaseUrl)
+                break
+            case 'pickaboo':
+                urls.push(...pickabooBaseUrls)
+                break
+            case 'galaxyshop':
+                urls.push(galaxyshopBaseUrl)
                 break
             default:
                 break

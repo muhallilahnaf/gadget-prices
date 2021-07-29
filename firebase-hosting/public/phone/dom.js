@@ -3,6 +3,7 @@
 // internalmemory -> memory
 // wlan normal
 // rearcam apple fix
+// add infinix, tecno phones to db
 
 
 // create output
@@ -19,14 +20,17 @@ const createOutput = () => {
         const cardContent = createNode('div', ['card-content', 'white-text'])
         const cardHeader = createNode('div', ['card-header'])
 
-        const brand = createNode('span', ['cyan', 'darken-4'], `Brand: ${phone['brand']}`)
+        if (phone['brand'] !== '') {
+            const brand = createNode('span', ['cyan', 'darken-4'], `Brand: ${phone['brand']}`)
+            cardHeader.appendChild(brand)
+        }
 
         const shop = createNode('span', ['cyan', 'darken-4'], `Shop: ${phone['shop']}`)
+        cardHeader.appendChild(shop)
 
         const compare = createNode('button', ['compare-button', 'right', 'tooltipped', 'btn-floating', 'btn-small', 'light-blue', 'darken-4'])
         const compareIcon = createNode('i', ['material-icons'], 'add')
         compare.appendChild(compareIcon)
-
         compare.setAttribute('data-position', 'top')
         compare.setAttribute('data-tooltip', 'add to compare')
         compare.setAttribute('data-compare', `${i}`)
@@ -40,9 +44,6 @@ const createOutput = () => {
             compareItemRemove(`${i}`, compare, icon)
             checkCompareFloating()
         })
-
-        cardHeader.appendChild(brand)
-        cardHeader.appendChild(shop)
         cardHeader.appendChild(compare)
 
         const cardTitle = createNode('div', ['card-title'])
@@ -342,14 +343,15 @@ const createOutput = () => {
 
         const cardAction = createNode('div', ['card-action'])
 
-        const price = createNode('a', ['cyan', 'black-text', 'price'], phone['price'])
-        price.setAttribute('href', phone['link'])
-        price.setAttribute('target', '_blank')
+        if (phone['price'] !== '') {
+            const price = createNode('a', ['cyan', 'black-text', 'price'], phone['price'])
+            price.setAttribute('href', phone['link'])
+            price.setAttribute('target', '_blank')
+            cardAction.appendChild(price)
+        }
 
-        const status = createNode('span', ['white-text', 'status'], phone['status'])
-
-        cardAction.appendChild(price)
-        cardAction.appendChild(status)
+        // const status = createNode('span', ['white-text', 'status'], phone['status'])
+        // cardAction.appendChild(status)
 
         card.appendChild(cardContent)
         card.appendChild(cardAction)

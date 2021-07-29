@@ -1,5 +1,5 @@
 import json
-with open('cpulaptop.json', 'r') as f:
+with open('passmarkfresh.json', 'r') as f:
     jsondata = json.load(f)
 
     cpus = jsondata['data']

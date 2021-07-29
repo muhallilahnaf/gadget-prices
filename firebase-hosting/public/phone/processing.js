@@ -2,11 +2,11 @@
 const processResult = (phone) => {
 
     // specs
-    let phoneRawname = phone['name'].replace(/\./g, '').replace(/'/g, '').replace(/-/g, '')
+    let phoneRawname = phone['name'].replace(/\./g, '').replace(/'/g, '').replace(/-/g, '').replace(/\*/g, '')
     phoneRawname = phoneRawname.replace(/\(.*GB.*\)|\(.*\+.*\)|\(.*\/.*\)/g, '')
-    phoneRawname = phoneRawname.replace(/\d[G]?[B]?\+\d*[G]?[B]?/g, '')
-    phoneRawname = phoneRawname.replace(/\d[G]?[B]?\/\d*[G]?[B]?/g, '')
-    phoneRawname = phoneRawname.replace(/\d+GB/g, '')
+    phoneRawname = phoneRawname.replace(/\d+[G]?[B]?\+\d+[G]?[B]?/g, '')
+    phoneRawname = phoneRawname.replace(/\d+[G]?[B]?\/\d+[G]?[B]?.*/g, '')
+    phoneRawname = phoneRawname.replace(/\d+GB.*/g, '')
     phoneRawname = phoneRawname.replace(/\|.*/g, '')
     phoneRawname = phoneRawname.replace(/\s/g, '').toLowerCase()
 
@@ -35,7 +35,7 @@ const processResult = (phone) => {
         phone['name'] = `Xiaomi ${phone['name']}`
         phoneRawname = `xiaomi${phoneRawname}`
     }
-    if (phoneRawname.includes('mi') && !phoneRawname.includes('xiaomi')) {
+    if (phone['name'].includes('Mi') && !phoneRawname.includes('xiaomi')) {
         phone['name'] = `Xiaomi ${phone['name']}`
         phoneRawname = `xiaomi${phoneRawname}`
     }
@@ -97,6 +97,8 @@ const processResult = (phone) => {
     let price = phone['price']
     if (phone['shop'] === 'realme' || phone['shop'] === 'fdl') {
         parsedPrice = price.replace(/\D+/g, '')
+        // } else if (phone['shop'] === 'galaxyshop' && ) {
+
     } else {
         parsedPrice = price.replace(/[^\.\d]+/g, '')
     }

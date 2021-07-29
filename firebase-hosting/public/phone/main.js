@@ -269,7 +269,7 @@ buttonViewCompare.addEventListener('click', () => {
     if (compareList.length > 0) {
         const compareItems = compareList.map(i => filteredResults.length === 0 ? parsedResults[i] : filteredResults[i])
         sessionStorage.setItem('compareItems', JSON.stringify(compareItems))
-        location.href = './compare.html'
+        window.open('./compare.html', '_blank')
     }
 })
 

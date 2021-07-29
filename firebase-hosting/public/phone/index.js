@@ -34,6 +34,8 @@ const vivo = document.getElementById('vivo')
 const mi = document.getElementById('mi')
 const excel = document.getElementById('excel')
 const salextra = document.getElementById('salextra')
+const pickaboo = document.getElementById('pickaboo')
+const galaxyshop = document.getElementById('galaxyshop')
 const all = document.getElementById('all')
 const shopError = document.getElementById('shop-error')
 const buttonGet = document.getElementById('get')
@@ -55,7 +57,7 @@ const modalCollection = document.querySelector('#modal-compare ul.collection')
 const buttonViewCompare = document.getElementById('view-compare')
 
 const allShops = {
-    fdl, oppo, realme, robishop, transcom, vivo, mi, excel, salextra
+    fdl, oppo, realme, robishop, transcom, vivo, mi, excel, salextra, pickaboo, galaxyshop
 }
 
 const sortValues = [
@@ -100,6 +102,8 @@ const brands = [
     'Motorola',
     // 'iQOO',
     'OnePlus',
+    'Infinix',
+    'TECNO',
     // 'Poco',
     // 'Redmi',
     // 'Mi',
