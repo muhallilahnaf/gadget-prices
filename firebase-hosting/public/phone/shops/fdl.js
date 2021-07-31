@@ -16,6 +16,7 @@ const parseFdl = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = 'Samsung'
 
         const a = product.querySelector('h2.product-name a')
         if (a) {
@@ -35,7 +36,7 @@ const parseFdl = (doc) => {
         }
 
         const phone = {
-            shop: 'fdl', name, link, price
+            shop: 'FDL (Samsung)', name, link, price, brand
         }
         processResult(phone)
     })

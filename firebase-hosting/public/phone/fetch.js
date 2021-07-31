@@ -12,6 +12,7 @@ const getFetchs = (urls) => {
 const processResponses = (responses, isSecondary) => {
     let urls = []
     let resDict = {
+        'www.daraz.com.bd': [],
         'estorefdl.com.bd': [],
         'www.pickaboo.com': [],
         'robishop.com.bd': [],
@@ -33,7 +34,7 @@ const processResponses = (responses, isSecondary) => {
                 if (response.url.includes(key)) resDict[key].push(response.text())
             }
         } else {
-            // console.log(status, response.statusText)
+            // console.log(response.status, response.statusText)
         }
     })
 
@@ -49,6 +50,11 @@ const processResponses = (responses, isSecondary) => {
     biggerPromise.then(resultArrArr => {
 
         for (const [key, value] of Object.entries(arrPosTracker)) {
+            if (key === 'www.daraz.com.bd') {
+                resultArrArr[value].forEach(text => {
+                    urls = urls.concat(parseTextDaraz(text, isSecondary))
+                })
+            }
             if (key === 'estorefdl.com.bd') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextFdl(text, isSecondary))
@@ -131,6 +137,9 @@ const primaryFetch = (data) => {
     let urls = []
     data.shops.forEach(shop => {
         switch (shop) {
+            case 'daraz':
+                urls.push(darazBaseUrl)
+                break
             case 'fdl':
                 urls.push(fdlBaseUrl)
                 break

@@ -16,6 +16,7 @@ const parseRobishop = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = ''
 
         const a = product.querySelector('a.product-link')
         if (a) {
@@ -29,7 +30,7 @@ const parseRobishop = (doc) => {
         if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
-            shop: 'robishop', name, link, price
+            shop: 'Robishop', name, link, price, brand
         }
         processResult(phone)
     })

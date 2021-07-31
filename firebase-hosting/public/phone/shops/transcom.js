@@ -27,6 +27,7 @@ const parseTranscom = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = ''
 
         const linkNode = product.querySelector('.product-items a')
         if (linkNode) {
@@ -41,7 +42,7 @@ const parseTranscom = (doc) => {
         if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
-            shop: 'transcom', name, link, price
+            shop: 'Transcom Digital', name, link, price, brand
         }
         processResult(phone)
     })

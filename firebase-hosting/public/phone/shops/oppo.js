@@ -16,6 +16,7 @@ const parseOppo = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = 'Oppo'
 
         const a = product.querySelector('.detl a')
         if (a) {
@@ -28,7 +29,7 @@ const parseOppo = (doc) => {
         if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
-            shop: 'oppo', name, link, price
+            shop: 'opposhop', name, link, price, brand
         }
         processResult(phone)
     })

@@ -1,0 +1,3898 @@
+{
+    "mods": {
+        "filter": {
+            "tItemType": "nt_filter",
+            "filterItems": [
+                {
+                    "options": [
+                        {
+                            "value": "wireless-earbuds",
+                            "title": "Wireless Earbuds",
+                            "url": "/wireless-earbuds/?q=earbuds&from=input",
+                            "order": 0,
+                            "id": "9708"
+                        },
+                        {
+                            "value": "earphones-headsets",
+                            "title": "In-Ear Headphones",
+                            "url": "/earphones-headsets/?q=earbuds&from=input",
+                            "order": 0,
+                            "id": "155"
+                        },
+                        {
+                            "value": "bluetooth-headsets",
+                            "title": "Bluetooth Headsets",
+                            "url": "/bluetooth-headsets/?q=earbuds&from=input",
+                            "order": 0,
+                            "id": "158"
+                        },
+                        {
+                            "value": "gaming-headsets",
+                            "title": "PC Gaming Headsets",
+                            "url": "/gaming-headsets/?q=earbuds&from=input",
+                            "order": 0,
+                            "id": "10002907"
+                        },
+                        {
+                            "value": "over-the-ear-headphones",
+                            "title": "Over-The-Ear Headphones",
+                            "url": "/over-the-ear-headphones/?q=earbuds&from=input",
+                            "order": 0,
+                            "id": "156"
+                        },
+                        {
+                            "value": "headphones-headsets-accessories",
+                            "title": "Headphones Accessories",
+                            "url": "/headphones-headsets-accessories/?q=earbuds&from=input",
+                            "order": 0,
+                            "id": "9709"
+                        },
+                        {
+                            "value": "other-phone-tablet-accessories",
+                            "title": "Phone Cables & Converters",
+                            "url": "/other-phone-tablet-accessories/?q=earbuds&from=input",
+                            "order": 0,
+                            "id": "9537"
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "category",
+                    "type": "category",
+                    "unfoldRow": "2",
+                    "title": "Related Categories",
+                    "urlKey": "category",
+                    "value": "",
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "20000",
+                    "options": [
+                        {
+                            "value": "lenovo",
+                            "title": "Lenovo",
+                            "order": 0
+                        },
+                        {
+                            "value": "wiresto-123434855",
+                            "title": "Wiresto",
+                            "order": 0
+                        },
+                        {
+                            "value": "qcy",
+                            "title": "QCY",
+                            "order": 0
+                        },
+                        {
+                            "value": "awei",
+                            "title": "Awei",
+                            "order": 0
+                        },
+                        {
+                            "value": "haylou-121146034",
+                            "title": "Haylou",
+                            "order": 0
+                        },
+                        {
+                            "value": "realme-201624",
+                            "title": "Realme",
+                            "order": 0
+                        },
+                        {
+                            "value": "edifier",
+                            "title": "Edifier",
+                            "order": 0
+                        },
+                        {
+                            "value": "xiaomi",
+                            "title": "Xiaomi",
+                            "order": 0
+                        },
+                        {
+                            "value": "baseus",
+                            "title": "BASEUS",
+                            "order": 0
+                        },
+                        {
+                            "value": "wavefun",
+                            "title": "WAVEFUN",
+                            "order": 0
+                        },
+                        {
+                            "value": "joyroom",
+                            "title": "joyroom",
+                            "order": 0
+                        },
+                        {
+                            "value": "amazfit",
+                            "title": "AMAZFIT",
+                            "order": 0
+                        },
+                        {
+                            "value": "remax",
+                            "title": "Remax",
+                            "order": 0
+                        },
+                        {
+                            "value": "havit",
+                            "title": "HAVIT",
+                            "order": 0
+                        },
+                        {
+                            "value": "oneplus",
+                            "title": "OnePlus",
+                            "order": 0
+                        },
+                        {
+                            "value": "uiisii",
+                            "title": "UiiSii",
+                            "order": 0
+                        },
+                        {
+                            "value": "motorola",
+                            "title": "Motorola",
+                            "order": 0
+                        },
+                        {
+                            "value": "mi",
+                            "title": "MI",
+                            "order": 0
+                        },
+                        {
+                            "value": "kz",
+                            "title": "KZ",
+                            "order": 0
+                        },
+                        {
+                            "value": "ugreen",
+                            "title": "UGREEN",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "brand",
+                    "type": "brand",
+                    "unfoldRow": "2",
+                    "title": "Brand",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "options": [
+                        {
+                            "value": "INSTALLMENT",
+                            "title": "Installment",
+                            "order": 3
+                        },
+                        {
+                            "value": "COD",
+                            "title": "Cash On Delivery",
+                            "order": 4
+                        },
+                        {
+                            "value": "FBL",
+                            "title": "Fulfilled By Daraz",
+                            "order": 5
+                        },
+                        {
+                            "value": "FS",
+                            "title": "Free Shipping",
+                            "order": 6
+                        },
+                        {
+                            "value": "OS",
+                            "title": "DarazMall",
+                            "order": 7
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "service",
+                    "type": "multiple",
+                    "unfoldRow": "2",
+                    "title": "Service",
+                    "urlKey": "service",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "options": [
+                        {
+                            "value": "-21",
+                            "title": "Bangladesh",
+                            "order": 0
+                        },
+                        {
+                            "value": "-49",
+                            "title": "China",
+                            "order": 0
+                        },
+                        {
+                            "value": "-178",
+                            "title": "Pakistan",
+                            "order": 0
+                        },
+                        {
+                            "value": "-231",
+                            "title": "United States",
+                            "order": 0
+                        },
+                        {
+                            "value": "-77",
+                            "title": "United Kingdom",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "location",
+                    "type": "multiple",
+                    "unfoldRow": "1",
+                    "title": "Location",
+                    "urlKey": "location",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "showMin": "Min",
+                    "showMax": "Max",
+                    "name": "price",
+                    "type": "price",
+                    "unfoldRow": "2",
+                    "title": "Price",
+                    "urlKey": "price",
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "name": "rating",
+                    "type": "rating",
+                    "unfoldRow": "2",
+                    "title": "Rating",
+                    "urlKey": "rating",
+                    "value": "0",
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "30129",
+                    "options": [
+                        {
+                            "value": "30129:3731",
+                            "title": "Black",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3743",
+                            "title": "White",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3759",
+                            "title": "Multicolor",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:1577",
+                            "title": "Red",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3739",
+                            "title": "Pink",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3732",
+                            "title": "Blue",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3744",
+                            "title": "Yellow",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3736",
+                            "title": "Green",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:20882",
+                            "title": "Matte Black",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3735",
+                            "title": "Grey",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3775",
+                            "title": "Dark blue",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3808",
+                            "title": "Light blue",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3734",
+                            "title": "Gold",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:143170",
+                            "title": "Antique White",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3740",
+                            "title": "Purple",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3790",
+                            "title": "Light green",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3741",
+                            "title": "Silver",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3785",
+                            "title": "Navy Blue",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:73848",
+                            "title": "Blue Gray",
+                            "order": 0
+                        },
+                        {
+                            "value": "30129:3738",
+                            "title": "Orange",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "Color Family",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "7",
+                    "options": [
+                        {
+                            "value": "7:4498",
+                            "title": "No Warranty",
+                            "order": 0
+                        },
+                        {
+                            "value": "7:192950",
+                            "title": "Brand Warranty",
+                            "order": 0
+                        },
+                        {
+                            "value": "7:123719065",
+                            "title": "Seller Warranty",
+                            "order": 0
+                        },
+                        {
+                            "value": "7:4492",
+                            "title": "Local seller warranty",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "Warranty Type",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "30917",
+                    "options": [
+                        {
+                            "value": "30917:22105",
+                            "title": "Built in Microphone",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:20513",
+                            "title": "Water Resistant",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:22107",
+                            "title": "Noise Cancellation",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:22110",
+                            "title": "Sweat Proof",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:22113",
+                            "title": "Noise Isolating",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:22125",
+                            "title": "Studio",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:22102",
+                            "title": "DJ",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:23535",
+                            "title": "Remote control",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:22133",
+                            "title": "Built in Storage",
+                            "order": 0
+                        },
+                        {
+                            "value": "30917:62892",
+                            "title": "NFC",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "Headphone Features",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "31020",
+                    "options": [
+                        {
+                            "value": "31020:2110",
+                            "title": "Yes",
+                            "order": 0
+                        },
+                        {
+                            "value": "31020:2401",
+                            "title": "No",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "Bluetooth",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "30947",
+                    "options": [
+                        {
+                            "value": "30947:4188",
+                            "title": "Bluetooth",
+                            "order": 0
+                        },
+                        {
+                            "value": "30947:61281",
+                            "title": "bluetooth",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "wireless_connectivity",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "40560",
+                    "options": [
+                        {
+                            "value": "40560:195791",
+                            "title": "In-Ear",
+                            "order": 0
+                        },
+                        {
+                            "value": "40560:195341",
+                            "title": "NeckBand",
+                            "order": 0
+                        },
+                        {
+                            "value": "40560:195792",
+                            "title": "On-Ear",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "wearing_type",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "8",
+                    "options": [
+                        {
+                            "value": "8:4462",
+                            "title": "3 Months",
+                            "order": 0
+                        },
+                        {
+                            "value": "8:4463",
+                            "title": "1 Month",
+                            "order": 0
+                        },
+                        {
+                            "value": "8:4447",
+                            "title": "1 Year",
+                            "order": 0
+                        },
+                        {
+                            "value": "8:4456",
+                            "title": "6 Months",
+                            "order": 0
+                        },
+                        {
+                            "value": "8:2503",
+                            "title": "7",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "Warranty Period",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "31006",
+                    "options": [
+                        {
+                            "value": "31006:4196",
+                            "title": "Universal",
+                            "order": 0
+                        },
+                        {
+                            "value": "31006:3966",
+                            "title": "Android",
+                            "order": 0
+                        },
+                        {
+                            "value": "31006:3969",
+                            "title": "iOS",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "Compatible Operating System",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "pid": "31035",
+                    "options": [
+                        {
+                            "value": "31035:3901",
+                            "title": "60 Hz",
+                            "order": 0
+                        }
+                    ],
+                    "isPreposed": false,
+                    "preposeOrder": 0,
+                    "name": "attribute",
+                    "type": "multiple",
+                    "unfoldRow": "0",
+                    "title": "Refresh Rate",
+                    "urlKey": "ppath",
+                    "value": [],
+                    "hidden": false,
+                    "locked": false
+                }
+            ],
+            "bizData": "",
+            "pos": 0
+        },
+        "listItems": [
+            {
+                "name": "Lenovo LP1s TWS Bluetooth Earphone - Black",
+                "nid": "167610257",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "167610257",
+                    "scene_pre": "search",
+                    "current_price": "990.00",
+                    "x_sku_ids": "1101390208",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "167610257"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-lp1s-tws-bluetooth-earphone-black-i167610257-s1101390208.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/5848bb67d59055348daf8f0e569b111d.jpg",
+                "originalPrice": "1290.00",
+                "originalPriceShow": "৳ 1,290",
+                "price": "990.00",
+                "promotionId": "null",
+                "priceShow": "৳ 990",
+                "discount": "-23%",
+                "ratingScore": "4.54472",
+                "review": "123",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "167610257_BD-1101390208",
+                "sku": "167610257_BD",
+                "skus": [],
+                "description": [
+                    "Specifications:",
+                    " Bluetooth Version: 5.0",
+                    "Battery capacity: 3.7V / 300mAh",
+                    "Headphone Capacity: 40mAh",
+                    "Speaker diameter: 10mm",
+                    "Speaker power: 10mW * 2",
+                    "Sensitivity: 98dB &plusmn; 3dB",
+                    "Frequency response: 20Hz-20KHz",
+                    "Wearing method: in-ear",
+                    "Waterproof grade: IPX4",
+                    "Wireless range: &ge;10 meters",
+                    "Music time: about 5 hours (70% volume)"
+                ],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "5406",
+                "mainSellerId": "",
+                "sellerName": "Smart Gadget Home",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/5848bb67d59055348daf8f0e569b111d.jpg",
+                        "productUrl": "/products/lenovo-lp1s-tws-bluetooth-earphone-black-i167610257-s1101390208.html",
+                        "sku": "167610257_BD",
+                        "skuId": "1101390208"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:167610257;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:167610257_BD;price:990.00;client:desktop;supplier_id:5406;asc_category_id:9708;item_id:167610257;sku_id:1101390208;shop_id:5411",
+                "addToCartSkus": [
+                    {
+                        "sku": "167610257_BD-1101390208",
+                        "skuId": "1101390208",
+                        "count": 0
+                    }
+                ],
+                "itemId": "167610257",
+                "skuId": "1101390208",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo LivePods LP1 TWS Wireless Bluetooth 5.0 Sport Earbuds / Charging Case / Smart Touch / Sweatproof",
+                "nid": "161190849",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    },
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "161190849",
+                    "scene_pre": "search",
+                    "current_price": "999.00",
+                    "x_sku_ids": "1093160460",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "161190849"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-livepods-lp1-tws-wireless-bluetooth-50-sport-earbuds-charging-case-smart-touch-sweatproof-i161190849-s1093160460.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/636a8fcb52dd368315d2e58c45c2c386.jpg",
+                "originalPrice": "1450.00",
+                "originalPriceShow": "৳ 1,450",
+                "price": "999.00",
+                "promotionId": "null",
+                "priceShow": "৳ 999",
+                "discount": "-31%",
+                "ratingScore": "4.3121",
+                "review": "157",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "161190849_BD-1093160460",
+                "sku": "161190849_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "700505805005",
+                "mainSellerId": "",
+                "sellerName": "White Board",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/636a8fcb52dd368315d2e58c45c2c386.jpg",
+                        "productUrl": "/products/lenovo-livepods-lp1-tws-wireless-bluetooth-50-sport-earbuds-charging-case-smart-touch-sweatproof-i161190849-s1093160460.html",
+                        "sku": "161190849_BD",
+                        "skuId": "1093160460"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:161190849;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:161190849_BD;price:999.00;client:desktop;supplier_id:700505805005;asc_category_id:9708;item_id:161190849;sku_id:1093160460;shop_id:62222",
+                "addToCartSkus": [
+                    {
+                        "sku": "161190849_BD-1093160460",
+                        "skuId": "1093160460",
+                        "count": 0
+                    }
+                ],
+                "itemId": "161190849",
+                "skuId": "1093160460",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo HE05 Bluetooth Headphones Wireless Headsets Sport",
+                "nid": "148608814",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "148608814",
+                    "scene_pre": "search",
+                    "current_price": "517",
+                    "x_sku_ids": "1074652326",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "148608814"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-he05-bluetooth-headphones-wireless-headsets-sport-i148608814-s1074652326.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/14842dca0b6eb4375531c9b4621a5a72.jpg",
+                "originalPrice": "1300.00",
+                "originalPriceShow": "৳ 1,300",
+                "price": "517",
+                "promotionId": "null",
+                "priceShow": "৳ 517",
+                "discount": "-60%",
+                "ratingScore": "4.593",
+                "review": "1285",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "148608814_BD-1074652326",
+                "sku": "148608814_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "1001352",
+                "mainSellerId": "",
+                "sellerName": "A to Z Bazar",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/14842dca0b6eb4375531c9b4621a5a72.jpg",
+                        "productUrl": "/products/lenovo-he05-bluetooth-headphones-wireless-headsets-sport-i148608814-s1074652326.html",
+                        "sku": "148608814_BD",
+                        "skuId": "1074652326"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/8fb852248ab3321d43c262e84caca936.jpg",
+                        "productUrl": "/products/lenovo-he05-bluetooth-headphones-wireless-headsets-sport-i148608814-s1086380089.html",
+                        "sku": "148608814_BD",
+                        "skuId": "1086380089"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/057b8ddf80555f0a5c6478564db68695.jpg",
+                        "productUrl": "/products/lenovo-he05-bluetooth-headphones-wireless-headsets-sport-i148608814-s1085920394.html",
+                        "sku": "148608814_BD",
+                        "skuId": "1085920394"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/14842dca0b6eb4375531c9b4621a5a72.jpg",
+                        "productUrl": "/products/lenovo-he05-bluetooth-headphones-wireless-headsets-sport-i148608814-s1122489355.html",
+                        "sku": "148608814_BD",
+                        "skuId": "1122489355"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:148608814;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:148608814_BD;price:517;client:desktop;supplier_id:1001352;asc_category_id:9708;item_id:148608814;sku_id:1074652326;shop_id:7585",
+                "addToCartSkus": [
+                    {
+                        "sku": "148608814_BD-1074652326",
+                        "skuId": "1074652326",
+                        "count": 0
+                    }
+                ],
+                "itemId": "148608814",
+                "skuId": "1074652326",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo Wireless Headsets HE05 Sport Earphone Magnetic Hanging Bluetooth 5.0 Call noise reduction 8 Hours Music Control",
+                "nid": "162334887",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "162334887",
+                    "scene_pre": "search",
+                    "current_price": "520.00",
+                    "x_sku_ids": "1094424365",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "162334887"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-wireless-headsets-he05-sport-earphone-magnetic-hanging-bluetooth-50-call-noise-reduction-8-hours-music-control-i162334887-s1094424365.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/mdc/887fd3b2f0033c7c13ebe849645a2329.jpg",
+                "originalPrice": "2000.00",
+                "originalPriceShow": "৳ 2,000",
+                "price": "520.00",
+                "promotionId": "null",
+                "priceShow": "৳ 520",
+                "discount": "-74%",
+                "ratingScore": "4.59016",
+                "review": "549",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "162334887_BD-1094424365",
+                "sku": "162334887_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "1022135",
+                "mainSellerId": "",
+                "sellerName": "BD BEST QUALITY",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/mdc/887fd3b2f0033c7c13ebe849645a2329.jpg",
+                        "productUrl": "/products/lenovo-wireless-headsets-he05-sport-earphone-magnetic-hanging-bluetooth-50-call-noise-reduction-8-hours-music-control-i162334887-s1094424365.html",
+                        "sku": "162334887_BD",
+                        "skuId": "1094424365"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:162334887;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:162334887_BD;price:520.00;client:desktop;supplier_id:1022135;asc_category_id:9708;item_id:162334887;sku_id:1094424365;shop_id:28356",
+                "addToCartSkus": [
+                    {
+                        "sku": "162334887_BD-1094424365",
+                        "skuId": "1094424365",
+                        "count": 0
+                    }
+                ],
+                "itemId": "162334887",
+                "skuId": "1094424365",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo HE05 Neckband Wireless Bluetooth Earphone",
+                "nid": "156732661",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "156732661",
+                    "scene_pre": "search",
+                    "current_price": "509.00",
+                    "x_sku_ids": "1102748983",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "156732661"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-he05-neckband-wireless-bluetooth-earphone-i156732661-s1102748983.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/c520338ad56020e0ffcebdfadfe19506.jpg",
+                "originalPrice": "790.00",
+                "originalPriceShow": "৳ 790",
+                "price": "509.00",
+                "promotionId": "null",
+                "priceShow": "৳ 509",
+                "discount": "-36%",
+                "ratingScore": "4.53407",
+                "review": "631",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "156732661_BD-1102748983",
+                "sku": "156732661_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "700506879076",
+                "mainSellerId": "",
+                "sellerName": "Sodai24",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/c520338ad56020e0ffcebdfadfe19506.jpg",
+                        "productUrl": "/products/lenovo-he05-neckband-wireless-bluetooth-earphone-i156732661-s1102748983.html",
+                        "sku": "156732661_BD",
+                        "skuId": "1102748983"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/9587b05f4922495af26ba05defe56666.jpg",
+                        "productUrl": "/products/lenovo-he05-neckband-wireless-bluetooth-earphone-i156732661-s1102748982.html",
+                        "sku": "156732661_BD",
+                        "skuId": "1102748982"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/mdc/61a75beb75efb22da410c6de2005cbb3.jpg",
+                        "productUrl": "/products/lenovo-he05-neckband-wireless-bluetooth-earphone-i156732661-s1086474921.html",
+                        "sku": "156732661_BD",
+                        "skuId": "1086474921"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:156732661;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:156732661_BD;price:509.00;client:desktop;supplier_id:700506879076;asc_category_id:9708;item_id:156732661;sku_id:1102748983;shop_id:85925",
+                "addToCartSkus": [
+                    {
+                        "sku": "156732661_BD-1102748983",
+                        "skuId": "1102748983",
+                        "count": 0
+                    }
+                ],
+                "itemId": "156732661",
+                "skuId": "1102748983",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "i7s TWS Wireless Bluetooth AirPods Earbuds with Charging case -White",
+                "nid": "168540803",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "168540803",
+                    "scene_pre": "search",
+                    "current_price": "285.00",
+                    "x_sku_ids": "1102676909",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "168540803"
+                },
+                "productUrl": "//www.daraz.com.bd/products/i7s-tws-wireless-bluetooth-airpods-earbuds-with-charging-case-white-i168540803-s1102676909.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/52d059c80182683245dbd4280a972dc1.jpg",
+                "originalPrice": "550.00",
+                "originalPriceShow": "৳ 550",
+                "price": "285.00",
+                "promotionId": "null",
+                "priceShow": "৳ 285",
+                "discount": "-48%",
+                "ratingScore": "4.63636",
+                "review": "121",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "168540803_BD-1102676909",
+                "sku": "168540803_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700507920042",
+                "mainSellerId": "",
+                "sellerName": "Needs & Seeds",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/52d059c80182683245dbd4280a972dc1.jpg",
+                        "productUrl": "/products/i7s-tws-wireless-bluetooth-airpods-earbuds-with-charging-case-white-i168540803-s1102676909.html",
+                        "sku": "168540803_BD",
+                        "skuId": "1102676909"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/b5b154e9307fa30908ffdb8227d6ce19.jpg",
+                        "productUrl": "/products/i7s-tws-wireless-bluetooth-airpods-earbuds-with-charging-case-white-i168540803-s1128600246.html",
+                        "sku": "168540803_BD",
+                        "skuId": "1128600246"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:168540803;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:168540803_BD;price:285.00;client:desktop;supplier_id:700507920042;asc_category_id:9708;item_id:168540803;sku_id:1102676909;shop_id:118870",
+                "addToCartSkus": [
+                    {
+                        "sku": "168540803_BD-1102676909",
+                        "skuId": "1102676909",
+                        "count": 0
+                    }
+                ],
+                "itemId": "168540803",
+                "skuId": "1102676909",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Haylou TWS GT1 Pro Bluetooth Earphone - Black",
+                "nid": "138536478",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "138536478",
+                    "scene_pre": "search",
+                    "current_price": "1369.00",
+                    "x_sku_ids": "1061386531",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "138536478"
+                },
+                "productUrl": "//www.daraz.com.bd/products/haylou-tws-gt1-pro-bluetooth-earphone-black-i138536478-s1061386531.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/5f1e733692c61c2994ba986e7dc7da5f.jpg",
+                "originalPrice": "1890.00",
+                "originalPriceShow": "৳ 1,890",
+                "price": "1369.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,369",
+                "discount": "-28%",
+                "ratingScore": "4.56701",
+                "review": "97",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "138536478_BD-1061386531",
+                "sku": "138536478_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "121146034",
+                "brandName": "Haylou",
+                "sellerId": "5406",
+                "mainSellerId": "",
+                "sellerName": "Smart Gadget Home",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/5f1e733692c61c2994ba986e7dc7da5f.jpg",
+                        "productUrl": "/products/haylou-tws-gt1-pro-bluetooth-earphone-black-i138536478-s1061386531.html",
+                        "sku": "138536478_BD",
+                        "skuId": "1061386531"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:138536478;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:138536478_BD;price:1369.00;client:desktop;supplier_id:5406;asc_category_id:9708;item_id:138536478;sku_id:1061386531;shop_id:5411",
+                "addToCartSkus": [
+                    {
+                        "sku": "138536478_BD-1061386531",
+                        "skuId": "1061386531",
+                        "count": 0
+                    }
+                ],
+                "itemId": "138536478",
+                "skuId": "1061386531",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "HBQ I7S TWS Double Dual Mini Wireless 4.1 Bluetooth Earphone With Power Case - White",
+                "nid": "166186730",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "166186730",
+                    "scene_pre": "search",
+                    "current_price": "310",
+                    "x_sku_ids": "1099756095",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "166186730"
+                },
+                "productUrl": "//www.daraz.com.bd/products/hbq-i7s-tws-double-dual-mini-wireless-41-bluetooth-earphone-with-power-case-white-i166186730-s1099756095.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/28827147d9345867871601eecd4e2aa9.jpg",
+                "originalPrice": "850.00",
+                "originalPriceShow": "৳ 850",
+                "price": "310",
+                "promotionId": "null",
+                "priceShow": "৳ 310",
+                "discount": "-64%",
+                "ratingScore": "4.55285",
+                "review": "123",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "166186730_BD-1099756095",
+                "sku": "166186730_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700508106303",
+                "mainSellerId": "",
+                "sellerName": "SB Shopping House",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/28827147d9345867871601eecd4e2aa9.jpg",
+                        "productUrl": "/products/hbq-i7s-tws-double-dual-mini-wireless-41-bluetooth-earphone-with-power-case-white-i166186730-s1099756095.html",
+                        "sku": "166186730_BD",
+                        "skuId": "1099756095"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:166186730;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:166186730_BD;price:310;client:desktop;supplier_id:700508106303;asc_category_id:9708;item_id:166186730;sku_id:1099756095;shop_id:127325",
+                "addToCartSkus": [
+                    {
+                        "sku": "166186730_BD-1099756095",
+                        "skuId": "1099756095",
+                        "count": 0
+                    }
+                ],
+                "itemId": "166186730",
+                "skuId": "1099756095",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo Livepods LP1s Wireless Earbud",
+                "nid": "167668042",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "167668042",
+                    "scene_pre": "search",
+                    "current_price": "975.00",
+                    "x_sku_ids": "1101464381",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "167668042"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-livepods-lp1s-wireless-earbud-i167668042-s1101464381.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/5751248250bc243839243738792dd798.jpg",
+                "originalPrice": "1522.00",
+                "originalPriceShow": "৳ 1,522",
+                "price": "975.00",
+                "promotionId": "null",
+                "priceShow": "৳ 975",
+                "discount": "-36%",
+                "ratingScore": "4.33333",
+                "review": "114",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "167668042_BD-1101464381",
+                "sku": "167668042_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "5918",
+                "mainSellerId": "",
+                "sellerName": "System Zone (CTG)",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/5751248250bc243839243738792dd798.jpg",
+                        "productUrl": "/products/lenovo-livepods-lp1s-wireless-earbud-i167668042-s1101464381.html",
+                        "sku": "167668042_BD",
+                        "skuId": "1101464381"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:167668042;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:167668042_BD;price:975.00;client:desktop;supplier_id:5918;asc_category_id:9708;item_id:167668042;sku_id:1101464381;shop_id:6539",
+                "addToCartSkus": [
+                    {
+                        "sku": "167668042_BD-1101464381",
+                        "skuId": "1101464381",
+                        "count": 0
+                    }
+                ],
+                "itemId": "167668042",
+                "skuId": "1101464381",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "HBQ i7s TWS Twin Wireless Headphones Mini Bluetooth V4.2 Stereo Headset Earphone",
+                "nid": "111748898",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "111748898",
+                    "scene_pre": "search",
+                    "current_price": "279.00",
+                    "x_sku_ids": "1028670834",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "111748898"
+                },
+                "productUrl": "//www.daraz.com.bd/products/hbq-i7s-twc-twin-wireless-headphones-mini-bluetooth-v42-stereo-headset-earphone-white-i111748898-s1028670834.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/0949bda63dab19bacd280e0104fe2b6e.jpg",
+                "originalPrice": "750.00",
+                "originalPriceShow": "৳ 750",
+                "price": "279.00",
+                "promotionId": "null",
+                "priceShow": "৳ 279",
+                "discount": "-63%",
+                "ratingScore": "4.45496",
+                "review": "222",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "111748898_BD-1028670834",
+                "sku": "111748898_BD",
+                "skus": [],
+                "description": [
+                    "=HBQ I7S Double Dual Mini Wireless Earphone With Power Case - BlackHBQ I7S Double Dual Mini Wireless 4.1 Bluetooth Earphone With Power Case is very small and ultra-lightweight. This headphones only need 1-hour charging time, saving much time for you, 4 hours music and phone call time, volume battery 65MAH. Noise canceling headphones, stereo sound, It is your ideal standby earphones Only. These headphones connect seamlessly with most of bluetooth enabled devices up to 30 feet away(depends on different vacations)."
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "4708",
+                "mainSellerId": "",
+                "sellerName": "Smart Asian Sky Shop bd",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/0949bda63dab19bacd280e0104fe2b6e.jpg",
+                        "productUrl": "/products/hbq-i7s-twc-twin-wireless-headphones-mini-bluetooth-v42-stereo-headset-earphone-white-i111748898-s1028670834.html",
+                        "sku": "111748898_BD",
+                        "skuId": "1028670834"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/1d5395845e2a49433ede1290462d48f7.jpg",
+                        "productUrl": "/products/hbq-i7s-twc-twin-wireless-headphones-mini-bluetooth-v42-stereo-headset-earphone-white-i111748898-s1128685135.html",
+                        "sku": "111748898_BD",
+                        "skuId": "1128685135"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/0949bda63dab19bacd280e0104fe2b6e.jpg",
+                        "productUrl": "/products/hbq-i7s-twc-twin-wireless-headphones-mini-bluetooth-v42-stereo-headset-earphone-white-i111748898-s1127083483.html",
+                        "sku": "111748898_BD",
+                        "skuId": "1127083483"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:111748898;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:111748898_BD;price:279.00;client:desktop;supplier_id:4708;asc_category_id:9708;item_id:111748898;sku_id:1028670834;shop_id:4749",
+                "addToCartSkus": [
+                    {
+                        "sku": "111748898_BD-1028670834",
+                        "skuId": "1028670834",
+                        "count": 0
+                    }
+                ],
+                "itemId": "111748898",
+                "skuId": "1028670834",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "F9 Bluetooth Earphone V5.0 TWS Wireless Earphone LED Display Sports Wireless Headset With Microphone",
+                "nid": "169884525",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "169884525",
+                    "scene_pre": "search",
+                    "current_price": "590.00",
+                    "x_sku_ids": "1104672745",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "169884525"
+                },
+                "productUrl": "//www.daraz.com.bd/products/f9-bluetooth-earphone-v50-tws-wireless-earphone-led-display-sports-wireless-headset-with-microphone-i169884525-s1104672745.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/9040dba0237862c0a897ca76c58d95b6.jpg",
+                "originalPrice": "1190.00",
+                "originalPriceShow": "৳ 1,190",
+                "price": "590.00",
+                "promotionId": "null",
+                "priceShow": "৳ 590",
+                "discount": "-50%",
+                "ratingScore": "4.38841",
+                "review": "466",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "169884525_BD-1104672745",
+                "sku": "169884525_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "1016386",
+                "mainSellerId": "",
+                "sellerName": "Best Idea",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/9040dba0237862c0a897ca76c58d95b6.jpg",
+                        "productUrl": "/products/f9-bluetooth-earphone-v50-tws-wireless-earphone-led-display-sports-wireless-headset-with-microphone-i169884525-s1104672745.html",
+                        "sku": "169884525_BD",
+                        "skuId": "1104672745"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:169884525;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:169884525_BD;price:590.00;client:desktop;supplier_id:1016386;asc_category_id:9708;item_id:169884525;sku_id:1104672745;shop_id:22671",
+                "addToCartSkus": [
+                    {
+                        "sku": "169884525_BD-1104672745",
+                        "skuId": "1104672745",
+                        "count": 0
+                    }
+                ],
+                "itemId": "169884525",
+                "skuId": "1104672745",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "HBQ i7s TWS Twin Wireless Headphones Mini Bluetooth V4.2 Stereo Headset Earphone",
+                "nid": "110744378",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "110744378",
+                    "scene_pre": "search",
+                    "current_price": "249.00",
+                    "x_sku_ids": "1128989105",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "110744378"
+                },
+                "productUrl": "//www.daraz.com.bd/products/hbq-i7s-twc-twin-wireless-headphones-mini-bluetooth-v42-stereo-headset-earphone-i110744378-s1128989105.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/0949bda63dab19bacd280e0104fe2b6e.jpg",
+                "originalPrice": "550.00",
+                "originalPriceShow": "৳ 550",
+                "price": "249.00",
+                "promotionId": "null",
+                "priceShow": "৳ 249",
+                "discount": "-55%",
+                "ratingScore": "4.42857",
+                "review": "98",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "110744378_BD-1128989105",
+                "sku": "110744378_BD",
+                "skus": [],
+                "description": [
+                    "Brand:HBQ",
+                    "Connector Shape:Wireless",
+                    "Appointment:For a mobile phone, For a line of the web browser, Monitor, Hi-Fi headphones, For iPod, Sports, Standard",
+                    "Wireless Network Type:Bluetooth",
+                    "Connectors:No",
+                    "Water Resistant:No",
+                    "Communication:Wireless",
+                    "Memory Card Support:No",
+                    "Article:HBQ-I7",
+                    "Wireless:Yes",
+                    "APP Support:Yes",
+                    "Fastening method:Ear hook",
+                    "Frequency range:8-25000 Hz",
+                    "Cable Length:No",
+                    "With microphone:Yes",
+                    "Resistance:32Ω",
+                    "Support Apt-X:No",
+                    "Sensitivity:123 dB",
+                    "Volume Control:Yes",
+                    "Active Noise Canceling:No",
+                    "Technology:Dynamic",
+                    "Control buttons:yes."
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "1007236",
+                "mainSellerId": "",
+                "sellerName": "Shop Exclusive",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/0949bda63dab19bacd280e0104fe2b6e.jpg",
+                        "productUrl": "/products/hbq-i7s-twc-twin-wireless-headphones-mini-bluetooth-v42-stereo-headset-earphone-i110744378-s1128989105.html",
+                        "sku": "110744378_BD",
+                        "skuId": "1128989105"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/41f3659108314cd8653e461966e326b6.jpg",
+                        "productUrl": "/products/hbq-i7s-twc-twin-wireless-headphones-mini-bluetooth-v42-stereo-headset-earphone-i110744378-s1131349288.html",
+                        "sku": "110744378_BD",
+                        "skuId": "1131349288"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:110744378;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:110744378_BD;price:249.00;client:desktop;supplier_id:1007236;asc_category_id:9708;item_id:110744378;sku_id:1128989105;shop_id:13420",
+                "addToCartSkus": [
+                    {
+                        "sku": "110744378_BD-1128989105",
+                        "skuId": "1128989105",
+                        "count": 0
+                    }
+                ],
+                "itemId": "110744378",
+                "skuId": "1128989105",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo Wireless Headsets HE05 Sport Earphone Magnetic Hanging Bluetooth 5.0 Call noise reduction 8 Hours Music Control",
+                "nid": "170820068",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "170820068",
+                    "scene_pre": "search",
+                    "current_price": "510",
+                    "x_sku_ids": "1106260647",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "170820068"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-wireless-headsets-he05-sport-earphone-magnetic-hanging-bluetooth-50-call-noise-reduction-8-hours-music-control-i170820068-s1106260647.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/ea6abcc4a46d2c2c48dfcabdf78707b3.jpg",
+                "originalPrice": "850.00",
+                "originalPriceShow": "৳ 850",
+                "price": "510",
+                "promotionId": "null",
+                "priceShow": "৳ 510",
+                "discount": "-40%",
+                "ratingScore": "4.38793",
+                "review": "116",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "170820068_BD-1106260647",
+                "sku": "170820068_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "1027480",
+                "mainSellerId": "",
+                "sellerName": "All Best Gadget",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/ea6abcc4a46d2c2c48dfcabdf78707b3.jpg",
+                        "productUrl": "/products/lenovo-wireless-headsets-he05-sport-earphone-magnetic-hanging-bluetooth-50-call-noise-reduction-8-hours-music-control-i170820068-s1106260647.html",
+                        "sku": "170820068_BD",
+                        "skuId": "1106260647"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/27a693238a98c44e216de50027d343ce.jpg",
+                        "productUrl": "/products/lenovo-wireless-headsets-he05-sport-earphone-magnetic-hanging-bluetooth-50-call-noise-reduction-8-hours-music-control-i170820068-s1106260648.html",
+                        "sku": "170820068_BD",
+                        "skuId": "1106260648"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:170820068;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:170820068_BD;price:510;client:desktop;supplier_id:1027480;asc_category_id:9708;item_id:170820068;sku_id:1106260647;shop_id:33591",
+                "addToCartSkus": [
+                    {
+                        "sku": "170820068_BD-1106260647",
+                        "skuId": "1106260647",
+                        "count": 0
+                    }
+                ],
+                "itemId": "170820068",
+                "skuId": "1106260647",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "QCY T2C 3D Stereo Bluetooth 5 version Earphone",
+                "nid": "171004212",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "171004212",
+                    "scene_pre": "search",
+                    "current_price": "1320.00",
+                    "x_sku_ids": "1106636254",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "171004212"
+                },
+                "productUrl": "//www.daraz.com.bd/products/qcy-t2c-3d-stereo-bluetooth-5-version-earphone-i171004212-s1106636254.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/d527226d441784ad46f1b9aa62985b01.jpg",
+                "originalPrice": "2600.00",
+                "originalPriceShow": "৳ 2,600",
+                "price": "1320.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,320",
+                "discount": "-49%",
+                "ratingScore": "4.44444",
+                "review": "45",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "171004212_BD-1106636254",
+                "sku": "171004212_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "37111",
+                "brandName": "QCY",
+                "sellerId": "700507455016",
+                "mainSellerId": "",
+                "sellerName": "Time Square",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/d527226d441784ad46f1b9aa62985b01.jpg",
+                        "productUrl": "/products/qcy-t2c-3d-stereo-bluetooth-5-version-earphone-i171004212-s1106636254.html",
+                        "sku": "171004212_BD",
+                        "skuId": "1106636254"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:171004212;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:171004212_BD;price:1320.00;client:desktop;supplier_id:700507455016;asc_category_id:9708;item_id:171004212;sku_id:1106636254;shop_id:91584",
+                "addToCartSkus": [
+                    {
+                        "sku": "171004212_BD-1106636254",
+                        "skuId": "1106636254",
+                        "count": 0
+                    }
+                ],
+                "itemId": "171004212",
+                "skuId": "1106636254",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "HBQ I7S TWS Double Dual Mini Wireless 4.1 Bluetooth Earphone With Power Case - White",
+                "nid": "157220856",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "157220856",
+                    "scene_pre": "search",
+                    "current_price": "299.00",
+                    "x_sku_ids": "1087614943",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "157220856"
+                },
+                "productUrl": "//www.daraz.com.bd/products/hbq-i7s-tws-double-dual-mini-wireless-41-bluetooth-earphone-with-power-case-white-i157220856-s1087614943.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/699260dd426edbe1266120daa7f8669f.jpg",
+                "originalPrice": "850.00",
+                "originalPriceShow": "৳ 850",
+                "price": "299.00",
+                "promotionId": "null",
+                "priceShow": "৳ 299",
+                "discount": "-65%",
+                "ratingScore": "4.37313",
+                "review": "335",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "157220856_BD-1087614943",
+                "sku": "157220856_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700505022134",
+                "mainSellerId": "",
+                "sellerName": "Meghla Shop",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/699260dd426edbe1266120daa7f8669f.jpg",
+                        "productUrl": "/products/hbq-i7s-tws-double-dual-mini-wireless-41-bluetooth-earphone-with-power-case-white-i157220856-s1087614943.html",
+                        "sku": "157220856_BD",
+                        "skuId": "1087614943"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:157220856;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:157220856_BD;price:299.00;client:desktop;supplier_id:700505022134;asc_category_id:9708;item_id:157220856;sku_id:1087614943;shop_id:55662",
+                "addToCartSkus": [
+                    {
+                        "sku": "157220856_BD-1087614943",
+                        "skuId": "1087614943",
+                        "count": 0
+                    }
+                ],
+                "itemId": "157220856",
+                "skuId": "1087614943",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "HBQ I7S TWS Double Dual Wireless 4.1 Bluetooth Earphone With Power Case",
+                "nid": "150366895",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "150366895",
+                    "scene_pre": "search",
+                    "current_price": "340.00",
+                    "x_sku_ids": "1107542312",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "150366895"
+                },
+                "productUrl": "//www.daraz.com.bd/products/hbq-i7s-tws-double-dual-wireless-41-bluetooth-earphone-with-power-case-i150366895-s1107542312.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/699260dd426edbe1266120daa7f8669f.jpg",
+                "originalPrice": "450.00",
+                "originalPriceShow": "৳ 450",
+                "price": "340.00",
+                "promotionId": "null",
+                "priceShow": "৳ 340",
+                "discount": "-24%",
+                "ratingScore": "4.4382",
+                "review": "356",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "150366895_BD-1107542312",
+                "sku": "150366895_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700505100048",
+                "mainSellerId": "",
+                "sellerName": "Alhamdulillah BD",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/699260dd426edbe1266120daa7f8669f.jpg",
+                        "productUrl": "/products/hbq-i7s-tws-double-dual-wireless-41-bluetooth-earphone-with-power-case-i150366895-s1107542312.html",
+                        "sku": "150366895_BD",
+                        "skuId": "1107542312"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:150366895;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:150366895_BD;price:340.00;client:desktop;supplier_id:700505100048;asc_category_id:9708;item_id:150366895;sku_id:1107542312;shop_id:56868",
+                "addToCartSkus": [
+                    {
+                        "sku": "150366895_BD-1107542312",
+                        "skuId": "1107542312",
+                        "count": 0
+                    }
+                ],
+                "itemId": "150366895",
+                "skuId": "1107542312",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "AirPods Pro Ear buds - White",
+                "nid": "159260762",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "159260762",
+                    "scene_pre": "search",
+                    "current_price": "1849.00",
+                    "x_sku_ids": "1090830753",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "159260762"
+                },
+                "productUrl": "//www.daraz.com.bd/products/airpods-pro-ear-buds-white-i159260762-s1090830753.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/98e2771654940cf4e94f1f0f6a6744f9.jpg",
+                "originalPrice": "4500.00",
+                "originalPriceShow": "৳ 4,500",
+                "price": "1849.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,849",
+                "discount": "-59%",
+                "ratingScore": "4.82166",
+                "review": "314",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "159260762_BD-1090830753",
+                "sku": "159260762_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700507827170",
+                "mainSellerId": "",
+                "sellerName": "Twin Brothers",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/98e2771654940cf4e94f1f0f6a6744f9.jpg",
+                        "productUrl": "/products/airpods-pro-ear-buds-white-i159260762-s1090830753.html",
+                        "sku": "159260762_BD",
+                        "skuId": "1090830753"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:159260762;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:159260762_BD;price:1849.00;client:desktop;supplier_id:700507827170;asc_category_id:9708;item_id:159260762;sku_id:1090830753;shop_id:116008",
+                "addToCartSkus": [
+                    {
+                        "sku": "159260762_BD-1090830753",
+                        "skuId": "1090830753",
+                        "count": 0
+                    }
+                ],
+                "itemId": "159260762",
+                "skuId": "1090830753",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "QCY T2C 3D Stereo Bluetooth 5 version Earphone",
+                "nid": "113602056",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "113602056",
+                    "scene_pre": "search",
+                    "current_price": "1344.00",
+                    "x_sku_ids": "1030842544",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "113602056"
+                },
+                "productUrl": "//www.daraz.com.bd/products/qcy-t2c-3d-stereo-bluetooth-5-version-earphone-i113602056-s1030842544.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/e707306b8d547f478fe2c44eb91e006d.jpg",
+                "originalPrice": "2600.00",
+                "originalPriceShow": "৳ 2,600",
+                "price": "1344.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,344",
+                "discount": "-48%",
+                "ratingScore": "4.57368",
+                "review": "190",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "113602056_BD-1030842544",
+                "sku": "113602056_BD",
+                "skus": [],
+                "description": [
+                    "Model: T2C",
+                    "Bluetooth version: v5.0",
+                    "Charging time: approx. 2hr",
+                    "Operation range: 10m",
+                    "Standby time: approx. 120hrs",
+                    "Talk time: approx. 4hr",
+                    "Bluetooth profiles: HFP/A2DP/HSP/AVRCP",
+                    "Battery capacity(Earphones): 3.7V 43mAh",
+                    "Battery Capaity(Charging Case): 3.7V 800mAH",
+                    "Battery type: li-ion",
+                    "(All the technical data shall be subject to practical performence)",
+                    "2 x mini Bluetooth Earpieces(left and right earphones)",
+                    "1 x Charging box",
+                    "1 x USB Charging Cable",
+                    "2 x ear caps",
+                    "1 x User Manual"
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "6024",
+                "mainSellerId": "",
+                "sellerName": "Gadgets Lab",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/e707306b8d547f478fe2c44eb91e006d.jpg",
+                        "productUrl": "/products/qcy-t2c-3d-stereo-bluetooth-5-version-earphone-i113602056-s1030842544.html",
+                        "sku": "113602056_BD",
+                        "skuId": "1030842544"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:113602056;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:113602056_BD;price:1344.00;client:desktop;supplier_id:6024;asc_category_id:9708;item_id:113602056;sku_id:1030842544;shop_id:5616",
+                "addToCartSkus": [
+                    {
+                        "sku": "113602056_BD-1030842544",
+                        "skuId": "1030842544",
+                        "count": 0
+                    }
+                ],
+                "itemId": "113602056",
+                "skuId": "1030842544",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "HBQ I7S Double Dual Mini Earphone With Power Case",
+                "nid": "156768738",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "156768738",
+                    "scene_pre": "search",
+                    "current_price": "299.00",
+                    "x_sku_ids": "1086564852",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "156768738"
+                },
+                "productUrl": "//www.daraz.com.bd/products/hbq-i7s-double-dual-mini-earphone-with-power-case-i156768738-s1086564852.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/699260dd426edbe1266120daa7f8669f.jpg",
+                "originalPrice": "450.00",
+                "originalPriceShow": "৳ 450",
+                "price": "299.00",
+                "promotionId": "null",
+                "priceShow": "৳ 299",
+                "discount": "-34%",
+                "ratingScore": "4.83673",
+                "review": "49",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "156768738_BD-1086564852",
+                "sku": "156768738_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700507722043",
+                "mainSellerId": "",
+                "sellerName": "Abrar World",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/699260dd426edbe1266120daa7f8669f.jpg",
+                        "productUrl": "/products/hbq-i7s-double-dual-mini-earphone-with-power-case-i156768738-s1086564852.html",
+                        "sku": "156768738_BD",
+                        "skuId": "1086564852"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:156768738;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:156768738_BD;price:299.00;client:desktop;supplier_id:700507722043;asc_category_id:9708;item_id:156768738;sku_id:1086564852;shop_id:107578",
+                "addToCartSkus": [
+                    {
+                        "sku": "156768738_BD-1086564852",
+                        "skuId": "1086564852",
+                        "count": 0
+                    }
+                ],
+                "itemId": "156768738",
+                "skuId": "1086564852",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "F9 Wiresto True Wireless Earbuds Mini Bluetooth Earphone Stereo Headphone Bluetooth 5.0 Sport Earpiece Touch Control Small Invisible Headset with Microphone Free Case Box Charging Case",
+                "nid": "167836313",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "167836313",
+                    "scene_pre": "search",
+                    "current_price": "690.00",
+                    "x_sku_ids": "1101702025",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "167836313"
+                },
+                "productUrl": "//www.daraz.com.bd/products/f9-wiresto-true-wireless-earbuds-mini-bluetooth-earphone-stereo-headphone-bluetooth-50-sport-earpiece-touch-control-small-invisible-headset-with-microphone-free-case-box-charging-case-i167836313-s1101702025.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/5b4d9a2e94ef0e6520dee0edd182ba05.jpg",
+                "originalPrice": "1750.00",
+                "originalPriceShow": "৳ 1,750",
+                "price": "690.00",
+                "promotionId": "null",
+                "priceShow": "৳ 690",
+                "discount": "-61%",
+                "ratingScore": "4.21176",
+                "review": "85",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "167836313_BD-1101702025",
+                "sku": "167836313_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "1022135",
+                "mainSellerId": "",
+                "sellerName": "BD BEST QUALITY",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/5b4d9a2e94ef0e6520dee0edd182ba05.jpg",
+                        "productUrl": "/products/f9-wiresto-true-wireless-earbuds-mini-bluetooth-earphone-stereo-headphone-bluetooth-50-sport-earpiece-touch-control-small-invisible-headset-with-microphone-free-case-box-charging-case-i167836313-s1101702025.html",
+                        "sku": "167836313_BD",
+                        "skuId": "1101702025"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:167836313;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:167836313_BD;price:690.00;client:desktop;supplier_id:1022135;asc_category_id:9708;item_id:167836313;sku_id:1101702025;shop_id:28356",
+                "addToCartSkus": [
+                    {
+                        "sku": "167836313_BD-1101702025",
+                        "skuId": "1101702025",
+                        "count": 0
+                    }
+                ],
+                "itemId": "167836313",
+                "skuId": "1101702025",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "M10 TWS Wireless Earphone Touch Bluetooth Earplugs In The Ear Stereo Sport Headsets CVC8.0 Noise Reduction Headphones with Digital display black Good effect and easy to use",
+                "nid": "178296657",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "178296657",
+                    "scene_pre": "search",
+                    "current_price": "850.00",
+                    "x_sku_ids": "1118722167",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "178296657"
+                },
+                "productUrl": "//www.daraz.com.bd/products/m10-tws-wireless-earphone-touch-bluetooth-earplugs-in-the-ear-stereo-sport-headsets-cvc80-noise-reduction-headphones-with-digital-display-black-good-effect-and-easy-to-use-i178296657-s1118722167.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/a23641a2653d35058528b97a6cf978c6.jpg",
+                "originalPrice": "1550.00",
+                "originalPriceShow": "৳ 1,550",
+                "price": "850.00",
+                "promotionId": "null",
+                "priceShow": "৳ 850",
+                "discount": "-45%",
+                "ratingScore": "4.37838",
+                "review": "148",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "178296657_BD-1118722167",
+                "sku": "178296657_BD",
+                "skus": [],
+                "description": [
+                    "Using CVC8.0 digital noise reduction technology",
+                    "The latest TWS binaural stereo stereo Bluetooth headset with the 5.1 chip gives you very efficient wireless performance.",
+                    "The 5.1 chip manages battery life very well",
+                    "It adopts Bluetooth V5.1 chip, 10m connection distance, stable performance, high transmission, low consumption and strong compatibility.",
+                    "Ergonomically designed for a more comfortable fit on the auricle.",
+                    "The two-ear split design allows the single ear to be used separately, equivalent to two independent Bluetooth headsets.",
+                    "The charging compartment can be used as a mobile phone stand, portable mobile phone stand, support horizontal and vertical placement",
+                    "Watch live broadcasts and movies without the need to purchase an additional mobile phone stand.",
+                    "IPX7 waterproof and sweatproof",
+                    "Exercise without sweat",
+                    "Binaural separation design",
+                    "Single and binaural free cutover",
+                    "Subvert the traditional host to connect vice headphones ,dual host.",
+                    "The left and right ears ,of the channel are free to use.",
+                    "Strong compatibility, IOS/Android universal, one-button control, simple and stylish."
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700507629264",
+                "mainSellerId": "",
+                "sellerName": "GadGet Bee BD",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/a23641a2653d35058528b97a6cf978c6.jpg",
+                        "productUrl": "/products/m10-tws-wireless-earphone-touch-bluetooth-earplugs-in-the-ear-stereo-sport-headsets-cvc80-noise-reduction-headphones-with-digital-display-black-good-effect-and-easy-to-use-i178296657-s1118722167.html",
+                        "sku": "178296657_BD",
+                        "skuId": "1118722167"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:178296657;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:178296657_BD;price:850.00;client:desktop;supplier_id:700507629264;asc_category_id:9708;item_id:178296657;sku_id:1118722167;shop_id:101734",
+                "addToCartSkus": [
+                    {
+                        "sku": "178296657_BD-1118722167",
+                        "skuId": "1118722167",
+                        "count": 0
+                    }
+                ],
+                "itemId": "178296657",
+                "skuId": "1118722167",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo HE05 Bluetooth 5.0 Wireless Earphones Magnetic Neckband Bluetooth Headphone Waterproof Stereo Headset with Mic",
+                "nid": "145296983",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "145296983",
+                    "scene_pre": "search",
+                    "current_price": "549.00",
+                    "x_sku_ids": "1070554476",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "145296983"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-he05-bluetooth-50-wireless-earphones-magnetic-neckband-bluetooth-headphone-waterproof-stereo-headset-with-mic-i145296983-s1070554476.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/e3863aba20ec606692e60ffb25c5fccb.jpg",
+                "originalPrice": "1650.00",
+                "originalPriceShow": "৳ 1,650",
+                "price": "549.00",
+                "promotionId": "null",
+                "priceShow": "৳ 549",
+                "discount": "-67%",
+                "ratingScore": "4.55856",
+                "review": "111",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "145296983_BD-1070554476",
+                "sku": "145296983_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "1022515",
+                "mainSellerId": "",
+                "sellerName": "Gadget Lab",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/e3863aba20ec606692e60ffb25c5fccb.jpg",
+                        "productUrl": "/products/lenovo-he05-bluetooth-50-wireless-earphones-magnetic-neckband-bluetooth-headphone-waterproof-stereo-headset-with-mic-i145296983-s1070554476.html",
+                        "sku": "145296983_BD",
+                        "skuId": "1070554476"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:145296983;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:145296983_BD;price:549.00;client:desktop;supplier_id:1022515;asc_category_id:9708;item_id:145296983;sku_id:1070554476;shop_id:28732",
+                "addToCartSkus": [
+                    {
+                        "sku": "145296983_BD-1070554476",
+                        "skuId": "1070554476",
+                        "count": 0
+                    }
+                ],
+                "itemId": "145296983",
+                "skuId": "1070554476",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "QCY T5 TWS Bluetooth 5.0 Earphones with Mic Binaural In-ear Low-latency 65ms Game Mode Touch Control 4.3g Stereo Earbuds for Android / iOS - Black",
+                "nid": "126925256",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "126925256",
+                    "scene_pre": "search",
+                    "current_price": "1399.00",
+                    "x_sku_ids": "1046966484",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "126925256"
+                },
+                "productUrl": "//www.daraz.com.bd/products/qcy-t5-tws-bluetooth-50-earphones-with-mic-binaural-in-ear-low-latency-65ms-game-mode-touch-control-43g-stereo-earbuds-for-android-ios-black-i126925256-s1046966484.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/894e25868a8ab0961ae9b06fefdc1853.jpg",
+                "originalPrice": "3500.00",
+                "originalPriceShow": "৳ 3,500",
+                "price": "1399.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,399",
+                "discount": "-60%",
+                "ratingScore": "4.24161",
+                "review": "149",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "126925256_BD-1046966484",
+                "sku": "126925256_BD",
+                "skus": [],
+                "description": [
+                    "Bluetooth Version V5.0",
+                    "Real CVC6.0 noise cancellation tech",
+                    "Ergonomic design to fit",
+                    "Charging capacity 380mAh",
+                    "Charge a single ear 8 times",
+                    "Charge the ears 4 times"
+                ],
+                "brandId": "37111",
+                "brandName": "QCY",
+                "sellerId": "6024",
+                "mainSellerId": "",
+                "sellerName": "Gadgets Lab",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/894e25868a8ab0961ae9b06fefdc1853.jpg",
+                        "productUrl": "/products/qcy-t5-tws-bluetooth-50-earphones-with-mic-binaural-in-ear-low-latency-65ms-game-mode-touch-control-43g-stereo-earbuds-for-android-ios-black-i126925256-s1046966484.html",
+                        "sku": "126925256_BD",
+                        "skuId": "1046966484"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:126925256;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:126925256_BD;price:1399.00;client:desktop;supplier_id:6024;asc_category_id:9708;item_id:126925256;sku_id:1046966484;shop_id:5616",
+                "addToCartSkus": [
+                    {
+                        "sku": "126925256_BD-1046966484",
+                        "skuId": "1046966484",
+                        "count": 0
+                    }
+                ],
+                "itemId": "126925256",
+                "skuId": "1046966484",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "inpods 12 tws Wireless Pop-ups Bluetooth 5.0 headphone earphones,Airpods,Airdots,headsets super bass sound earbuds for iOS Android 5.0",
+                "nid": "172310374",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "172310374",
+                    "scene_pre": "search",
+                    "current_price": "510.00",
+                    "x_sku_ids": "1108638470",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "172310374"
+                },
+                "productUrl": "//www.daraz.com.bd/products/inpods-12-tws-wireless-pop-ups-bluetooth-50-headphone-earphonesairpodsairdotsheadsets-super-bass-sound-earbuds-for-ios-android-50-i172310374-s1108638470.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/bac5070d4561e330312f18b9c97d7406.jpg",
+                "originalPrice": "1299.00",
+                "originalPriceShow": "৳ 1,299",
+                "price": "510.00",
+                "promotionId": "null",
+                "priceShow": "৳ 510",
+                "discount": "-61%",
+                "ratingScore": "4.29412",
+                "review": "51",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "172310374_BD-1108638470",
+                "sku": "172310374_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700508259507",
+                "mainSellerId": "",
+                "sellerName": "The Mega Mall BD",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/bac5070d4561e330312f18b9c97d7406.jpg",
+                        "productUrl": "/products/inpods-12-tws-wireless-pop-ups-bluetooth-50-headphone-earphonesairpodsairdotsheadsets-super-bass-sound-earbuds-for-ios-android-50-i172310374-s1108638470.html",
+                        "sku": "172310374_BD",
+                        "skuId": "1108638470"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/2b0b2d9597f263b01c3e7ba43aa55f35.jpg",
+                        "productUrl": "/products/inpods-12-tws-wireless-pop-ups-bluetooth-50-headphone-earphonesairpodsairdotsheadsets-super-bass-sound-earbuds-for-ios-android-50-i172310374-s1108638471.html",
+                        "sku": "172310374_BD",
+                        "skuId": "1108638471"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/4265fce092d77516d973cbb649dd5097.jpg",
+                        "productUrl": "/products/inpods-12-tws-wireless-pop-ups-bluetooth-50-headphone-earphonesairpodsairdotsheadsets-super-bass-sound-earbuds-for-ios-android-50-i172310374-s1108638473.html",
+                        "sku": "172310374_BD",
+                        "skuId": "1108638473"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:172310374;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:172310374_BD;price:510.00;client:desktop;supplier_id:700508259507;asc_category_id:9708;item_id:172310374;sku_id:1108638470;shop_id:139650",
+                "addToCartSkus": [
+                    {
+                        "sku": "172310374_BD-1108638470",
+                        "skuId": "1108638470",
+                        "count": 0
+                    }
+                ],
+                "itemId": "172310374",
+                "skuId": "1108638470",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Awei T20 Touch Control Earbuds TWS Bluetooth 5.0 HiFi Sound True Wireless Earbuds",
+                "nid": "180645979",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "180645979",
+                    "scene_pre": "search",
+                    "current_price": "1240.00",
+                    "x_sku_ids": "1121930279",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "180645979"
+                },
+                "productUrl": "//www.daraz.com.bd/products/awei-t20-touch-control-earbuds-tws-bluetooth-50-hifi-sound-true-wireless-earbuds-i180645979-s1121930279.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/7f0a89a477df18f7ebf238acf957954f.jpg",
+                "originalPrice": "3200.00",
+                "originalPriceShow": "৳ 3,200",
+                "price": "1240.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,240",
+                "discount": "-61%",
+                "ratingScore": "4.65517",
+                "review": "29",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "180645979_BD-1121930279",
+                "sku": "180645979_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "23607",
+                "brandName": "Awei",
+                "sellerId": "700507455016",
+                "mainSellerId": "",
+                "sellerName": "Time Square",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/7f0a89a477df18f7ebf238acf957954f.jpg",
+                        "productUrl": "/products/awei-t20-touch-control-earbuds-tws-bluetooth-50-hifi-sound-true-wireless-earbuds-i180645979-s1121930279.html",
+                        "sku": "180645979_BD",
+                        "skuId": "1121930279"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:180645979;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:180645979_BD;price:1240.00;client:desktop;supplier_id:700507455016;asc_category_id:9708;item_id:180645979;sku_id:1121930279;shop_id:91584",
+                "addToCartSkus": [
+                    {
+                        "sku": "180645979_BD-1121930279",
+                        "skuId": "1121930279",
+                        "count": 0
+                    }
+                ],
+                "itemId": "180645979",
+                "skuId": "1121930279",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "HBQ I7S TWS Bluetooth Stereo Double Headsets - WHITE",
+                "nid": "124375181",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "124375181",
+                    "scene_pre": "search",
+                    "current_price": "295.00",
+                    "x_sku_ids": "1129929385",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "124375181"
+                },
+                "productUrl": "//www.daraz.com.bd/products/hbq-i7s-tws-bluetooth-stereo-double-headsets-white-i124375181-s1129929385.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/cd226f044d3f1da7caa15e7991482deb.jpg",
+                "originalPrice": "450.00",
+                "originalPriceShow": "৳ 450",
+                "price": "295.00",
+                "promotionId": "null",
+                "priceShow": "৳ 295",
+                "discount": "-34%",
+                "ratingScore": "4.42857",
+                "review": "63",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "124375181_BD-1129929385",
+                "sku": "124375181_BD",
+                "skus": [],
+                "description": [
+                    "Drive: 15mm",
+                    "Impedance: 32 OHM",
+                    "Bluetooth version: Bluetooth v4.1+EDR",
+                    "Bluetooth frequency: 2.4GHz",
+                    "Power level: CLASS II",
+                    "Output power: 30W",
+                    "Bluetooth Distance: obstacle free 10 meters"
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "6093",
+                "mainSellerId": "",
+                "sellerName": "Happy Shopping",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/cd226f044d3f1da7caa15e7991482deb.jpg",
+                        "productUrl": "/products/hbq-i7s-tws-bluetooth-stereo-double-headsets-white-i124375181-s1129929385.html",
+                        "sku": "124375181_BD",
+                        "skuId": "1129929385"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/1d5395845e2a49433ede1290462d48f7.jpg",
+                        "productUrl": "/products/hbq-i7s-tws-bluetooth-stereo-double-headsets-white-i124375181-s1128615655.html",
+                        "sku": "124375181_BD",
+                        "skuId": "1128615655"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:124375181;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:124375181_BD;price:295.00;client:desktop;supplier_id:6093;asc_category_id:9708;item_id:124375181;sku_id:1129929385;shop_id:5679",
+                "addToCartSkus": [
+                    {
+                        "sku": "124375181_BD-1129929385",
+                        "skuId": "1129929385",
+                        "count": 0
+                    }
+                ],
+                "itemId": "124375181",
+                "skuId": "1129929385",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "QCY t2c 3D Stereo Bluetooth 5 version TWS Earphone",
+                "nid": "112572361",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "112572361",
+                    "scene_pre": "search",
+                    "current_price": "1299.00",
+                    "x_sku_ids": "1029414933",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "112572361"
+                },
+                "productUrl": "//www.daraz.com.bd/products/qcy-t2c-3d-stereo-bluetooth-5-version-tws-earphone-i112572361-s1029414933.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/f3a611be141dd002f18e0fc8082d6c8e.jpg",
+                "originalPrice": "2888.00",
+                "originalPriceShow": "৳ 2,888",
+                "price": "1299.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,299",
+                "discount": "-55%",
+                "ratingScore": "4.605",
+                "review": "200",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "112572361_BD-1029414933",
+                "sku": "112572361_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "3828",
+                "mainSellerId": "",
+                "sellerName": "Discount Accessories",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/f3a611be141dd002f18e0fc8082d6c8e.jpg",
+                        "productUrl": "/products/qcy-t2c-3d-stereo-bluetooth-5-version-tws-earphone-i112572361-s1029414933.html",
+                        "sku": "112572361_BD",
+                        "skuId": "1029414933"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:112572361;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:112572361_BD;price:1299.00;client:desktop;supplier_id:3828;asc_category_id:9708;item_id:112572361;sku_id:1029414933;shop_id:3989",
+                "addToCartSkus": [
+                    {
+                        "sku": "112572361_BD-1029414933",
+                        "skuId": "1029414933",
+                        "count": 0
+                    }
+                ],
+                "itemId": "112572361",
+                "skuId": "1029414933",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Mini Bluetooth Wireless Earphones",
+                "nid": "101164002",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "101164002",
+                    "scene_pre": "search",
+                    "current_price": "115.00",
+                    "x_sku_ids": "1015160001",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "101164002"
+                },
+                "productUrl": "//www.daraz.com.bd/products/mini-bluetooth-wireless-earphones-i101164002-s1015160001.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/d4e09119d065aceee120c553486d4e18.jpg",
+                "originalPrice": "390.00",
+                "originalPriceShow": "৳ 390",
+                "price": "115.00",
+                "promotionId": "null",
+                "priceShow": "৳ 115",
+                "discount": "-71%",
+                "ratingScore": "4.15873",
+                "review": "63",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "101164002_BD-1015160001",
+                "sku": "101164002_BD",
+                "skus": [],
+                "description": [
+                    "হাই পারফর্মেন্স মিনি ব্লুটুথ ইয়ারফোন ",
+                    "ব্লুটুথ V2.1 + EDR ব্লুটুথ প্রোফাইল ",
+                    "সাপোর্টেড: HSP and HFP ",
+                    "অপারেটিং ডিসট্যান্স: ১০ মিটার ",
+                    "ব্লুটুথ ফ্রিকোয়েন্সি রেঞ্জ: 2.402GHz～2.480GHz",
+                    "ব্যাটারি ক্যাপাসিটি: 32 mAh ",
+                    "টক টাইম: প্রায় 2-4 ঘন্টা ",
+                    "স্ট্যান্ড-বাই টাইম: প্রায় ১.৫ ঘণ্টা  .",
+                    "চার্জিং ইনপুট ভোল্টেজ: DC 5V/50mA ",
+                    "ওয়েট: ১০ গ্রাম"
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "6093",
+                "mainSellerId": "",
+                "sellerName": "Happy Shopping",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/d4e09119d065aceee120c553486d4e18.jpg",
+                        "productUrl": "/products/mini-bluetooth-wireless-earphones-i101164002-s1015160001.html",
+                        "sku": "101164002_BD",
+                        "skuId": "1015160001"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:101164002;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:101164002_BD;price:115.00;client:desktop;supplier_id:6093;asc_category_id:9708;item_id:101164002;sku_id:1015160001;shop_id:5679",
+                "addToCartSkus": [
+                    {
+                        "sku": "101164002_BD-1015160001",
+                        "skuId": "1015160001",
+                        "count": 0
+                    }
+                ],
+                "itemId": "101164002",
+                "skuId": "1015160001",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "M10 TWS Ear buds with 9D HiFi Sound Bluetooth v5.1",
+                "nid": "169736241",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "169736241",
+                    "scene_pre": "search",
+                    "current_price": "849",
+                    "x_sku_ids": "1104510403",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "169736241"
+                },
+                "productUrl": "//www.daraz.com.bd/products/m10-tws-ear-buds-with-9d-hifi-sound-bluetooth-v51-i169736241-s1104510403.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/6ae45cb3070faf158fdaf14c08c72544.jpg",
+                "originalPrice": "1600.00",
+                "originalPriceShow": "৳ 1,600",
+                "price": "849",
+                "promotionId": "null",
+                "priceShow": "৳ 849",
+                "discount": "-47%",
+                "ratingScore": "4.4125",
+                "review": "80",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "169736241_BD-1104510403",
+                "sku": "169736241_BD",
+                "skus": [],
+                "description": [
+                    "Material: ABS",
+                    "Bluetooth Version: 5.1",
+                    "Single Ear Capacity: 50mA",
+                    "Charging Bin Capacity: 2000mA",
+                    "Battery: Built-in 2000mA battery (Included)",
+                    "Automatic Shutdown: Support",
+                    "Automatic Pairing: Support",
+                    "Endurance Time: Accumulated about 22 Hours (Need to Be Equipped with A Charging Box)",
+                    "Talk Time: 180 Hours (Need to Be Equipped with A Charging Box)",
+                    "Headphone Charging: About 40 Times",
+                    "Charging Box Input Current: 5V/1A",
+                    "Size: 11cm x 10cm x 4cm/4.33&quot; x 3.94&quot; x 1.57&quot; (Approx.)"
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700507827170",
+                "mainSellerId": "",
+                "sellerName": "Twin Brothers",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/6ae45cb3070faf158fdaf14c08c72544.jpg",
+                        "productUrl": "/products/m10-tws-ear-buds-with-9d-hifi-sound-bluetooth-v51-i169736241-s1104510403.html",
+                        "sku": "169736241_BD",
+                        "skuId": "1104510403"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:169736241;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:169736241_BD;price:849;client:desktop;supplier_id:700507827170;asc_category_id:9708;item_id:169736241;sku_id:1104510403;shop_id:116008",
+                "addToCartSkus": [
+                    {
+                        "sku": "169736241_BD-1104510403",
+                        "skuId": "1104510403",
+                        "count": 0
+                    }
+                ],
+                "itemId": "169736241",
+                "skuId": "1104510403",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Realme buds air pro Wireless earbuds touch control device",
+                "nid": "177262201",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "177262201",
+                    "scene_pre": "search",
+                    "current_price": "529",
+                    "x_sku_ids": "1117190782",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "177262201"
+                },
+                "productUrl": "//www.daraz.com.bd/products/realme-buds-air-pro-wireless-earbuds-touch-control-device-i177262201-s1117190782.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/d51f17d97823456579a0c82e9a48744a.jpg",
+                "originalPrice": "1050.00",
+                "originalPriceShow": "৳ 1,050",
+                "price": "529",
+                "promotionId": "null",
+                "priceShow": "৳ 529",
+                "discount": "-50%",
+                "ratingScore": "3.90909",
+                "review": "55",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "177262201_BD-1117190782",
+                "sku": "177262201_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700507782045",
+                "mainSellerId": "",
+                "sellerName": "AST",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/d51f17d97823456579a0c82e9a48744a.jpg",
+                        "productUrl": "/products/realme-buds-air-pro-wireless-earbuds-touch-control-device-i177262201-s1117190782.html",
+                        "sku": "177262201_BD",
+                        "skuId": "1117190782"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:177262201;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:177262201_BD;price:529;client:desktop;supplier_id:700507782045;asc_category_id:9708;item_id:177262201;sku_id:1117190782;shop_id:109540",
+                "addToCartSkus": [
+                    {
+                        "sku": "177262201_BD-1117190782",
+                        "skuId": "1117190782",
+                        "count": 0
+                    }
+                ],
+                "itemId": "177262201",
+                "skuId": "1117190782",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "S6 Plus Wireless Bluetooth Sports Earphone Wireless Earbuds Earphone Stereo In-Ear Bluetooth Headset",
+                "nid": "113202659",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "113202659",
+                    "scene_pre": "search",
+                    "current_price": "150.00",
+                    "x_sku_ids": "1030388440",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "113202659"
+                },
+                "productUrl": "//www.daraz.com.bd/products/s6-plus-wireless-bluetooth-sports-earphone-wireless-earbuds-earphone-stereo-in-ear-bluetooth-headset-i113202659-s1030388440.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/65358b09dcbdd10aaf27caf7425bbfca.jpg",
+                "originalPrice": "320.00",
+                "originalPriceShow": "৳ 320",
+                "price": "150.00",
+                "promotionId": "null",
+                "priceShow": "৳ 150",
+                "discount": "-53%",
+                "ratingScore": "3.95541",
+                "review": "157",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "113202659_BD-1030388440",
+                "sku": "113202659_BD",
+                "skus": [],
+                "description": [
+                    "Comeswithpowerbank,easytocarry.",
+                    "Avarietyoffunctionsakeyoperation.",
+                    "Independentdoubleheadsetdesign,completelyoutoflineofbondage.",
+                    "Superportablebluetoothheadset,intelligentanswerofrejectcalling,2-3hlongstandbytime..",
+                    "Stereo,excellentsoundquanlitynoisecancelling,freesmoothlycommunicate."
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "1021972",
+                "mainSellerId": "",
+                "sellerName": "MEGA OFFER",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/65358b09dcbdd10aaf27caf7425bbfca.jpg",
+                        "productUrl": "/products/s6-plus-wireless-bluetooth-sports-earphone-wireless-earbuds-earphone-stereo-in-ear-bluetooth-headset-i113202659-s1030388440.html",
+                        "sku": "113202659_BD",
+                        "skuId": "1030388440"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/ac73290e4caab72190e763f9f91131cd.jpg",
+                        "productUrl": "/products/s6-plus-wireless-bluetooth-sports-earphone-wireless-earbuds-earphone-stereo-in-ear-bluetooth-headset-i113202659-s1030388441.html",
+                        "sku": "113202659_BD",
+                        "skuId": "1030388441"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:113202659;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:113202659_BD;price:150.00;client:desktop;supplier_id:1021972;asc_category_id:9708;item_id:113202659;sku_id:1030388440;shop_id:28193",
+                "addToCartSkus": [
+                    {
+                        "sku": "113202659_BD-1030388440",
+                        "skuId": "1030388440",
+                        "count": 0
+                    }
+                ],
+                "itemId": "113202659",
+                "skuId": "1030388440",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Matte Inpods 12 TWS Wireless In-Ear Earpods,Airdots,Earbuds.Earphone Bluetooth 5.0 Headphones Sports Touch Control",
+                "nid": "183349008",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "183349008",
+                    "scene_pre": "search",
+                    "current_price": "489",
+                    "x_sku_ids": "1127617344",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "183349008"
+                },
+                "productUrl": "//www.daraz.com.bd/products/matte-inpods-12-tws-wireless-in-ear-earpodsairdotsearbudsearphone-bluetooth-50-headphones-sports-touch-control-i183349008-s1127617344.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/2b0b2d9597f263b01c3e7ba43aa55f35.jpg",
+                "originalPrice": "1500.00",
+                "originalPriceShow": "৳ 1,500",
+                "price": "489",
+                "promotionId": "null",
+                "priceShow": "৳ 489",
+                "discount": "-67%",
+                "ratingScore": "4.125",
+                "review": "32",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "183349008_BD-1127617344",
+                "sku": "183349008_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "700507269050",
+                "mainSellerId": "",
+                "sellerName": "The Mega Store",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/2b0b2d9597f263b01c3e7ba43aa55f35.jpg",
+                        "productUrl": "/products/matte-inpods-12-tws-wireless-in-ear-earpodsairdotsearbudsearphone-bluetooth-50-headphones-sports-touch-control-i183349008-s1127617344.html",
+                        "sku": "183349008_BD",
+                        "skuId": "1127617344"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/0c0e26cb6645fae9b70ba6313566df7f.jpg",
+                        "productUrl": "/products/matte-inpods-12-tws-wireless-in-ear-earpodsairdotsearbudsearphone-bluetooth-50-headphones-sports-touch-control-i183349008-s1127617347.html",
+                        "sku": "183349008_BD",
+                        "skuId": "1127617347"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/562d37a0b430942fc50738ed3ff0b139.jpg",
+                        "productUrl": "/products/matte-inpods-12-tws-wireless-in-ear-earpodsairdotsearbudsearphone-bluetooth-50-headphones-sports-touch-control-i183349008-s1127617350.html",
+                        "sku": "183349008_BD",
+                        "skuId": "1127617350"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/e037c83c807a3e64648aa4bf4dead643.jpg",
+                        "productUrl": "/products/matte-inpods-12-tws-wireless-in-ear-earpodsairdotsearbudsearphone-bluetooth-50-headphones-sports-touch-control-i183349008-s1127617348.html",
+                        "sku": "183349008_BD",
+                        "skuId": "1127617348"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/3e93dc46e95d63f0a0fbead70c4b86d6.jpg",
+                        "productUrl": "/products/matte-inpods-12-tws-wireless-in-ear-earpodsairdotsearbudsearphone-bluetooth-50-headphones-sports-touch-control-i183349008-s1127617345.html",
+                        "sku": "183349008_BD",
+                        "skuId": "1127617345"
+                    },
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/bac5070d4561e330312f18b9c97d7406.jpg",
+                        "productUrl": "/products/matte-inpods-12-tws-wireless-in-ear-earpodsairdotsearbudsearphone-bluetooth-50-headphones-sports-touch-control-i183349008-s1127617346.html",
+                        "sku": "183349008_BD",
+                        "skuId": "1127617346"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:183349008;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:183349008_BD;price:489;client:desktop;supplier_id:700507269050;asc_category_id:9708;item_id:183349008;sku_id:1127617344;shop_id:94318",
+                "addToCartSkus": [
+                    {
+                        "sku": "183349008_BD-1127617344",
+                        "skuId": "1127617344",
+                        "count": 0
+                    }
+                ],
+                "itemId": "183349008",
+                "skuId": "1127617344",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo LivePods LP1 TWS Wireless Bluetooth 5.0 Sport Earbuds / Charging Case / Smart Touch / Sweatproof",
+                "nid": "167608599",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "167608599",
+                    "scene_pre": "search",
+                    "current_price": "890.00",
+                    "x_sku_ids": "1101390449",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "167608599"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-livepods-lp1-tws-wireless-bluetooth-50-sport-earbuds-charging-case-smart-touch-sweatproof-i167608599-s1101390449.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/d89261298df8e9748f6d77c8694266fd.jpg",
+                "originalPrice": "1200.00",
+                "originalPriceShow": "৳ 1,200",
+                "price": "890.00",
+                "promotionId": "null",
+                "priceShow": "৳ 890",
+                "discount": "-26%",
+                "ratingScore": "4.51429",
+                "review": "35",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "167608599_BD-1101390449",
+                "sku": "167608599_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "5918",
+                "mainSellerId": "",
+                "sellerName": "System Zone (CTG)",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/d89261298df8e9748f6d77c8694266fd.jpg",
+                        "productUrl": "/products/lenovo-livepods-lp1-tws-wireless-bluetooth-50-sport-earbuds-charging-case-smart-touch-sweatproof-i167608599-s1101390449.html",
+                        "sku": "167608599_BD",
+                        "skuId": "1101390449"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:167608599;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:167608599_BD;price:890.00;client:desktop;supplier_id:5918;asc_category_id:9708;item_id:167608599;sku_id:1101390449;shop_id:6539",
+                "addToCartSkus": [
+                    {
+                        "sku": "167608599_BD-1101390449",
+                        "skuId": "1101390449",
+                        "count": 0
+                    }
+                ],
+                "itemId": "167608599",
+                "skuId": "1101390449",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo LivePods LP1 TWS Wireless Bluetooth 5.0 Sport Earbuds / Charging",
+                "nid": "143588786",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "143588786",
+                    "scene_pre": "search",
+                    "current_price": "849.00",
+                    "x_sku_ids": "1067950225",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "143588786"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-livepods-lp1-tws-wireless-bluetooth-50-sport-earbuds-charging-i143588786-s1067950225.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/955577c15d5e903013e11c9e2abb300e.jpg",
+                "originalPrice": "2200.00",
+                "originalPriceShow": "৳ 2,200",
+                "price": "849.00",
+                "promotionId": "null",
+                "priceShow": "৳ 849",
+                "discount": "-61%",
+                "ratingScore": "4.38095",
+                "review": "63",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "143588786_BD-1067950225",
+                "sku": "143588786_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "1027320",
+                "mainSellerId": "",
+                "sellerName": "Camera Gallery",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/955577c15d5e903013e11c9e2abb300e.jpg",
+                        "productUrl": "/products/lenovo-livepods-lp1-tws-wireless-bluetooth-50-sport-earbuds-charging-i143588786-s1067950225.html",
+                        "sku": "143588786_BD",
+                        "skuId": "1067950225"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:143588786;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:143588786_BD;price:849.00;client:desktop;supplier_id:1027320;asc_category_id:9708;item_id:143588786;sku_id:1067950225;shop_id:33449",
+                "addToCartSkus": [
+                    {
+                        "sku": "143588786_BD-1067950225",
+                        "skuId": "1067950225",
+                        "count": 0
+                    }
+                ],
+                "itemId": "143588786",
+                "skuId": "1067950225",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "M19 Earbuds TWS Earphone Intelligente Touch Control Wireless Bluetooth 5.1 Headphones Waterproof LED Display With Microphone",
+                "nid": "182921339",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "182921339",
+                    "scene_pre": "search",
+                    "current_price": "950",
+                    "x_sku_ids": "1126903498",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "182921339"
+                },
+                "productUrl": "//www.daraz.com.bd/products/m19-earbuds-tws-earphone-intelligente-touch-control-wireless-bluetooth-51-headphones-waterproof-led-display-with-microphone-i182921339-s1126903498.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/82d902ef6925038c058aaf3c1506fb39.jpg",
+                "originalPrice": "1500.00",
+                "originalPriceShow": "৳ 1,500",
+                "price": "950",
+                "promotionId": "null",
+                "priceShow": "৳ 950",
+                "discount": "-37%",
+                "ratingScore": "4.0303",
+                "review": "33",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "182921339_BD-1126903498",
+                "sku": "182921339_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "1027480",
+                "mainSellerId": "",
+                "sellerName": "All Best Gadget",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/82d902ef6925038c058aaf3c1506fb39.jpg",
+                        "productUrl": "/products/m19-earbuds-tws-earphone-intelligente-touch-control-wireless-bluetooth-51-headphones-waterproof-led-display-with-microphone-i182921339-s1126903498.html",
+                        "sku": "182921339_BD",
+                        "skuId": "1126903498"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:182921339;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:182921339_BD;price:950;client:desktop;supplier_id:1027480;asc_category_id:9708;item_id:182921339;sku_id:1126903498;shop_id:33591",
+                "addToCartSkus": [
+                    {
+                        "sku": "182921339_BD-1126903498",
+                        "skuId": "1126903498",
+                        "count": 0
+                    }
+                ],
+                "itemId": "182921339",
+                "skuId": "1126903498",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Xiaomi Haylou GT1 Pro TWS Wireless Bluetooth 5.0 Earphones Touch Control HD Stereo Headphones Game Headset - Black",
+                "nid": "128128473",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "128128473",
+                    "scene_pre": "search",
+                    "current_price": "1469.00",
+                    "x_sku_ids": "1048042493",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "128128473"
+                },
+                "productUrl": "//www.daraz.com.bd/products/xiaomi-haylou-gt1-pro-tws-wireless-bluetooth-50-earphones-touch-control-hd-stereo-headphones-game-headset-black-i128128473-s1048042493.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/9032eeb3d8c361817f8f264f805858f3.jpg",
+                "originalPrice": "3500.00",
+                "originalPriceShow": "৳ 3,500",
+                "price": "1469.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,469",
+                "discount": "-58%",
+                "ratingScore": "4.64062",
+                "review": "64",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "128128473_BD-1048042493",
+                "sku": "128128473_BD",
+                "skus": [],
+                "description": [
+                    "Main Features:",
+                    "● Bluetooth 5.0",
+                    "Bluetooth 5.0 wireless earphones will give you stable transmission, fast speed transmitting, and low power consumption.",
+                    "● 800mAh Charging Battery",
+                    "The earbuds have 26 hours of battery life with charging dock to secure music with you. And 800mAh large battery capacity built-in the charging dock, providing you enough battery when you go out for a long journey.",
+                    "● Battery Display",
+                    "The charging case has a built-in battery display function. The case will display the real battery capacity of the earbuds through the indicator light.",
+                    "● 7.2mm Driver with AAC",
+                    "The dynamic driver is only 7.2mm. With AAC and high-polymer resin diaphragm, the built-in driver offers punchy bass, soft but clear mids and highs. Thanks to Hifi stereo, your calling would be like a face-to-face talk.",
+                    "● Siri and Google Assistant",
+                    "Double touch either earbud to wake up the voice assistant. Support XiaoAi from Xiaomi, Siri and Google Assistant.",
+                    "● DSP and Dual Mic Noise Isolation",
+                    "Embedded Bluetooth chipset supports the DSP module to offset parts of noise. With the built-in NC system, GT1 Pro offers clear-talking while improving sound quality."
+                ],
+                "brandId": "39704",
+                "brandName": "No Brand",
+                "sellerId": "6024",
+                "mainSellerId": "",
+                "sellerName": "Gadgets Lab",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/9032eeb3d8c361817f8f264f805858f3.jpg",
+                        "productUrl": "/products/xiaomi-haylou-gt1-pro-tws-wireless-bluetooth-50-earphones-touch-control-hd-stereo-headphones-game-headset-black-i128128473-s1048042493.html",
+                        "sku": "128128473_BD",
+                        "skuId": "1048042493"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:128128473;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:128128473_BD;price:1469.00;client:desktop;supplier_id:6024;asc_category_id:9708;item_id:128128473;sku_id:1048042493;shop_id:5616",
+                "addToCartSkus": [
+                    {
+                        "sku": "128128473_BD-1048042493",
+                        "skuId": "1048042493",
+                        "count": 0
+                    }
+                ],
+                "itemId": "128128473",
+                "skuId": "1048042493",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo LivePods LP1 TWS Wireless Earbuds Touch Control Bluetooth 5.0 Stereo Sports Earphone IPX4 Waterproof with Mic",
+                "nid": "168332299",
+                "icons": [
+                    {
+                        "domClass": "freeShipping",
+                        "text": "FreeShipping",
+                        "alias": "FsAlias",
+                        "type": "img",
+                        "group": "2",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "168332299",
+                    "scene_pre": "search",
+                    "current_price": "1500.00",
+                    "x_sku_ids": "1102390161",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "168332299"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-livepods-lp1-tws-wireless-earbuds-touch-control-bluetooth-50-stereo-sports-earphone-ipx4-waterproof-with-mic-i168332299-s1102390161.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/2a4b9f10f045af1d3aa06e1fe39c1946.jpg",
+                "price": "1500.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,500",
+                "ratingScore": "4.70213",
+                "review": "47",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "168332299_BD-1102390161",
+                "sku": "168332299_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "700507410022",
+                "mainSellerId": "",
+                "sellerName": "O-TECH",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/2a4b9f10f045af1d3aa06e1fe39c1946.jpg",
+                        "productUrl": "/products/lenovo-livepods-lp1-tws-wireless-earbuds-touch-control-bluetooth-50-stereo-sports-earphone-ipx4-waterproof-with-mic-i168332299-s1102390161.html",
+                        "sku": "168332299_BD",
+                        "skuId": "1102390161"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:168332299;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:168332299_BD;price:1500.00;client:desktop;supplier_id:700507410022;asc_category_id:9708;item_id:168332299;sku_id:1102390161;shop_id:91208",
+                "addToCartSkus": [
+                    {
+                        "sku": "168332299_BD-1102390161",
+                        "skuId": "1102390161",
+                        "count": 0
+                    }
+                ],
+                "itemId": "168332299",
+                "skuId": "1102390161",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Haylou TWS GT6 Bluetooth Earphone - Black",
+                "nid": "184104866",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "184104866",
+                    "scene_pre": "search",
+                    "current_price": "1450.00",
+                    "x_sku_ids": "1128833762",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "184104866"
+                },
+                "productUrl": "//www.daraz.com.bd/products/haylou-tws-gt6-bluetooth-earphone-black-i184104866-s1128833762.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/ee463d559bf1ab6598a41ebaf86169dd.jpg",
+                "originalPrice": "1690.00",
+                "originalPriceShow": "৳ 1,690",
+                "price": "1450.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,450",
+                "discount": "-14%",
+                "ratingScore": "4.3913",
+                "review": "23",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "184104866_BD-1128833762",
+                "sku": "184104866_BD",
+                "skus": [],
+                "description": [
+                    "Main Features:",
+                    "bluetooth 5.2",
+                    "Single playback time increases 40%,lower power consumption, more stable.",
+                    "Low Latency Smooth Control ",
+                    "There is almost no delay for games and videos, and the sound and control are precisely matched.",
+                    "12mm Dynamic Driver Powerful Bass",
+                    "12mm large dynamic driver accurately adjusts every detail to achieve a perfect balance of bass, midrange and treble.",
+                    "AAC Audio Decoding Capture Every Sound Detail",
+                    "AAC audio decoding supports higher resolution while increasing resource compression rate, effectively capturing every sound detail.",
+                    "3.9g semi in-ear Comfortable wearing",
+                    "With ergonomic design, it offers wearing stability and comfort when in use."
+                ],
+                "brandId": "121146034",
+                "brandName": "Haylou",
+                "sellerId": "5406",
+                "mainSellerId": "",
+                "sellerName": "Smart Gadget Home",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/ee463d559bf1ab6598a41ebaf86169dd.jpg",
+                        "productUrl": "/products/haylou-tws-gt6-bluetooth-earphone-black-i184104866-s1128833762.html",
+                        "sku": "184104866_BD",
+                        "skuId": "1128833762"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:184104866;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:184104866_BD;price:1450.00;client:desktop;supplier_id:5406;asc_category_id:9708;item_id:184104866;sku_id:1128833762;shop_id:5411",
+                "addToCartSkus": [
+                    {
+                        "sku": "184104866_BD-1128833762",
+                        "skuId": "1128833762",
+                        "count": 0
+                    }
+                ],
+                "itemId": "184104866",
+                "skuId": "1128833762",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo LivePods LP1S TWS Bluetooth Earphone",
+                "nid": "162488484",
+                "icons": [],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "162488484",
+                    "scene_pre": "search",
+                    "current_price": "1020.00",
+                    "x_sku_ids": "1094590626",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "162488484"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-livepods-lp1s-tws-bluetooth-earphone-i162488484-s1094590626.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/d90e0f881bfeb4446560b8030fcfc2af.jpg",
+                "originalPrice": "1250.00",
+                "originalPriceShow": "৳ 1,250",
+                "price": "1020.00",
+                "promotionId": "null",
+                "priceShow": "৳ 1,020",
+                "discount": "-18%",
+                "ratingScore": "4.42553",
+                "review": "47",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "162488484_BD-1094590626",
+                "sku": "162488484_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "5447",
+                "mainSellerId": "",
+                "sellerName": "A.J Telecon",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/d90e0f881bfeb4446560b8030fcfc2af.jpg",
+                        "productUrl": "/products/lenovo-livepods-lp1s-tws-bluetooth-earphone-i162488484-s1094590626.html",
+                        "sku": "162488484_BD",
+                        "skuId": "1094590626"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:162488484;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:162488484_BD;price:1020.00;client:desktop;supplier_id:5447;asc_category_id:9708;item_id:162488484;sku_id:1094590626;shop_id:5451",
+                "addToCartSkus": [
+                    {
+                        "sku": "162488484_BD-1094590626",
+                        "skuId": "1094590626",
+                        "count": 0
+                    }
+                ],
+                "itemId": "162488484",
+                "skuId": "1094590626",
+                "inStock": true,
+                "isAD": 0
+            },
+            {
+                "name": "Lenovo LivePods LP1 TWS Wireless Bluetooth 5.0 Sport Earbuds / Charging Case / Smart Touch / Sweatproof",
+                "nid": "156798718",
+                "icons": [
+                    {
+                        "domClass": "lazMall",
+                        "text": "LazMall",
+                        "alias": "LazMallAlias",
+                        "type": "img",
+                        "group": "1",
+                        "showType": "0",
+                        "order": 0,
+                        "font-size": 0
+                    }
+                ],
+                "utLogMap": {
+                    "x_object_type": "item",
+                    "x_item_ids": "156798718",
+                    "scene_pre": "search",
+                    "current_price": "850.00",
+                    "x_sku_ids": "1086630709",
+                    "SN": "560b576fd22fd49c44bbad4b2a28e259",
+                    "x_ad": "1",
+                    "x_object_id": "156798718"
+                },
+                "productUrl": "//www.daraz.com.bd/products/lenovo-livepods-lp1-tws-wireless-bluetooth-50-sport-earbuds-charging-case-smart-touch-sweatproof-i156798718-s1086630709.html?search=1",
+                "image": "https://static-01.daraz.com.bd/p/f86ad6807cb68e802eadb6a13c770e14.png",
+                "originalPrice": "1050.00",
+                "originalPriceShow": "৳ 1,050",
+                "price": "850.00",
+                "promotionId": "null",
+                "priceShow": "৳ 850",
+                "discount": "-19%",
+                "ratingScore": "4.66667",
+                "review": "18",
+                "installment": "",
+                "tItemType": "nt_product",
+                "location": "Bangladesh",
+                "cheapest_sku": "156798718_BD-1086630709",
+                "sku": "156798718_BD",
+                "skus": [],
+                "description": [],
+                "brandId": "12949",
+                "brandName": "Lenovo",
+                "sellerId": "406",
+                "mainSellerId": "",
+                "sellerName": "Origin Technology",
+                "thumbs": [
+                    {
+                        "image": "https://static-01.daraz.com.bd/p/f86ad6807cb68e802eadb6a13c770e14.png",
+                        "productUrl": "/products/lenovo-livepods-lp1-tws-wireless-bluetooth-50-sport-earbuds-charging-case-smart-touch-sweatproof-i156798718-s1086630709.html",
+                        "sku": "156798718_BD",
+                        "skuId": "1086630709"
+                    }
+                ],
+                "restrictedAge": 0,
+                "categories": [
+                    147,
+                    148,
+                    154,
+                    9708
+                ],
+                "clickTrace": "query:earbuds;nid:156798718;src:LazadaMainSrp;rn:560b576fd22fd49c44bbad4b2a28e259;region:bd;sku:156798718_BD;price:850.00;client:desktop;supplier_id:406;asc_category_id:9708;item_id:156798718;sku_id:1086630709;shop_id:1559",
+                "addToCartSkus": [
+                    {
+                        "sku": "156798718_BD-1086630709",
+                        "skuId": "1086630709",
+                        "count": 0
+                    }
+                ],
+                "itemId": "156798718",
+                "skuId": "1086630709",
+                "inStock": true,
+                "isAD": 0
+            }
+        ],
+        "breadcrumb": [
+            {
+                "url": "https://www.daraz.com.bd",
+                "title": "Home"
+            },
+            {
+                "title": "Search Results"
+            }
+        ],
+        "sortBar": {
+            "tItemType": "nt_sortbar",
+            "filter": "Filter",
+            "style": "wf",
+            "sortItems": [
+                {
+                    "name": "Popularity",
+                    "tip": "Best Match",
+                    "isActive": "true",
+                    "value": "popularity",
+                    "key": "sort",
+                    "tabName": ""
+                },
+                {
+                    "name": "Price-ASC",
+                    "tip": "Price low to high",
+                    "value": "priceasc",
+                    "key": "sort",
+                    "tabName": ""
+                },
+                {
+                    "name": "Price-DESC",
+                    "tip": "Price high to low",
+                    "value": "pricedesc",
+                    "key": "sort",
+                    "tabName": ""
+                }
+            ],
+            "hiddenLayoutBtn": false,
+            "showFilterBtn": true,
+            "hasFilter": false
+        },
+        "bestShown": {
+            "title": "Seller Picks",
+            "url": "//www.daraz.com.bd/catalog/?referer_rn=560b576fd22fd49c44bbad4b2a28e259&q=earbuds&m=best_shown&ajax=true&n=12&best_shown=1"
+        },
+        "resultTips": {
+            "tItemType": "nt_resulttips",
+            "tips": "3297221 items found for \"{$0}\"",
+            "brandLink": "",
+            "keywords": [
+                {
+                    "text": "earbuds"
+                }
+            ]
+        }
+    },
+    "mainInfo": {
+        "errorMsg": "",
+        "bizCode": 0,
+        "isShowFloatCart": false,
+        "isHideAddToCart": false,
+        "totalResults": "4080",
+        "pageSize": "40",
+        "page": "1",
+        "RN": "560b576fd22fd49c44bbad4b2a28e259",
+        "style": "wf",
+        "layoutInfo": {
+            "listHeader": [
+                "highlight",
+                "shopBanner",
+                "campaignBanner",
+                "categoryBar",
+                "brandBar",
+                "resultTips",
+                "didYouMean",
+                "promotionfilter",
+                "promotionRegion",
+                "promotionInfo",
+                "superStore",
+                "navCategory",
+                "banner",
+                "hotDeal",
+                "emptyResult",
+                "recQuery"
+            ],
+            "stickyHeader": [
+                "sortBar",
+                "preposeFilter"
+            ],
+            "sceneHeader": [
+                "sceneHeader"
+            ]
+        },
+        "pageType": "searchList",
+        "gridTitleLine": "2",
+        "trackParams": {},
+        "anonUid": "247c9115-e6a7-4950-a0a8-b04935729bf2",
+        "pageTitle": "earbuds - Buy earbuds at Best Price in Bangladesh | www.daraz.com.bd",
+        "cate_id": "9708",
+        "hyperspaceInfo": "",
+        "lang": "en",
+        "venture": "BD",
+        "currency": "৳ ",
+        "currencyOnRight": "false",
+        "currencySpace": "false",
+        "isShowFeedbackForm": "false",
+        "showThumbs": "true",
+        "addToCartURL": "//cart.daraz.com.bd/cart/api/add",
+        "themes": [
+            {
+                "key": "lazMall",
+                "isImgIcon": "1",
+                "url": "//laz-img-cdn.alicdn.com/tfs/TB1rYuurhTpK1RjSZFMXXbG_VXa-205-48.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": {
+                    "width": 205.0,
+                    "height": 48.0
+                },
+                "text": ""
+            },
+            {
+                "key": "freeShipping",
+                "isImgIcon": "1",
+                "url": "//laz-img-cdn.alicdn.com/tfs/TB1QTkMXG67gK0jSZFHXXa9jVXa-45-28.png",
+                "locaLang": "",
+                "enLang": "",
+                "style": {
+                    "width": 45.0,
+                    "height": 28.0
+                },
+                "text": ""
+            },
+            {
+                "key": "redmart",
+                "isImgIcon": "1",
+                "url": "",
+                "locaLang": "",
+                "enLang": "",
+                "style": "",
+                "text": ""
+            }
+        ],
+        "q": "earbuds",
+        "dataLayer": {
+            "pagetype": "search",
+            "pdt_category": "undefined",
+            "core": {
+                "country": "BD",
+                "layoutType": "desktop",
+                "language": "en",
+                "currencyCode": "৳ "
+            },
+            "seller_name": "undefined",
+            "v_voya": 1,
+            "search_engine_used": "HA3",
+            "brand_name": "undefined",
+            "page": {
+                "internalSearchTerm": "earbuds",
+                "bucket_id": "v10",
+                "regCategoryId": "undefined",
+                "xParams": "undefined",
+                "SortingPattern": "default",
+                "filters": [],
+                "rn": "560b576fd22fd49c44bbad4b2a28e259",
+                "resultNr": 3297221,
+                "internalSearchResultType": "Search Results"
+            },
+            "seller_id": "undefined",
+            "top_catalog_skus": [
+                "1101390208",
+                "1093160460",
+                "1074652326"
+            ],
+            "brand_id": "undefined"
+        },
+        "column": 2,
+        "bucketId": "v10",
+        "auctionType": 1,
+        "selectedFilters": {}
+    }
+}

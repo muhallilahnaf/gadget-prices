@@ -3,11 +3,11 @@ const processResult = (phone) => {
 
     // specs
     let phoneRawname = phone['name'].replace(/\./g, '').replace(/'/g, '').replace(/-/g, '').replace(/\*/g, '')
-    phoneRawname = phoneRawname.replace(/\(.*GB.*\)|\(.*\+.*\)|\(.*\/.*\)/g, '')
-    phoneRawname = phoneRawname.replace(/\d+[G]?[B]?\+\d+[G]?[B]?/g, '')
-    phoneRawname = phoneRawname.replace(/\d+[G]?[B]?\/\d+[G]?[B]?.*/g, '')
-    phoneRawname = phoneRawname.replace(/\d+GB.*/g, '')
-    phoneRawname = phoneRawname.replace(/\|.*/g, '')
+    phoneRawname = phoneRawname.replace(/\(.*GB.*\)|\(.*\+.*\)|\(.*\/.*\)/g, '') // (4GB 64GB) (4+64) (4/64)
+    phoneRawname = phoneRawname.replace(/\d+[G]?[B]?\+\d+[G]?[B]?/g, '') // 4GB+64GB
+    phoneRawname = phoneRawname.replace(/\d+[G]?[B]?\/\d+[G]?[B]?.*/g, '') // 4GB/64GB
+    phoneRawname = phoneRawname.replace(/\d+GB.*/g, '') // 4GB+64GB with free earbuds
+    phoneRawname = phoneRawname.replace(/\|.*/g, '') // | Aqua Black
     phoneRawname = phoneRawname.replace(/\s/g, '').toLowerCase()
 
     // name
@@ -35,7 +35,7 @@ const processResult = (phone) => {
         phone['name'] = `Xiaomi ${phone['name']}`
         phoneRawname = `xiaomi${phoneRawname}`
     }
-    if (phone['name'].includes('Mi') && !phoneRawname.includes('xiaomi')) {
+    if (phone['name'].includes('Mi') && !phoneRawname.includes('xiaomi') && !phoneRawname.includes('micromax')) {
         phone['name'] = `Xiaomi ${phone['name']}`
         phoneRawname = `xiaomi${phoneRawname}`
     }
@@ -97,8 +97,6 @@ const processResult = (phone) => {
     let price = phone['price']
     if (phone['shop'] === 'realme' || phone['shop'] === 'fdl') {
         parsedPrice = price.replace(/\D+/g, '')
-        // } else if (phone['shop'] === 'galaxyshop' && ) {
-
     } else {
         parsedPrice = price.replace(/[^\.\d]+/g, '')
     }
@@ -107,7 +105,7 @@ const processResult = (phone) => {
     }
 
     // brand
-    if (match['name'] !== '') {
+    if (match['name'] !== '' && phone['brand'] === '') {
         const brand = match['name'].split(' ')[0].toLowerCase()
         brands.some(b => {
             if (brand === b.toLowerCase()) {
@@ -115,6 +113,8 @@ const processResult = (phone) => {
                 return true
             }
         })
+    } else {
+        match['brand'] = phone['brand']
     }
 
     // PUSH DATA

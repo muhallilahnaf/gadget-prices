@@ -25,7 +25,7 @@ const createOutput = () => {
             cardHeader.appendChild(brand)
         }
 
-        const shop = createNode('span', ['cyan', 'darken-4'], `Shop: ${phone['shop']}`)
+        const shop = createNode('span', ['cyan', 'darken-3'], `Shop: ${phone['shop']}`)
         cardHeader.appendChild(shop)
 
         const compare = createNode('button', ['compare-button', 'right', 'tooltipped', 'btn-floating', 'btn-small', 'light-blue', 'darken-4'])

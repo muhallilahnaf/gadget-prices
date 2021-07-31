@@ -16,6 +16,7 @@ const parseExcel = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = ''
 
         const a = product.querySelector('h4 a')
         if (a) {
@@ -30,7 +31,7 @@ const parseExcel = (doc) => {
         }
 
         const phone = {
-            shop: 'excel', name, link, price
+            shop: 'Excel e-store', name, link, price, brand
         }
         processResult(phone)
     })

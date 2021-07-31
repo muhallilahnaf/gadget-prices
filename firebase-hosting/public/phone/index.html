@@ -42,6 +42,9 @@
                 <!-- menu -->
                 <ul class="right hide-on-med-and-down">
                     <li>
+                        <a href="../search/index.html">search</a>
+                    </li>
+                    <li>
                         <a href="../laptop/index.html">laptops</a>
                     </li>
                     <li class="active">
@@ -54,6 +57,9 @@
 
     <!-- sidenav -->
     <ul class="sidenav light-blue darken-4" id="mobile-nav">
+        <li>
+            <a href="../search/index.html" class="white-text">search</a>
+        </li>
         <li>
             <a href="../laptop/index.html" class="white-text">laptops</a>
         </li>
@@ -70,9 +76,9 @@
                 <p id="shop-error"></p>
                 <div class="row">
                     <div class="col s4">
-                        <label for="fdl">
-                            <input type="checkbox" class="filled-in" name="fdl" value="fdl" id="fdl">
-                            <span>FDL (Samsung)</span>
+                        <label for="daraz">
+                            <input type="checkbox" class="filled-in" name="daraz" value="daraz" id="daraz">
+                            <span>Daraz</span>
                         </label>
                     </div>
                     <div class="col s4">
@@ -90,11 +96,26 @@
                 </div>
                 <div class="row">
                     <div class="col s4">
+                        <label for="fdl">
+                            <input type="checkbox" class="filled-in" name="fdl" value="fdl" id="fdl">
+                            <span>FDL (Samsung)</span>
+                        </label>
+                    </div>
+                    <div class="col s4">
                         <label for="transcom">
                             <input type="checkbox" class="filled-in" name="transcom" value="transcom" id="transcom">
                             <span>Transcom</span>
                         </label>
                     </div>
+                    <div class="col s4">
+                        <label for="galaxyshop">
+                            <input type="checkbox" class="filled-in" name="galaxyshop" value="galaxyshop"
+                                id="galaxyshop">
+                            <span>Galaxyshop</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col s4">
                         <label for="excel">
                             <input type="checkbox" class="filled-in" name="excel" value="excel" id="excel">
@@ -107,15 +128,14 @@
                             <span>Salextra</span>
                         </label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col s4">
-                        <label for="galaxyshop">
-                            <input type="checkbox" class="filled-in" name="galaxyshop" value="galaxyshop"
-                                id="galaxyshop">
-                            <span>galaxyshop</span>
+                        <label for="mi">
+                            <input type="checkbox" class="filled-in" name="mi" value="mi" id="mi">
+                            <span>Xiaomi</span>
                         </label>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col s4">
                         <label for="oppo">
                             <input type="checkbox" class="filled-in" name="oppo" value="oppo" id="oppo">
@@ -128,18 +148,10 @@
                             <span>Vivo</span>
                         </label>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col s4">
-                        <label for="mi">
-                            <input type="checkbox" class="filled-in" name="mi" value="mi" id="mi">
-                            <span>Xiaomi</span>
-                        </label>
-                    </div>
                     <div class="col s4">
                         <label for="realme">
                             <input type="checkbox" class="filled-in" name="realme" value="realme" id="realme">
-                            <span>realme</span>
+                            <span>Realme</span>
                         </label>
                     </div>
                 </div>
@@ -313,6 +325,7 @@
 
     <!-- my codes -->
     <script src="./index.js"></script>
+    <script src="./shops/daraz.js"></script>
     <script src="./shops/fdl.js"></script>
     <script src="./shops/pickaboo.js"></script>
     <script src="./shops/robishop.js"></script>

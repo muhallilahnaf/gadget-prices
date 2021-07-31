@@ -15,6 +15,7 @@ const parseGalaxyshop = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = 'Samsung'
 
         const linkNode = product.querySelector('.product-title a')
         if (linkNode) {
@@ -33,7 +34,7 @@ const parseGalaxyshop = (doc) => {
         }
 
         const phone = {
-            shop: 'galaxyshop', name, link, price
+            shop: 'Galaxyshop BD', name, link, price, brand
         }
         processResult(phone)
     })

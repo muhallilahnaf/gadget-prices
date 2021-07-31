@@ -21,6 +21,7 @@ const parseMi = (doc) => {
             let name = ''
             let link = ''
             let price = ''
+            let brand = 'Xiaomi'
 
             const a = product.querySelector('a.product-name')
             if (a) {
@@ -34,7 +35,7 @@ const parseMi = (doc) => {
             if (priceNode) price = priceNode.textContent.trim()
 
             const phone = {
-                shop: 'mi', name, link, price
+                shop: 'mi store', name, link, price, brand
             }
             processResult(phone)
         }

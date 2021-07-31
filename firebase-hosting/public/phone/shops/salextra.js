@@ -23,6 +23,7 @@ const parseSalextra = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = ''
 
         const a = product.querySelector('h2.product-title a')
         if (a) {
@@ -37,7 +38,7 @@ const parseSalextra = (doc) => {
         }
 
         const phone = {
-            shop: 'salextra', name, link, price
+            shop: 'Salextra', name, link, price, brand
         }
         if (!salextraLinks.includes(link)) {
             salextraLinks.push(link)

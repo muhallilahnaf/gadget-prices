@@ -16,6 +16,7 @@ const parseVivo = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = 'Vivo'
 
         const a = product.querySelector('a.product-item-link')
         if (a) {
@@ -28,7 +29,7 @@ const parseVivo = (doc) => {
         if (priceNode) price = priceNode.getAttribute('data-price-amount')
 
         const phone = {
-            shop: 'vivo', name, link, price
+            shop: 'Vivo (Pickaboo)', name, link, price, brand
         }
         processResult(phone)
     })

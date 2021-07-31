@@ -17,6 +17,7 @@ const parseRealme = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = 'realme'
 
         const href = product.getAttribute('href')
         if (href) {
@@ -28,7 +29,7 @@ const parseRealme = (doc) => {
         if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
-            shop: 'realme', name, link, price
+            shop: 'Realme', name, link, price, brand
         }
         processResult(phone)
     })

@@ -26,6 +26,7 @@ const parsePickaboo = (doc) => {
         let name = ''
         let link = ''
         let price = ''
+        let brand = ''
 
         const a = product.querySelector('a.product-item-link')
         if (a) {
@@ -38,7 +39,7 @@ const parsePickaboo = (doc) => {
         if (priceNode) price = priceNode.getAttribute('data-price-amount')
 
         const phone = {
-            shop: 'pickaboo', name, link, price
+            shop: 'Pickaboo', name, link, price, brand
         }
         processResult(phone)
     })

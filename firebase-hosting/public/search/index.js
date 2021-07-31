@@ -25,20 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
 const loader = document.getElementById('loader')
 
 const search = document.getElementById('search')
-const fdl = document.getElementById('fdl')
-const oppo = document.getElementById('oppo')
-const realme = document.getElementById('realme')
-const robishop = document.getElementById('robishop')
-const transcom = document.getElementById('transcom')
-const vivo = document.getElementById('vivo')
-const mi = document.getElementById('mi')
-const excel = document.getElementById('excel')
-const salextra = document.getElementById('salextra')
 const pickaboo = document.getElementById('pickaboo')
-const galaxyshop = document.getElementById('galaxyshop')
 const daraz = document.getElementById('daraz')
-const all = document.getElementById('all')
 const shopError = document.getElementById('shop-error')
+const query = document.getElementById('query')
 const buttonGet = document.getElementById('get')
 
 const sortFilterCard = document.getElementById('sort-filter-card')
@@ -49,31 +39,16 @@ const minPrice = document.getElementById('min-price')
 const maxPrice = document.getElementById('max-price')
 const buttonPriceFilter = document.getElementById('filter-price')
 const buttonPriceFilterCancel = document.getElementById('filter-price-cancel')
-const viewSwitch = document.getElementById('view-switch')
 
 const output = document.getElementById('output')
 
-const buttonCompareFloating = document.querySelector('.compare-floating')
-const modalCollection = document.querySelector('#modal-compare ul.collection')
-const buttonViewCompare = document.getElementById('view-compare')
-
 const allShops = {
-    fdl, oppo, realme, robishop, transcom, vivo, mi, excel, salextra, pickaboo, galaxyshop, daraz
+    pickaboo, daraz
 }
 
 const sortValues = [
     'price-asc',
     'price-desc',
-    'antutu-asc',
-    'antutu-desc',
-]
-
-const detailButtonsCls = [
-    { class: 'chipset', label: '(see details)' },
-    { class: 'rearcam', label: '(see details)' },
-    { class: 'frontcam', label: '(see details)' },
-    { class: 'connectivity', label: '(see more connectivity)' },
-    { class: 'sensor-port', label: '(see more sensors)' },
 ]
 
 
@@ -85,29 +60,5 @@ let headers = new Headers({
 })
 let parsedResults = []
 let filteredResults = []
-let salextraLinks = []
 let priceFilter = {}
-let compareList = []
-
-
-const brands = [
-    'Apple',
-    'Samsung',
-    'Oppo',
-    'realme',
-    'Vivo',
-    'Xiaomi',
-    'Nokia',
-    'Lenovo',
-    'Sony',
-    'Motorola',
-    // 'iQOO',
-    'OnePlus',
-    'Infinix',
-    'TECNO',
-    // 'Poco',
-    // 'Redmi',
-    // 'Mi',
-    'Huawei',
-    // 'Walton',
-]
+let encodedQuery = ''
