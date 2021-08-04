@@ -1,6 +1,5 @@
 // get array of fetch promises
 const getFetchs = (urls) => {
-    // console.log(urls)
     return urls.map(url => fetch(proxy + url, {
         headers: headers,
         referrer: ''
@@ -12,7 +11,7 @@ const getFetchs = (urls) => {
 const processResponses = (responses, isSecondary) => {
     let urls = []
     let resDict = {
-        'www.daraz.com.bd': [],
+        'robishop.com.bd': [],
         'www.pickaboo.com': [],
     }
     let promiseArrArr = []
@@ -40,9 +39,9 @@ const processResponses = (responses, isSecondary) => {
     biggerPromise.then(resultArrArr => {
 
         for (const [key, value] of Object.entries(arrPosTracker)) {
-            if (key === 'www.daraz.com.bd') {
+            if (key === 'robishop.com.bd') {
                 resultArrArr[value].forEach(text => {
-                    urls = urls.concat(parseTextDaraz(text, isSecondary))
+                    urls = urls.concat(parseTextRobishop(text, isSecondary)) //json
                 })
             }
             if (key === 'www.pickaboo.com') {
@@ -55,7 +54,6 @@ const processResponses = (responses, isSecondary) => {
         if (!isSecondary && urls.length > 0) {
             secondaryFetch(urls)
         } else {
-            console.log(parsedResults)
             fetchEnd()
         }
     }).catch(e => console.log(e))
@@ -64,7 +62,6 @@ const processResponses = (responses, isSecondary) => {
 
 // secondary fetch
 const secondaryFetch = (urls) => {
-    console.log('secondary');
     let secondaryPromises = getFetchs(urls)
     Promise.all(secondaryPromises).then(responses => {
         processResponses(responses, true)
@@ -77,8 +74,8 @@ const primaryFetch = (data) => {
     let urls = []
     data.shops.forEach(shop => {
         switch (shop) {
-            case 'daraz':
-                urls.push(getDarazUrl())
+            case 'robishop':
+                urls.push(getRobishopUrl())
                 break
             case 'pickaboo':
                 urls.push(getPickabooUrl())
@@ -87,7 +84,6 @@ const primaryFetch = (data) => {
                 break
         }
     })
-    console.log(urls)
     let primaryPromises = getFetchs(urls)
     Promise.all(primaryPromises).then(responses => {
         processResponses(responses, false)
