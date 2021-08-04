@@ -13,6 +13,8 @@ const processResponses = (responses, isSecondary) => {
     let resDict = {
         'robishop.com.bd': [],
         'www.pickaboo.com': [],
+        'www.searchanise.com': [], // penguinbd
+        'api.trendy-tracker.com' : []
     }
     let promiseArrArr = []
     let arrPosTracker = {}
@@ -49,6 +51,16 @@ const processResponses = (responses, isSecondary) => {
                     urls = urls.concat(parseTextPickaboo(text, isSecondary))
                 })
             }
+            if (key === 'www.searchanise.com') {
+                resultArrArr[value].forEach(text => {
+                    urls = urls.concat(parseTextPenguinbd(text, isSecondary)) //json
+                })
+            }
+            if (key === 'api.trendy-tracker.com') {
+                resultArrArr[value].forEach(text => {
+                    urls = urls.concat(parseTextTrendytracker(text, isSecondary)) //json
+                })
+            }
         }
 
         if (!isSecondary && urls.length > 0) {
@@ -80,7 +92,13 @@ const primaryFetch = (data) => {
             case 'pickaboo':
                 urls.push(getPickabooUrl())
                 break
-            default:
+            case 'penguinbd':
+                urls.push(getPenguinbdUrl())
+                break
+            case 'trendytracker':
+                urls.push(getTrendytrackerUrl())
+                break
+                    default:
                 break
         }
     })

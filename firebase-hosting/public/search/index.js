@@ -27,6 +27,8 @@ const loader = document.getElementById('loader')
 const search = document.getElementById('search')
 const pickaboo = document.getElementById('pickaboo')
 const robishop = document.getElementById('robishop')
+const penguinbd = document.getElementById('penguinbd')
+const trendytracker = document.getElementById('trendytracker')
 const shopError = document.getElementById('shop-error')
 const query = document.getElementById('query')
 const buttonGet = document.getElementById('get')
@@ -43,7 +45,7 @@ const buttonPriceFilterCancel = document.getElementById('filter-price-cancel')
 const output = document.getElementById('output')
 
 const allShops = {
-    pickaboo, robishop
+    pickaboo, robishop, penguinbd, trendytracker
 }
 
 const sortValues = [

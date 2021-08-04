@@ -37,7 +37,7 @@ const parseRobishop = (text) => {
                     price = `${source['price_incl_tax']}`
                 }
 
-                if (`${source['stock']['is_in_stock']}`) {
+                if (source['stock']['is_in_stock']) {
                     status = `${source['stock']['is_in_stock']}` === 'true' ? 'in stock' : 'out of stock'
                 }
 
