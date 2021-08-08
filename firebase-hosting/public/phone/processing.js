@@ -95,7 +95,7 @@ const processResult = (phone) => {
     // price
     let parsedPrice
     let price = phone['price']
-    if (phone['shop'] === 'realme' || phone['shop'] === 'fdl') {
+    if (phone['shop'] === 'realme' || phone['shop'] === 'fdl' || phone['shop'] === 'gadgetngear') {
         parsedPrice = price.replace(/\D+/g, '')
     } else {
         parsedPrice = price.replace(/[^\.\d]+/g, '')
@@ -154,6 +154,9 @@ const processResult = (phone) => {
             break
         case 'vivo':
             match['shop'] = 'vivo (Pickaboo)'
+            break
+        case 'gadgetngear':
+            match['shop'] = 'Gadget & Gear'
             break
         default:
             match['shop'] = ''

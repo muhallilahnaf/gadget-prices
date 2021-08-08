@@ -37,6 +37,7 @@ const salextra = document.getElementById('salextra')
 const pickaboo = document.getElementById('pickaboo')
 const galaxyshop = document.getElementById('galaxyshop')
 const daraz = document.getElementById('daraz')
+const gadgetngear = document.getElementById('gadgetngear')
 const all = document.getElementById('all')
 const shopError = document.getElementById('shop-error')
 const buttonGet = document.getElementById('get')
@@ -58,7 +59,19 @@ const modalCollection = document.querySelector('#modal-compare ul.collection')
 const buttonViewCompare = document.getElementById('view-compare')
 
 const allShops = {
-    fdl, oppo, realme, robishop, transcom, vivo, mi, excel, salextra, pickaboo, galaxyshop, daraz
+    fdl,
+    oppo,
+    realme,
+    robishop,
+    transcom,
+    vivo,
+    mi,
+    excel,
+    salextra,
+    pickaboo,
+    galaxyshop,
+    daraz,
+    gadgetngear
 }
 
 const sortValues = [

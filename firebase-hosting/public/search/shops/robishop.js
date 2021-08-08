@@ -42,7 +42,7 @@ const parseRobishop = (text) => {
                 }
 
                 const product = {
-                    shop: 'Robishop', name, link, price, brand, status
+                    shop: 'robishop', name, link, price, brand, status
                 }
                 processResult(product)
             }

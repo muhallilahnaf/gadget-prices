@@ -14,7 +14,8 @@ const processResponses = (responses, isSecondary) => {
         'robishop.com.bd': [],
         'www.pickaboo.com': [],
         'www.searchanise.com': [], // penguinbd
-        'api.trendy-tracker.com' : []
+        'api.trendy-tracker.com' : [],
+        'gadgetandgear.com': []
     }
     let promiseArrArr = []
     let arrPosTracker = {}
@@ -61,6 +62,11 @@ const processResponses = (responses, isSecondary) => {
                     urls = urls.concat(parseTextTrendytracker(text, isSecondary)) //json
                 })
             }
+            if (key === 'gadgetandgear.com') {
+                resultArrArr[value].forEach(text => {
+                    urls = urls.concat(parseTextGadgetngear(text, isSecondary))
+                })
+            }
         }
 
         if (!isSecondary && urls.length > 0) {
@@ -98,7 +104,10 @@ const primaryFetch = (data) => {
             case 'trendytracker':
                 urls.push(getTrendytrackerUrl())
                 break
-                    default:
+            case 'gadgetngear':
+                urls.push(getGadgetngearUrl())
+                break
+            default:
                 break
         }
     })

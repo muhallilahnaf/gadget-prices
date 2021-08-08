@@ -37,7 +37,7 @@ const parseTrendytracker = (data) => {
 
 
             const product = {
-                shop: 'Trendy Tracker', name, link, price, brand, status
+                shop: 'trendytracker', name, link, price, brand, status
             }
             processResult(product)
         })

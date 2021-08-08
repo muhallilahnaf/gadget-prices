@@ -35,7 +35,7 @@ const parsePenguinbd = (text) => {
             }
 
             const product = {
-                shop: 'Penguin BD', name, link, price, brand, status
+                shop: 'penguinbd', name, link, price, brand, status
             }
             processResult(product)
         })

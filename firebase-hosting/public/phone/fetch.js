@@ -24,6 +24,7 @@ const processResponses = (responses, isSecondary) => {
         'vivo.pickaboo.com': [],
         'www.realme.com': [],
         'mi.com/bd': [],
+        'gadgetandgear.com': []
     }
     let promiseArrArr = []
     let arrPosTracker = {}
@@ -110,6 +111,11 @@ const processResponses = (responses, isSecondary) => {
                     urls = urls.concat(parseTextGalaxyshop(text, isSecondary))
                 })
             }
+            if (key === 'gadgetandgear.com') {
+                resultArrArr[value].forEach(text => {
+                    urls = urls.concat(parseTextGadgetngear(text, isSecondary))
+                })
+            }
         }
 
         if (!isSecondary && urls.length > 0) {
@@ -173,7 +179,10 @@ const primaryFetch = (data) => {
             case 'galaxyshop':
                 urls.push(galaxyshopBaseUrl)
                 break
-            default:
+            case 'gadgetngear':
+                urls.push(gadgetngearBaseUrl)
+                break
+                default:
                 break
         }
     })

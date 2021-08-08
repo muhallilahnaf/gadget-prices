@@ -58,6 +58,7 @@ const fetchEnd = () => {
     sortFilterCard.style.display = 'block'
     createOutput()
     detailButtonsAdd()
+    addTooltip()
     resetCompare()
     stopLoading()
     output.scrollIntoView({ behavior: "smooth", block: "nearest" })
@@ -96,6 +97,7 @@ sort.addEventListener('submit', (e) => {
         sortData(checkedValue)
         createOutput()
         detailButtonsAdd()
+        addTooltip()
         resetCompare()
         output.scrollIntoView({ behavior: "smooth", block: "nearest" })
     }
@@ -136,6 +138,7 @@ buttonPriceFilter.addEventListener('click', () => {
         filterData('price')
         createOutput()
         detailButtonsAdd()
+        addTooltip()
         resetCompare()
         output.scrollIntoView({ behavior: "smooth", block: "nearest" })
     }
@@ -151,9 +154,17 @@ buttonPriceFilterCancel.addEventListener('click', () => {
     priceFilter = {}
     createOutput()
     detailButtonsAdd()
+    addTooltip()
     resetCompare()
     output.scrollIntoView({ behavior: "smooth", block: "nearest" })
 })
+
+
+// add tooltip
+const addTooltip = () => {
+    let elemsTooltip = document.querySelectorAll('.tooltipped')
+    let instancesTooltip = M.Tooltip.init(elemsTooltip)    
+}
 
 
 // view toggle

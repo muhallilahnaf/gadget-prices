@@ -361,6 +361,24 @@ const createOutput = () => {
         return col
     })
 
+    // total count
+    const kountRow = createNode('div', ['row'])
+    const kountCol = createNode('div', ['col', 's12'])
+    const kountTextContainer = createNode('h5', ['light-blue-text', 'text-darken-4'])
+
+    const kountText1 = document.createTextNode('Total ')
+    const kountText2 = document.createTextNode(' phones found')
+    const kountCount = createNode('span', ['white-text'], `${arr.length}`)
+    kountTextContainer.appendChild(kountText1)
+    kountTextContainer.appendChild(kountCount)
+    kountTextContainer.appendChild(kountText2)
+
+    kountCol.appendChild(kountTextContainer)
+    kountRow.appendChild(kountCol)
+
+    output.appendChild(kountRow)
+
+    // products
     for (let i = 0; i < cols.length; i += 2) {
         const first = cols[i]
         const second = cols[i + 1]

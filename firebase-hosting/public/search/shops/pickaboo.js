@@ -13,7 +13,6 @@ const checkPaginationPickaboo = (doc) => {
             }
         }
     }
-    console.log(links)
     return links
 }
 
@@ -45,7 +44,7 @@ const parsePickaboo = (doc) => {
         }
 
         const product = {
-            shop: 'Pickaboo', name, link, price, brand, status
+            shop: 'pickaboo', name, link, price, brand, status
         }
         processResult(product)
     })
