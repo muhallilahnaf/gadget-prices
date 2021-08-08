@@ -29,7 +29,7 @@ const parseVivo = (doc) => {
         if (priceNode) price = priceNode.getAttribute('data-price-amount')
 
         const phone = {
-            shop: 'Vivo (Pickaboo)', name, link, price, brand
+            shop: 'vivo', name, link, price, brand
         }
         processResult(phone)
     })

@@ -35,7 +35,7 @@ const parseMi = (doc) => {
             if (priceNode) price = priceNode.textContent.trim()
 
             const phone = {
-                shop: 'mi store', name, link, price, brand
+                shop: 'mi', name, link, price, brand
             }
             processResult(phone)
         }

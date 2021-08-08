@@ -30,7 +30,7 @@ const parseRobishop = (doc) => {
         if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
-            shop: 'Robishop', name, link, price, brand
+            shop: 'robishop', name, link, price, brand
         }
         processResult(phone)
     })

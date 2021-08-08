@@ -39,7 +39,7 @@ const parsePickaboo = (doc) => {
         if (priceNode) price = priceNode.getAttribute('data-price-amount')
 
         const phone = {
-            shop: 'Pickaboo', name, link, price, brand
+            shop: 'pickaboo', name, link, price, brand
         }
         processResult(phone)
     })

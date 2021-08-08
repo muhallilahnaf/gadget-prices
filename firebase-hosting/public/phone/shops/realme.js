@@ -29,7 +29,7 @@ const parseRealme = (doc) => {
         if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
-            shop: 'Realme', name, link, price, brand
+            shop: 'realme', name, link, price, brand
         }
         processResult(phone)
     })

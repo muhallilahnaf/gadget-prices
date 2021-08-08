@@ -40,7 +40,7 @@ const parseDaraz = (phones) => {
         }
 
         const phone = {
-            shop: 'Daraz', name, link, price, brand, status
+            shop: 'daraz', name, link, price, brand, status
         }
         processResult(phone)
     })
@@ -90,7 +90,6 @@ const parseTextDaraz = (text, isSecondary) => {
             // }
         }
     })
-    console.log(phones)
     parseDaraz(phones)
     if (!isSecondary) {
         urls = checkPaginationDaraz(doc)

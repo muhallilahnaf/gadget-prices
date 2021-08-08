@@ -34,7 +34,7 @@ const parseGalaxyshop = (doc) => {
         }
 
         const phone = {
-            shop: 'Galaxyshop BD', name, link, price, brand
+            shop: 'galaxyshop', name, link, price, brand
         }
         processResult(phone)
     })

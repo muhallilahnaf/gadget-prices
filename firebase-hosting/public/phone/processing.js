@@ -117,10 +117,52 @@ const processResult = (phone) => {
         match['brand'] = phone['brand']
     }
 
+    // shop
+    switch (phone['shop']) {
+        case 'daraz':
+            match['shop'] = 'Daraz'
+            break
+        case 'excel':
+            match['shop'] = 'Excel e-store'
+            break
+        case 'fdl':
+            match['shop'] = 'FDL'
+            break
+        case 'galaxyshop':
+            match['shop'] = 'Galaxyshop BD'
+            break
+        case 'mi':
+            match['shop'] = 'mi store'
+            break
+        case 'oppo':
+            match['shop'] = 'opposhop'
+            break
+        case 'pickaboo':
+            match['shop'] = 'Pickaboo'
+            break
+        case 'realme':
+            match['shop'] = 'realme'
+            break
+        case 'robishop':
+            match['shop'] = 'Robishop'
+            break
+        case 'salextra':
+            match['shop'] = 'Salextra'
+            break
+        case 'transcom':
+            match['shop'] = 'Transcom Digital'
+            break
+        case 'vivo':
+            match['shop'] = 'vivo (Pickaboo)'
+            break
+        default:
+            match['shop'] = ''
+            break
+    }
+
     // PUSH DATA
     parsedResults.push({
         ...match,
-        shop: phone['shop'],
         name: phone['name'],
         link: phone['link'],
         price,

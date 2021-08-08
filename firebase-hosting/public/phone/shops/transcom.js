@@ -42,7 +42,7 @@ const parseTranscom = (doc) => {
         if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
-            shop: 'Transcom Digital', name, link, price, brand
+            shop: 'transcom', name, link, price, brand
         }
         processResult(phone)
     })

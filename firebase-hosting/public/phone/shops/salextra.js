@@ -38,7 +38,7 @@ const parseSalextra = (doc) => {
         }
 
         const phone = {
-            shop: 'Salextra', name, link, price, brand
+            shop: 'salextra', name, link, price, brand
         }
         if (!salextraLinks.includes(link)) {
             salextraLinks.push(link)

@@ -36,7 +36,7 @@ const parseFdl = (doc) => {
         }
 
         const phone = {
-            shop: 'FDL (Samsung)', name, link, price, brand
+            shop: 'fdl', name, link, price, brand
         }
         processResult(phone)
     })

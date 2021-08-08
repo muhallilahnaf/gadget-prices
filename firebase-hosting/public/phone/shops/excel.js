@@ -31,7 +31,7 @@ const parseExcel = (doc) => {
         }
 
         const phone = {
-            shop: 'Excel e-store', name, link, price, brand
+            shop: 'excel', name, link, price, brand
         }
         processResult(phone)
     })

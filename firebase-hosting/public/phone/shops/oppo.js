@@ -29,7 +29,7 @@ const parseOppo = (doc) => {
         if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
-            shop: 'opposhop', name, link, price, brand
+            shop: 'oppo', name, link, price, brand
         }
         processResult(phone)
     })
