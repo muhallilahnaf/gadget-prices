@@ -70,7 +70,7 @@ const allShops = {
     salextra,
     pickaboo,
     galaxyshop,
-    daraz,
+    // daraz,
     gadgetngear
 }
 

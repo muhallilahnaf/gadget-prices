@@ -1,16 +1,16 @@
-const vivoBaseUrl = 'https://vivo.pickaboo.com/products.html?product_list_limit=80'
+const vivoBaseUrl = 'https://www.vivo.com/bd/products'
 
 // check pagination vivo
 const checkPaginationVivo = (doc) => {
     let links = []
-    // 1 page gives 80 phones, so no need to check pagination for now
+    // 1 page gives all phones, so no need to check pagination for now
     return links
 }
 
 
 // parse vivo html doc
 const parseVivo = (doc) => {
-    const products = doc.querySelectorAll('li.product-item')
+    const products = doc.querySelectorAll('div.pro_in_filter-con.clearafter > a[title]')
 
     products.forEach(product => {
         let name = ''
@@ -18,15 +18,13 @@ const parseVivo = (doc) => {
         let price = ''
         let brand = 'Vivo'
 
-        const a = product.querySelector('a.product-item-link')
-        if (a) {
-            name = a.textContent.trim()
-            const href = a.getAttribute('href')
-            if (href) link = href
-        }
+        const title = product.getAttribute('title')
+        if (title) name = title
+        const href = product.getAttribute('href')
+        if (href) link = `https://www.vivo.com${href}`
 
-        const priceNode = product.querySelector('[data-price-type=finalPrice]')
-        if (priceNode) price = priceNode.getAttribute('data-price-amount')
+        const priceNode = product.querySelector('.sale-price')
+        if (priceNode) price = priceNode.textContent.trim()
 
         const phone = {
             shop: 'vivo', name, link, price, brand

@@ -39,6 +39,10 @@ const processResult = (phone) => {
         phone['name'] = `Xiaomi ${phone['name']}`
         phoneRawname = `xiaomi${phoneRawname}`
     }
+    if (phone['shop'] === 'vivo') {
+        phone['name'] = `Vivo ${phone['name']}`
+        phoneRawname = `vivo${phoneRawname}`
+    }
 
 
     let match = {
@@ -153,7 +157,7 @@ const processResult = (phone) => {
             match['shop'] = 'Transcom Digital'
             break
         case 'vivo':
-            match['shop'] = 'vivo (Pickaboo)'
+            match['shop'] = 'vivo'
             break
         case 'gadgetngear':
             match['shop'] = 'Gadget & Gear'

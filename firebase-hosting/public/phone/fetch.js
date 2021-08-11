@@ -21,7 +21,7 @@ const processResponses = (responses, isSecondary) => {
         'www.salextra.com.bd': [],
         'www.galaxyshopbd.com': [],
         'opposhop.online': [],
-        'vivo.pickaboo.com': [],
+        'vivo.com': [],
         'www.realme.com': [],
         'mi.com/bd': [],
         'gadgetandgear.com': []
@@ -81,7 +81,7 @@ const processResponses = (responses, isSecondary) => {
                     urls = urls.concat(parseTextTranscom(text, isSecondary))
                 })
             }
-            if (key === 'vivo.pickaboo.com') {
+            if (key === 'vivo.com') {
                 resultArrArr[value].forEach(text => {
                     urls = urls.concat(parseTextVivo(text, isSecondary))
                 })
@@ -182,7 +182,7 @@ const primaryFetch = (data) => {
             case 'gadgetngear':
                 urls.push(gadgetngearBaseUrl)
                 break
-                default:
+            default:
                 break
         }
     })
