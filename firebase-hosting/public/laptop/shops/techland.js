@@ -24,7 +24,7 @@ const checkPaginationTechland = (doc) => {
 
 // parse techland html doc
 const parseTechland = (doc) => {
-    const products = doc.querySelectorAll('.product-layout')
+    const products = doc.querySelectorAll('div.product-layout')
 
     products.forEach(product => {
         let name = ''

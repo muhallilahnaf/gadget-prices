@@ -1,5 +1,6 @@
-1. [passmark.json] data copy from passmark network
+1. [passmark.json] data copy from passmark network (https://www.cpubenchmark.net/CPU_mega_page.html)
 2. [passmarkfresh.json] fresh copy
 3. [passmarklaptop.json] only laptop
-4. [passmarklaptoplatest.json] only 2015 and forward
-5. [passmarklaptopprocess.json] add rawname for each cpu
+4. [passmarkdesktop.json] only desktop
+5. [passmarklaptoplatest.json] only 2015 and forward
+6. [passmarkcount.json] cpu count

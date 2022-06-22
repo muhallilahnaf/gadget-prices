@@ -2,7 +2,7 @@
 const checkPaginationRyans = (doc) => {
     let links = []
 
-    const pagination = doc.querySelectorAll('.pages ol > li')
+    const pagination = doc.querySelectorAll('.pagination li')
     if (pagination) {
         const len = pagination.length - 2
 
@@ -16,7 +16,7 @@ const checkPaginationRyans = (doc) => {
 
 // parse ryans html doc
 const parseRyans = (doc) => {
-    const products = doc.querySelectorAll('#produt-container .row > li')
+    const products = doc.querySelectorAll('.product-home-card.product-category-card .category-single-product')
 
     products.forEach(product => {
         let name = ''
@@ -25,22 +25,39 @@ const parseRyans = (doc) => {
         let price = ''
         let status = ''
 
-        const a = product.querySelector('a.product-title-grid')
+        const a = product.querySelector('p.card-text a[title]')
         if (a) {
-            name = a.textContent.trim()
+            const dataTitle = a.getAttribute('data-bs-original-title')
+            if (dataTitle) {
+                name = dataTitle.trim()
+            } else {
+                name = a.textContent.trim()
+            }
             const href = a.getAttribute('href')
             if (href) link = href
         }
 
-        const priceNode = product.querySelector('span.price')
-        if (priceNode) price = priceNode.textContent.trim()
+        const descList = product.querySelectorAll('.short-desc-attr li')
+        let dArr = []
+        descList.forEach(li => {
+            dArr.push(li.textContent.trim())
+        })
+        description = dArr.join(' | ')
 
-        const statusEle = product.querySelector('.product-new-label p')
-        if (statusEle) {
-            status = statusEle.textContent.trim()
-        } else {
-            status = 'in stock'
+        const priceNode = product.querySelector('p.pr-text')
+        if (priceNode) {
+            let priceChild = priceNode.firstChild
+            let prices = []
+
+            while (priceChild) {
+                if (priceChild.nodeType == 3) prices.push(priceChild.data)
+                priceChild = priceChild.nextSibling
+            }
+
+            price = prices.join('').trim()
         }
+
+        status = 'in stock'
 
         const laptop = {
             shop: 'ryans', name, link, description, price, status
@@ -52,10 +69,10 @@ const parseRyans = (doc) => {
 
 // generate ryans url
 const getRyansUrl = (data) => {
-    // https://www.ryanscomputers.com/category/laptop-all-laptop?page=1&limit=108&query=35000-p%2345000%7C
-    let baseUrlRyans = 'https://www.ryanscomputers.com/category/laptop-all-laptop?page=1&limit=108'
+    // https://www.ryanscomputers.com/category/laptop-all-laptop?limit=100&pf=45000&pt=50000
+    let baseUrlRyans = 'https://www.ryanscomputers.com/category/laptop-all-laptop?page=1&limit=100'
 
-    baseUrlRyans += `&query=${data.minprice}-p%23${data.maxprice}%7C`
+    baseUrlRyans += `&pf=${data.minprice}&pt=${data.maxprice}`
 
     return baseUrlRyans
 }

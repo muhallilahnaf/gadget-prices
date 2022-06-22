@@ -9,7 +9,7 @@ const passmarkcpus = [
         "turbo": 2300,
         "core": 2,
         "thread": 4,
-        "passmark": 2678,
+        "passmark": 2720,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+3015e&id=3774",
         "rawname": "3015e"
     },
@@ -23,7 +23,7 @@ const passmarkcpus = [
         "turbo": 2600,
         "core": 2,
         "thread": 4,
-        "passmark": 2635,
+        "passmark": 2476,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+3020e&id=3758",
         "rawname": "3020e"
     },
@@ -37,7 +37,7 @@ const passmarkcpus = [
         "turbo": 2200,
         "core": 4,
         "thread": 4,
-        "passmark": 1291,
+        "passmark": 1345,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10+Micro-6700T+APU&id=2520",
         "rawname": "a10micro6700t"
     },
@@ -51,7 +51,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 2210,
+        "passmark": 2253,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-8700P&id=2542",
         "rawname": "a108700p"
     },
@@ -65,7 +65,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 4,
         "thread": 4,
-        "passmark": 2228,
+        "passmark": 2229,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-9600P&id=2793",
         "rawname": "a109600p"
     },
@@ -93,7 +93,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 4,
         "thread": 4,
-        "passmark": 2947,
+        "passmark": 2899,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-9630P&id=2857",
         "rawname": "a109630p"
     },
@@ -107,7 +107,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 4,
         "thread": 4,
-        "passmark": 2369,
+        "passmark": 2438,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A12-9700P&id=2848",
         "rawname": "a129700p"
     },
@@ -121,7 +121,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 4,
-        "passmark": 2625,
+        "passmark": 2603,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A12-9720P&id=3043",
         "rawname": "a129720p"
     },
@@ -149,7 +149,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 4,
         "thread": 4,
-        "passmark": 1706,
+        "passmark": 1652,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4+PRO-3340B&id=2653",
         "rawname": "a4pro3340b"
     },
@@ -191,7 +191,7 @@ const passmarkcpus = [
         "turbo": 2200,
         "core": 4,
         "thread": 4,
-        "passmark": 1646,
+        "passmark": 1663,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-7210+APU&id=2549",
         "rawname": "a47210"
     },
@@ -205,7 +205,7 @@ const passmarkcpus = [
         "turbo": 2500,
         "core": 2,
         "thread": 4,
-        "passmark": 1257,
+        "passmark": 1230,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-9120&id=3093",
         "rawname": "a49120"
     },
@@ -219,7 +219,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 2,
         "thread": 4,
-        "passmark": 766,
+        "passmark": 867,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-9120C&id=3531",
         "rawname": "a49120c"
     },
@@ -233,7 +233,7 @@ const passmarkcpus = [
         "turbo": 2200,
         "core": 2,
         "thread": 4,
-        "passmark": 912,
+        "passmark": 905,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-9120e&id=3464",
         "rawname": "a49120e"
     },
@@ -289,7 +289,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 4,
         "thread": 4,
-        "passmark": 1698,
+        "passmark": 1743,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-7310+APU&id=2535",
         "rawname": "a67310"
     },
@@ -303,7 +303,7 @@ const passmarkcpus = [
         "turbo": 3000,
         "core": 2,
         "thread": 4,
-        "passmark": 1452,
+        "passmark": 1466,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-8500P&id=2781",
         "rawname": "a68500p"
     },
@@ -317,7 +317,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 2,
         "thread": 4,
-        "passmark": 1062,
+        "passmark": 1061,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9200&id=3221",
         "rawname": "a69200"
     },
@@ -331,7 +331,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 2,
         "thread": 4,
-        "passmark": 1177,
+        "passmark": 1260,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9210&id=2825",
         "rawname": "a69210"
     },
@@ -345,7 +345,7 @@ const passmarkcpus = [
         "turbo": 2900,
         "core": 2,
         "thread": 4,
-        "passmark": 1240,
+        "passmark": 1281,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9220&id=3072",
         "rawname": "a69220"
     },
@@ -359,7 +359,7 @@ const passmarkcpus = [
         "turbo": 2700,
         "core": 2,
         "thread": 4,
-        "passmark": 1208,
+        "passmark": 1159,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9220C&id=3455",
         "rawname": "a69220c"
     },
@@ -373,7 +373,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 2,
         "thread": 4,
-        "passmark": 959,
+        "passmark": 965,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9220e&id=3198",
         "rawname": "a69220e"
     },
@@ -387,7 +387,7 @@ const passmarkcpus = [
         "turbo": 3000,
         "core": 2,
         "thread": 4,
-        "passmark": 1337,
+        "passmark": 1341,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9225&id=3315",
         "rawname": "a69225"
     },
@@ -429,7 +429,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 4,
         "thread": 4,
-        "passmark": 2156,
+        "passmark": 2135,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-7200P&id=2550",
         "rawname": "a87200p"
     },
@@ -443,7 +443,7 @@ const passmarkcpus = [
         "turbo": 2500,
         "core": 4,
         "thread": 4,
-        "passmark": 1797,
+        "passmark": 1810,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-7410+APU&id=2537",
         "rawname": "a87410"
     },
@@ -457,7 +457,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 4,
-        "passmark": 3553,
+        "passmark": 3448,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-7680&id=3384",
         "rawname": "a87680"
     },
@@ -471,7 +471,7 @@ const passmarkcpus = [
         "turbo": 3000,
         "core": 2,
         "thread": 4,
-        "passmark": 2231,
+        "passmark": 2240,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-8600P&id=2580",
         "rawname": "a88600p"
     },
@@ -485,7 +485,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 1407,
+        "passmark": 1390,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A9-9400&id=2901",
         "rawname": "a99400"
     },
@@ -499,7 +499,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 2,
         "thread": 4,
-        "passmark": 1517,
+        "passmark": 1505,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A9-9410&id=2841",
         "rawname": "a99410"
     },
@@ -513,7 +513,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 1520,
+        "passmark": 1514,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A9-9420&id=3059",
         "rawname": "a99420"
     },
@@ -527,7 +527,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1107,
+        "passmark": 1135,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A9-9420e&id=3226",
         "rawname": "a99420e"
     },
@@ -541,7 +541,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 2,
         "thread": 4,
-        "passmark": 1552,
+        "passmark": 1525,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A9-9425&id=3278",
         "rawname": "a99425"
     },
@@ -555,7 +555,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 4538,
+        "passmark": 4424,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+220GE&id=3416",
         "rawname": "athlon220ge"
     },
@@ -569,7 +569,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 2,
         "thread": 4,
-        "passmark": 4030,
+        "passmark": 3974,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+300U&id=3503",
         "rawname": "athlon300u"
     },
@@ -583,7 +583,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 2,
         "thread": 4,
-        "passmark": 4392,
+        "passmark": 4023,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Gold+3150U&id=3777",
         "rawname": "athlongold3150u"
     },
@@ -597,7 +597,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 2,
         "thread": 4,
-        "passmark": 2897,
+        "passmark": 2966,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Silver+3050e&id=3876",
         "rawname": "athlonsilver3050e"
     },
@@ -625,7 +625,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 3198,
+        "passmark": 3054,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Silver+3050U&id=3720",
         "rawname": "athlonsilver3050u"
     },
@@ -639,7 +639,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 547,
+        "passmark": 555,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+E1-6015+APU&id=2552",
         "rawname": "e16015"
     },
@@ -653,7 +653,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 565,
+        "passmark": 582,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+E1-7010+APU&id=2820",
         "rawname": "e17010"
     },
@@ -667,7 +667,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 4,
         "thread": 4,
-        "passmark": 1539,
+        "passmark": 1526,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+E2-7110+APU&id=2628",
         "rawname": "e27110"
     },
@@ -681,7 +681,7 @@ const passmarkcpus = [
         "turbo": 2200,
         "core": 2,
         "thread": 4,
-        "passmark": 911,
+        "passmark": 933,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+E2-9000&id=3018",
         "rawname": "e29000"
     },
@@ -695,7 +695,7 @@ const passmarkcpus = [
         "turbo": 2000,
         "core": 2,
         "thread": 4,
-        "passmark": 813,
+        "passmark": 836,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+E2-9000e&id=3048",
         "rawname": "e29000e"
     },
@@ -751,7 +751,7 @@ const passmarkcpus = [
         "turbo": 2200,
         "core": 4,
         "thread": 4,
-        "passmark": 1578,
+        "passmark": 1560,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Embedded+G-Series+GX-420GI+Radeon+R7E&id=3077",
         "rawname": "embeddedgseriesgx420giradeonr7e"
     },
@@ -807,7 +807,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 4,
-        "passmark": 2306,
+        "passmark": 2492,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-7600P&id=2475",
         "rawname": "fx7600p"
     },
@@ -821,7 +821,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 2768,
+        "passmark": 2785,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8800P&id=2567",
         "rawname": "fx8800p"
     },
@@ -835,7 +835,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 4,
-        "passmark": 2176,
+        "passmark": 2368,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-9800P&id=2823",
         "rawname": "fx9800p"
     },
@@ -849,7 +849,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 4,
-        "passmark": 3072,
+        "passmark": 3283,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-9830P&id=2911",
         "rawname": "fx9830p"
     },
@@ -919,23 +919,9 @@ const passmarkcpus = [
         "turbo": "",
         "core": 4,
         "thread": 4,
-        "passmark": 966,
+        "passmark": 1065,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+GX-412HC&id=2473",
         "rawname": "gx412hc"
-    },
-    {
-        "name": "AMD GX-420MC SOC",
-        "date": "Jun 2020",
-        "socket": "FTB3b",
-        "platform": "laptop",
-        "tdp": 17,
-        "base": 2000,
-        "turbo": "",
-        "core": 4,
-        "thread": 4,
-        "passmark": 1796,
-        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+GX-420MC+SOC&id=3760",
-        "rawname": "gx420mc"
     },
     {
         "name": "AMD PRO A10-8700B",
@@ -947,7 +933,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 2242,
+        "passmark": 2253,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A10-8700B&id=2648",
         "rawname": "proa108700b"
     },
@@ -961,7 +947,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 4,
         "thread": 4,
-        "passmark": 2322,
+        "passmark": 2401,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A10-8730B&id=2909",
         "rawname": "proa108730b"
     },
@@ -989,7 +975,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 2509,
+        "passmark": 2622,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A12-8800B&id=2610",
         "rawname": "proa128800b"
     },
@@ -1017,7 +1003,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 4,
-        "passmark": 2696,
+        "passmark": 2702,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A12-9800B&id=2840",
         "rawname": "proa129800b"
     },
@@ -1031,7 +1017,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 4,
         "thread": 4,
-        "passmark": 1671,
+        "passmark": 1702,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A4-3350B+APU&id=2802",
         "rawname": "proa43350b"
     },
@@ -1045,7 +1031,7 @@ const passmarkcpus = [
         "turbo": 2900,
         "core": 2,
         "thread": 4,
-        "passmark": 1046,
+        "passmark": 1153,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A4-4350B&id=3597",
         "rawname": "proa44350b"
     },
@@ -1101,7 +1087,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 1340,
+        "passmark": 1371,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A6-9500B&id=2981",
         "rawname": "proa69500b"
     },
@@ -1115,7 +1101,7 @@ const passmarkcpus = [
         "turbo": 3000,
         "core": 4,
         "thread": 4,
-        "passmark": 2262,
+        "passmark": 2160,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A8-8600B&id=2652",
         "rawname": "proa88600b"
     },
@@ -1129,7 +1115,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 4,
         "thread": 4,
-        "passmark": 2379,
+        "passmark": 2388,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A8-9600B&id=2940",
         "rawname": "proa89600b"
     },
@@ -1199,7 +1185,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 4,
-        "passmark": 2711,
+        "passmark": 2729,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+RX-427BB&id=2496",
         "rawname": "rx427bb"
     },
@@ -1213,7 +1199,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 3700,
+        "passmark": 3684,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+2200U&id=3152",
         "rawname": "ryzen32200u"
     },
@@ -1227,7 +1213,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 4,
         "thread": 4,
-        "passmark": 5473,
+        "passmark": 5570,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+2300U&id=3290",
         "rawname": "ryzen32300u"
     },
@@ -1241,9 +1227,23 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 2,
         "thread": 4,
-        "passmark": 3967,
+        "passmark": 3877,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3200U&id=3431",
         "rawname": "ryzen33200u"
+    },
+    {
+        "name": "AMD Ryzen 3 3250C",
+        "date": "Nov 2021",
+        "socket": "FP5",
+        "platform": "laptop, mobile/embedded",
+        "tdp": 15,
+        "base": 2600,
+        "turbo": 3500,
+        "core": 2,
+        "thread": 4,
+        "passmark": 2917,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3250C&id=4605",
+        "rawname": "ryzen33250c"
     },
     {
         "name": "AMD Ryzen 3 3250U",
@@ -1255,7 +1255,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 2,
         "thread": 4,
-        "passmark": 4147,
+        "passmark": 3968,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3250U&id=3722",
         "rawname": "ryzen33250u"
     },
@@ -1269,7 +1269,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 4,
-        "passmark": 5867,
+        "passmark": 5778,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3300U&id=3520",
         "rawname": "ryzen33300u"
     },
@@ -1283,7 +1283,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 4,
-        "passmark": 6266,
+        "passmark": 5881,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3350U&id=4395",
         "rawname": "ryzen33350u"
     },
@@ -1297,7 +1297,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 4,
-        "passmark": 8101,
+        "passmark": 7571,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+4300U&id=3664",
         "rawname": "ryzen34300u"
     },
@@ -1311,7 +1311,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 10157,
+        "passmark": 10037,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+5300U&id=4288",
         "rawname": "ryzen35300u"
     },
@@ -1325,9 +1325,23 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 12118,
+        "passmark": 11851,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+5400U&id=4178",
         "rawname": "ryzen35400u"
+    },
+    {
+        "name": "AMD Ryzen 3 5425U",
+        "date": "Feb 2022",
+        "socket": "FP6",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2700,
+        "turbo": 4100,
+        "core": 4,
+        "thread": 8,
+        "passmark": 9989,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+5425U&id=4715",
+        "rawname": "ryzen35425u"
     },
     {
         "name": "AMD Ryzen 3 PRO 2300U",
@@ -1339,7 +1353,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 4,
         "thread": 4,
-        "passmark": 6137,
+        "passmark": 6073,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+2300U&id=3263",
         "rawname": "ryzen3pro2300u"
     },
@@ -1367,7 +1381,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 4,
-        "passmark": 5963,
+        "passmark": 6144,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+3300U&id=3450",
         "rawname": "ryzen3pro3300u"
     },
@@ -1381,7 +1395,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 8,
-        "passmark": 11006,
+        "passmark": 10930,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+4200GE&id=3874",
         "rawname": "ryzen3pro4200ge"
     },
@@ -1395,9 +1409,37 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 10097,
+        "passmark": 10158,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+4450U&id=3816",
         "rawname": "ryzen3pro4450u"
+    },
+    {
+        "name": "AMD Ryzen 3 PRO 5450U",
+        "date": "Jun 2021",
+        "socket": "FP6",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2600,
+        "turbo": 4000,
+        "core": 4,
+        "thread": 8,
+        "passmark": 11286,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+5450U&id=4408",
+        "rawname": "ryzen3pro5450u"
+    },
+    {
+        "name": "AMD Ryzen 3 PRO 5475U",
+        "date": "May 2022",
+        "socket": "FP6",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2700,
+        "turbo": 4100,
+        "core": 4,
+        "thread": 8,
+        "passmark": 12266,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+5475U&id=4851",
+        "rawname": "ryzen3pro5475u"
     },
     {
         "name": "AMD Ryzen 5 2500U",
@@ -1409,7 +1451,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 8,
-        "passmark": 6652,
+        "passmark": 6561,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2500U&id=3123",
         "rawname": "ryzen52500u"
     },
@@ -1423,7 +1465,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 8,
-        "passmark": 7537,
+        "passmark": 7876,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2600H&id=3415",
         "rawname": "ryzen52600h"
     },
@@ -1437,9 +1479,23 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 8,
-        "passmark": 7016,
+        "passmark": 6822,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3450U&id=3881",
         "rawname": "ryzen53450u"
+    },
+    {
+        "name": "AMD Ryzen 5 3500C",
+        "date": "Jun 2021",
+        "socket": "FP5",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2100,
+        "turbo": 3700,
+        "core": 4,
+        "thread": 8,
+        "passmark": 5214,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3500C&id=4376",
+        "rawname": "ryzen53500c"
     },
     {
         "name": "AMD Ryzen 5 3500U",
@@ -1451,7 +1507,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 7956,
+        "passmark": 7092,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3500U&id=3421",
         "rawname": "ryzen53500u"
     },
@@ -1465,7 +1521,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 8097,
+        "passmark": 7976,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3550H&id=3403",
         "rawname": "ryzen53550h"
     },
@@ -1479,7 +1535,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 7866,
+        "passmark": 7520,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3580U&id=3577",
         "rawname": "ryzen53580u"
     },
@@ -1493,7 +1549,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 6,
         "thread": 6,
-        "passmark": 11239,
+        "passmark": 11088,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4500U&id=3702",
         "rawname": "ryzen54500u"
     },
@@ -1507,7 +1563,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 6,
         "thread": 12,
-        "passmark": 14803,
+        "passmark": 14717,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4600H&id=3708",
         "rawname": "ryzen54600h"
     },
@@ -1521,7 +1577,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 6,
         "thread": 12,
-        "passmark": 14652,
+        "passmark": 14735,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4600HS&id=3787",
         "rawname": "ryzen54600hs"
     },
@@ -1535,7 +1591,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 6,
         "thread": 12,
-        "passmark": 13735,
+        "passmark": 13438,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4600U&id=3725",
         "rawname": "ryzen54600u"
     },
@@ -1549,9 +1605,23 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 6,
         "thread": 12,
-        "passmark": 13631,
+        "passmark": 13193,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5500U&id=4141",
         "rawname": "ryzen55500u"
+    },
+    {
+        "name": "AMD Ryzen 5 5560U",
+        "date": "Jun 2022",
+        "socket": "AM4",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2300,
+        "turbo": 4000,
+        "core": 6,
+        "thread": 12,
+        "passmark": 16944,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5560U&id=4883",
+        "rawname": "ryzen55560u"
     },
     {
         "name": "AMD Ryzen 5 5600H",
@@ -1563,7 +1633,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 6,
         "thread": 12,
-        "passmark": 18284,
+        "passmark": 17184,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600H&id=4274",
         "rawname": "ryzen55600h"
     },
@@ -1577,9 +1647,23 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 6,
         "thread": 12,
-        "passmark": 16053,
+        "passmark": 15388,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600U&id=4284",
         "rawname": "ryzen55600u"
+    },
+    {
+        "name": "AMD Ryzen 5 5625U",
+        "date": "Mar 2022",
+        "socket": "FP6",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2300,
+        "turbo": 4300,
+        "core": 6,
+        "thread": 12,
+        "passmark": 15066,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5625U&id=4760",
+        "rawname": "ryzen55625u"
     },
     {
         "name": "AMD Ryzen 5 PRO 2500U",
@@ -1591,7 +1675,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 8,
-        "passmark": 6773,
+        "passmark": 6940,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+2500U&id=3262",
         "rawname": "ryzen5pro2500u"
     },
@@ -1605,7 +1689,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 6948,
+        "passmark": 6980,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+3500U&id=3500",
         "rawname": "ryzen5pro3500u"
     },
@@ -1647,7 +1731,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 6,
         "thread": 12,
-        "passmark": 12988,
+        "passmark": 12838,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+4650U&id=3766",
         "rawname": "ryzen5pro4650u"
     },
@@ -1661,9 +1745,37 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 6,
         "thread": 12,
-        "passmark": 17411,
+        "passmark": 15237,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+5650U&id=4341",
         "rawname": "ryzen5pro5650u"
+    },
+    {
+        "name": "AMD Ryzen 5 PRO 5675U",
+        "date": "Apr 2022",
+        "socket": "FP6",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2300,
+        "turbo": 4300,
+        "core": 6,
+        "thread": 12,
+        "passmark": 13347,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+5675U&id=4831",
+        "rawname": "ryzen5pro5675u"
+    },
+    {
+        "name": "AMD Ryzen 5 PRO 6650U",
+        "date": "Apr 2022",
+        "socket": "FP7",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 2900,
+        "turbo": 4500,
+        "core": 6,
+        "thread": 12,
+        "passmark": 18482,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+6650U&id=4827",
+        "rawname": "ryzen5pro6650u"
     },
     {
         "name": "AMD Ryzen 7 2700U",
@@ -1675,7 +1787,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 6827,
+        "passmark": 6879,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+2700U&id=3140",
         "rawname": "ryzen72700u"
     },
@@ -1694,6 +1806,20 @@ const passmarkcpus = [
         "rawname": "ryzen72800h"
     },
     {
+        "name": "AMD Ryzen 7 3700C",
+        "date": "Mar 2022",
+        "socket": "FP5",
+        "platform": "laptop, mobile/embedded",
+        "tdp": 15,
+        "base": 2300,
+        "turbo": 4000,
+        "core": 4,
+        "thread": 8,
+        "passmark": 7145,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3700C&id=4790",
+        "rawname": "ryzen73700c"
+    },
+    {
         "name": "AMD Ryzen 7 3700U",
         "date": "Apr 2019",
         "socket": "FP5",
@@ -1703,7 +1829,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 7351,
+        "passmark": 7303,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3700U&id=3426",
         "rawname": "ryzen73700u"
     },
@@ -1717,7 +1843,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 8379,
+        "passmark": 8275,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3750H&id=3441",
         "rawname": "ryzen73750h"
     },
@@ -1731,7 +1857,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 7386,
+        "passmark": 7651,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3780U&id=3587",
         "rawname": "ryzen73780u"
     },
@@ -1745,7 +1871,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 8,
         "thread": 8,
-        "passmark": 13773,
+        "passmark": 13615,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4700U&id=3699",
         "rawname": "ryzen74700u"
     },
@@ -1759,7 +1885,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 8,
         "thread": 16,
-        "passmark": 19209,
+        "passmark": 19009,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800H&id=3676",
         "rawname": "ryzen74800h"
     },
@@ -1773,7 +1899,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 8,
         "thread": 16,
-        "passmark": 18994,
+        "passmark": 18833,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800HS&id=3697",
         "rawname": "ryzen74800hs"
     },
@@ -1787,9 +1913,23 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 8,
         "thread": 16,
-        "passmark": 17320,
+        "passmark": 17068,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4800U&id=3721",
         "rawname": "ryzen74800u"
+    },
+    {
+        "name": "AMD Ryzen 7 4850U Mobile",
+        "date": "Mar 2022",
+        "socket": "FP6",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 1700,
+        "turbo": 4100,
+        "core": 8,
+        "thread": 16,
+        "passmark": 15920,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4850U+Mobile&id=4761",
+        "rawname": "ryzen74850umobile"
     },
     {
         "name": "AMD Ryzen 7 5700U",
@@ -1801,7 +1941,7 @@ const passmarkcpus = [
         "turbo": 4300,
         "core": 8,
         "thread": 16,
-        "passmark": 16317,
+        "passmark": 16038,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700U&id=4156",
         "rawname": "ryzen75700u"
     },
@@ -1815,7 +1955,7 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 8,
         "thread": 16,
-        "passmark": 22039,
+        "passmark": 21417,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800H&id=3907",
         "rawname": "ryzen75800h"
     },
@@ -1829,9 +1969,23 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 8,
         "thread": 16,
-        "passmark": 21156,
+        "passmark": 20704,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800HS&id=4170",
         "rawname": "ryzen75800hs"
+    },
+    {
+        "name": "AMD Ryzen 7 5800HS Creator Edition",
+        "date": "Nov 2021",
+        "socket": "",
+        "platform": "laptop",
+        "tdp": "",
+        "base": 3200,
+        "turbo": 4400,
+        "core": 8,
+        "thread": 16,
+        "passmark": 20948,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800HS+Creator+Edition&id=4633",
+        "rawname": "ryzen75800hscreatoredition"
     },
     {
         "name": "AMD Ryzen 7 5800U",
@@ -1843,9 +1997,51 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 8,
         "thread": 16,
-        "passmark": 19832,
+        "passmark": 18917,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800U&id=4102",
         "rawname": "ryzen75800u"
+    },
+    {
+        "name": "AMD Ryzen 7 5825U",
+        "date": "Mar 2022",
+        "socket": "AM4",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2000,
+        "turbo": 4500,
+        "core": 8,
+        "thread": 16,
+        "passmark": 18447,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5825U&id=4788",
+        "rawname": "ryzen75825u"
+    },
+    {
+        "name": "AMD Ryzen 7 6800H",
+        "date": "Feb 2022",
+        "socket": "FP7",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 3200,
+        "turbo": 4700,
+        "core": 8,
+        "thread": 16,
+        "passmark": 23483,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+6800H&id=4749",
+        "rawname": "ryzen76800h"
+    },
+    {
+        "name": "AMD Ryzen 7 6800HS",
+        "date": "Apr 2022",
+        "socket": "FP7",
+        "platform": "laptop",
+        "tdp": 35,
+        "base": 3200,
+        "turbo": 4700,
+        "core": 8,
+        "thread": 16,
+        "passmark": 24189,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+6800HS&id=4843",
+        "rawname": "ryzen76800hs"
     },
     {
         "name": "AMD Ryzen 7 Extreme Edition",
@@ -1857,7 +2053,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 8,
         "thread": 16,
-        "passmark": 18187,
+        "passmark": 18209,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+Extreme+Edition&id=3790",
         "rawname": "ryzen7extremeedition"
     },
@@ -1871,7 +2067,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 7190,
+        "passmark": 7372,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+2700U&id=3258",
         "rawname": "ryzen7pro2700u"
     },
@@ -1885,7 +2081,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 7346,
+        "passmark": 7341,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+3700U&id=3433",
         "rawname": "ryzen7pro3700u"
     },
@@ -1899,7 +2095,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 8,
         "thread": 16,
-        "passmark": 15566,
+        "passmark": 15469,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+4750U&id=3740",
         "rawname": "ryzen7pro4750u"
     },
@@ -1913,9 +2109,51 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 8,
         "thread": 16,
-        "passmark": 20460,
+        "passmark": 17483,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+5850U&id=4198",
         "rawname": "ryzen7pro5850u"
+    },
+    {
+        "name": "AMD Ryzen 7 PRO 5875U",
+        "date": "Mar 2022",
+        "socket": "FP6",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2000,
+        "turbo": 4500,
+        "core": 8,
+        "thread": 16,
+        "passmark": 18514,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+5875U&id=4791",
+        "rawname": "ryzen7pro5875u"
+    },
+    {
+        "name": "AMD Ryzen 7 PRO 6850HS",
+        "date": "Jun 2022",
+        "socket": "FP7",
+        "platform": "laptop",
+        "tdp": 35,
+        "base": 3200,
+        "turbo": 4700,
+        "core": 8,
+        "thread": 16,
+        "passmark": 22879,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+6850HS&id=4880",
+        "rawname": "ryzen7pro6850hs"
+    },
+    {
+        "name": "AMD Ryzen 7 PRO 6850U",
+        "date": "Apr 2022",
+        "socket": "FP7",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 2700,
+        "turbo": 4700,
+        "core": 8,
+        "thread": 16,
+        "passmark": 24322,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+6850U&id=4826",
+        "rawname": "ryzen7pro6850u"
     },
     {
         "name": "AMD Ryzen 9 4900H",
@@ -1927,7 +2165,7 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 8,
         "thread": 16,
-        "passmark": 19000,
+        "passmark": 19325,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+4900H&id=3756",
         "rawname": "ryzen94900h"
     },
@@ -1941,9 +2179,23 @@ const passmarkcpus = [
         "turbo": 4300,
         "core": 8,
         "thread": 16,
-        "passmark": 19628,
+        "passmark": 19401,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+4900HS&id=3694",
         "rawname": "ryzen94900hs"
+    },
+    {
+        "name": "AMD Ryzen 9 5900H",
+        "date": "Jan 2022",
+        "socket": "AM4",
+        "platform": "laptop",
+        "tdp": "",
+        "base": 3100,
+        "turbo": 4600,
+        "core": 8,
+        "thread": 16,
+        "passmark": 20960,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5900H&id=4664",
+        "rawname": "ryzen95900h"
     },
     {
         "name": "AMD Ryzen 9 5900HS",
@@ -1955,7 +2207,7 @@ const passmarkcpus = [
         "turbo": 4600,
         "core": 8,
         "thread": 16,
-        "passmark": 22989,
+        "passmark": 22200,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5900HS&id=3905",
         "rawname": "ryzen95900hs"
     },
@@ -1969,7 +2221,7 @@ const passmarkcpus = [
         "turbo": 4600,
         "core": 8,
         "thread": 16,
-        "passmark": 23313,
+        "passmark": 23106,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5900HX&id=3903",
         "rawname": "ryzen95900hx"
     },
@@ -1983,9 +2235,51 @@ const passmarkcpus = [
         "turbo": 4800,
         "core": 8,
         "thread": 16,
-        "passmark": 23007,
+        "passmark": 21491,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5980HS&id=4163",
         "rawname": "ryzen95980hs"
+    },
+    {
+        "name": "AMD Ryzen 9 5980HX",
+        "date": "Nov 2021",
+        "socket": "FP6",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 3300,
+        "turbo": 4800,
+        "core": 8,
+        "thread": 16,
+        "passmark": 23262,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5980HX&id=4602",
+        "rawname": "ryzen95980hx"
+    },
+    {
+        "name": "AMD Ryzen 9 6900HS",
+        "date": "Feb 2022",
+        "socket": "FP7",
+        "platform": "laptop",
+        "tdp": 35,
+        "base": 3200,
+        "turbo": 4700,
+        "core": 8,
+        "thread": 16,
+        "passmark": 24378,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+6900HS&id=4751",
+        "rawname": "ryzen96900hs"
+    },
+    {
+        "name": "AMD Ryzen 9 6900HX",
+        "date": "May 2022",
+        "socket": "FP7",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 3300,
+        "turbo": 4900,
+        "core": 8,
+        "thread": 16,
+        "passmark": 24849,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+6900HX&id=4867",
+        "rawname": "ryzen96900hx"
     },
     {
         "name": "AMD Ryzen Embedded R1305G",
@@ -1997,7 +2291,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 2,
         "thread": 4,
-        "passmark": 3329,
+        "passmark": 3209,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Embedded+R1305G&id=3886",
         "rawname": "ryzenembeddedr1305g"
     },
@@ -2011,7 +2305,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 2,
         "thread": 4,
-        "passmark": 3969,
+        "passmark": 3966,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Embedded+R1505G&id=3486",
         "rawname": "ryzenembeddedr1505g"
     },
@@ -2025,7 +2319,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 3823,
+        "passmark": 3253,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Embedded+V1202B&id=3339",
         "rawname": "ryzenembeddedv1202b"
     },
@@ -2039,7 +2333,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 4,
         "thread": 8,
-        "passmark": 6876,
+        "passmark": 6822,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Embedded+V1605B&id=3331",
         "rawname": "ryzenembeddedv1605b"
     },
@@ -2053,7 +2347,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 8342,
+        "passmark": 8487,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Embedded+V1807B&id=3310",
         "rawname": "ryzenembeddedv1807b"
     },
@@ -2061,15 +2355,57 @@ const passmarkcpus = [
         "name": "Apple M1 8 Core 3200 MHz",
         "date": "Feb 2021",
         "socket": "",
-        "platform": "desktop, laptop",
+        "platform": "desktop, laptop, mobile/embedded",
         "tdp": 15,
         "base": 3200,
         "turbo": "",
         "core": 8,
         "thread": 8,
-        "passmark": 15134,
+        "passmark": 14637,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Apple+M1+8+Core+3200+MHz&id=4104",
         "rawname": "applem18core3200mhz"
+    },
+    {
+        "name": "Apple M1 Max 10 Core 3200 MHz",
+        "date": "Oct 2021",
+        "socket": "",
+        "platform": "desktop, laptop",
+        "tdp": "",
+        "base": 3200,
+        "turbo": "",
+        "core": 10,
+        "thread": 10,
+        "passmark": 22450,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Apple+M1+Max+10+Core+3200+MHz&id=4585",
+        "rawname": "applem1max10core3200mhz"
+    },
+    {
+        "name": "Apple M1 Pro 10 Core 3200 MHz",
+        "date": "Oct 2021",
+        "socket": "",
+        "platform": "desktop, laptop",
+        "tdp": "",
+        "base": 3200,
+        "turbo": "",
+        "core": 10,
+        "thread": 10,
+        "passmark": 22220,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Apple+M1+Pro+10+Core+3200+MHz&id=4580",
+        "rawname": "applem1pro10core3200mhz"
+    },
+    {
+        "name": "Apple M1 Pro 8 Core 3200 MHz",
+        "date": "Oct 2021",
+        "socket": "",
+        "platform": "desktop, laptop",
+        "tdp": "",
+        "base": 3200,
+        "turbo": "",
+        "core": 8,
+        "thread": 8,
+        "passmark": 17393,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Apple+M1+Pro+8+Core+3200+MHz&id=4584",
+        "rawname": "applem1pro8core3200mhz"
     },
     {
         "name": "Intel Atom C2358 @ 1.74GHz",
@@ -2137,7 +2473,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 256,
+        "passmark": 304,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+E3826+%40+1.46GHz&id=2809",
         "rawname": "e3826"
     },
@@ -2179,7 +2515,7 @@ const passmarkcpus = [
         "turbo": 1800,
         "core": 4,
         "thread": 4,
-        "passmark": 1960,
+        "passmark": 1973,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+E3940+%40+1.60GHz&id=3259",
         "rawname": "e3940"
     },
@@ -2193,7 +2529,7 @@ const passmarkcpus = [
         "turbo": 2000,
         "core": 4,
         "thread": 4,
-        "passmark": 2151,
+        "passmark": 2101,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+E3950+%40+1.60GHz&id=2893",
         "rawname": "e3950"
     },
@@ -2207,7 +2543,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 4,
         "thread": 4,
-        "passmark": 1326,
+        "passmark": 2030,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+T5700+%40+1.70GHz&id=3293",
         "rawname": "t5700"
     },
@@ -2221,7 +2557,7 @@ const passmarkcpus = [
         "turbo": 1800,
         "core": 2,
         "thread": 4,
-        "passmark": 993,
+        "passmark": 878,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x5-E3930+%40+1.30GHz&id=2967",
         "rawname": "x5e3930"
     },
@@ -2235,7 +2571,7 @@ const passmarkcpus = [
         "turbo": 2000,
         "core": 4,
         "thread": 4,
-        "passmark": 1040,
+        "passmark": 985,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x5-E8000+%40+1.04GHz&id=2740",
         "rawname": "x5e8000"
     },
@@ -2249,7 +2585,7 @@ const passmarkcpus = [
         "turbo": 1840,
         "core": 4,
         "thread": 4,
-        "passmark": 820,
+        "passmark": 819,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x5-Z8300+%40+1.44GHz&id=2585",
         "rawname": "x5z8300"
     },
@@ -2263,7 +2599,7 @@ const passmarkcpus = [
         "turbo": 1920,
         "core": 4,
         "thread": 4,
-        "passmark": 850,
+        "passmark": 818,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x5-Z8330+%40+1.44GHz&id=2851",
         "rawname": "x5z8330"
     },
@@ -2277,7 +2613,7 @@ const passmarkcpus = [
         "turbo": 1920,
         "core": 4,
         "thread": 4,
-        "passmark": 924,
+        "passmark": 908,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x5-Z8350+%40+1.44GHz&id=2774",
         "rawname": "x5z8350"
     },
@@ -2291,7 +2627,7 @@ const passmarkcpus = [
         "turbo": 2240,
         "core": 4,
         "thread": 4,
-        "passmark": 1265,
+        "passmark": 1238,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x5-Z8500+%40+1.44GHz&id=2581",
         "rawname": "x5z8500"
     },
@@ -2305,7 +2641,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 4,
         "thread": 4,
-        "passmark": 1206,
+        "passmark": 1157,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x5-Z8550+%40+1.44GHz&id=2839",
         "rawname": "x5z8550"
     },
@@ -2319,7 +2655,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 4,
         "thread": 4,
-        "passmark": 1316,
+        "passmark": 1313,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x7-Z8700+%40+1.60GHz&id=2506",
         "rawname": "x7z8700"
     },
@@ -2333,7 +2669,7 @@ const passmarkcpus = [
         "turbo": 2560,
         "core": 4,
         "thread": 4,
-        "passmark": 1373,
+        "passmark": 1349,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+x7-Z8750+%40+1.60GHz&id=2968",
         "rawname": "x7z8750"
     },
@@ -2347,7 +2683,7 @@ const passmarkcpus = [
         "turbo": 2330,
         "core": 4,
         "thread": 4,
-        "passmark": 730,
+        "passmark": 837,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+Z3580+%40+1.33GHz&id=2548",
         "rawname": "z3580"
     },
@@ -2445,7 +2781,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 946,
+        "passmark": 910,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3205U+%40+1.50GHz&id=2509",
         "rawname": "3205u"
     },
@@ -2459,7 +2795,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1113,
+        "passmark": 1144,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3215U+%40+1.70GHz&id=2723",
         "rawname": "3215u"
     },
@@ -2487,7 +2823,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1286,
+        "passmark": 1252,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3765U+%40+1.90GHz&id=2816",
         "rawname": "3765u"
     },
@@ -2501,7 +2837,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1246,
+        "passmark": 1237,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3855U+%40+1.60GHz&id=2735",
         "rawname": "3855u"
     },
@@ -2515,7 +2851,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1276,
+        "passmark": 1266,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3865U+%40+1.80GHz&id=3034",
         "rawname": "3865u"
     },
@@ -2529,7 +2865,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1467,
+        "passmark": 1488,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3867U+%40+1.80GHz&id=3442",
         "rawname": "3867u"
     },
@@ -2543,7 +2879,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1487,
+        "passmark": 1490,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3955U+%40+2.00GHz&id=2705",
         "rawname": "3955u"
     },
@@ -2557,7 +2893,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1665,
+        "passmark": 1692,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3965U+%40+2.20GHz&id=3145",
         "rawname": "3965u"
     },
@@ -2571,7 +2907,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1177,
+        "passmark": 1179,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+3965Y+%40+1.50GHz&id=3234",
         "rawname": "3965y"
     },
@@ -2585,7 +2921,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1332,
+        "passmark": 1324,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+4205U+%40+1.80GHz&id=3460",
         "rawname": "4205u"
     },
@@ -2599,7 +2935,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1950,
+        "passmark": 1876,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+4305UE+%40+2.00GHz&id=3628",
         "rawname": "4305ue"
     },
@@ -2613,7 +2949,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1439,
+        "passmark": 1414,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+5205U+%40+1.90GHz&id=3688",
         "rawname": "5205u"
     },
@@ -2627,9 +2963,23 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2246,
+        "passmark": 2167,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+6305+%40+1.80GHz&id=3898",
         "rawname": "6305"
+    },
+    {
+        "name": "Intel Celeron 7305",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 1100,
+        "turbo": "",
+        "core": 1,
+        "thread": 1,
+        "passmark": 2665,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+7305&id=4762",
+        "rawname": "7305"
     },
     {
         "name": "Intel Celeron B710 @ 1.60GHz",
@@ -2683,7 +3033,7 @@ const passmarkcpus = [
         "turbo": 2500,
         "core": 2,
         "thread": 4,
-        "passmark": 1235,
+        "passmark": 1217,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J3355+%40+2.00GHz&id=2960",
         "rawname": "j3355"
     },
@@ -2697,7 +3047,7 @@ const passmarkcpus = [
         "turbo": 2250,
         "core": 2,
         "thread": 4,
-        "passmark": 509,
+        "passmark": 532,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N2808+%40+1.58GHz&id=2505",
         "rawname": "n2808"
     },
@@ -2711,7 +3061,7 @@ const passmarkcpus = [
         "turbo": 2080,
         "core": 2,
         "thread": 4,
-        "passmark": 645,
+        "passmark": 604,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N3000+%40+1.04GHz&id=2583",
         "rawname": "n3000"
     },
@@ -2725,7 +3075,7 @@ const passmarkcpus = [
         "turbo": 2240,
         "core": 2,
         "thread": 4,
-        "passmark": 505,
+        "passmark": 533,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N3010+%40+1.04GHz&id=2884",
         "rawname": "n3010"
     },
@@ -2739,7 +3089,7 @@ const passmarkcpus = [
         "turbo": 2160,
         "core": 2,
         "thread": 4,
-        "passmark": 581,
+        "passmark": 592,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N3050+%40+1.60GHz&id=2541",
         "rawname": "n3050"
     },
@@ -2753,7 +3103,7 @@ const passmarkcpus = [
         "turbo": 2480,
         "core": 2,
         "thread": 4,
-        "passmark": 671,
+        "passmark": 666,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N3060+%40+1.60GHz&id=2762",
         "rawname": "n3060"
     },
@@ -2767,7 +3117,7 @@ const passmarkcpus = [
         "turbo": 2080,
         "core": 4,
         "thread": 4,
-        "passmark": 1189,
+        "passmark": 1203,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N3150+%40+1.60GHz&id=2546",
         "rawname": "n3150"
     },
@@ -2781,7 +3131,7 @@ const passmarkcpus = [
         "turbo": 2240,
         "core": 4,
         "thread": 4,
-        "passmark": 1145,
+        "passmark": 1169,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N3160+%40+1.60GHz&id=2812",
         "rawname": "n3160"
     },
@@ -2795,7 +3145,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 2,
         "thread": 4,
-        "passmark": 1152,
+        "passmark": 1120,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N3350+%40+1.10GHz&id=2895",
         "rawname": "n3350"
     },
@@ -2809,7 +3159,7 @@ const passmarkcpus = [
         "turbo": 2200,
         "core": 4,
         "thread": 4,
-        "passmark": 1920,
+        "passmark": 1944,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N3450+%40+1.10GHz&id=2907",
         "rawname": "n3450"
     },
@@ -2823,7 +3173,7 @@ const passmarkcpus = [
         "turbo": 2600,
         "core": 2,
         "thread": 4,
-        "passmark": 1436,
+        "passmark": 1404,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N4000+%40+1.10GHz&id=3239",
         "rawname": "n4000"
     },
@@ -2837,7 +3187,7 @@ const passmarkcpus = [
         "turbo": 2600,
         "core": 2,
         "thread": 4,
-        "passmark": 1602,
+        "passmark": 1611,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N4000C+%40+1.10GHz&id=3635",
         "rawname": "n4000c"
     },
@@ -2851,7 +3201,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 2,
         "thread": 4,
-        "passmark": 1630,
+        "passmark": 1574,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N4020+%40+1.10GHz&id=3683",
         "rawname": "n4020"
     },
@@ -2865,7 +3215,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 4,
         "thread": 4,
-        "passmark": 2463,
+        "passmark": 2441,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N4100+%40+1.10GHz&id=3270",
         "rawname": "n4100"
     },
@@ -2879,7 +3229,7 @@ const passmarkcpus = [
         "turbo": 2600,
         "core": 4,
         "thread": 4,
-        "passmark": 2494,
+        "passmark": 2515,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N4120+%40+1.10GHz&id=3651",
         "rawname": "n4120"
     },
@@ -2893,7 +3243,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 4,
         "thread": 4,
-        "passmark": 2448,
+        "passmark": 3251,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N5100+%40+1.10GHz&id=4331",
         "rawname": "n5100"
     },
@@ -2907,7 +3257,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 4029,
+        "passmark": 3821,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-1000NG4+%40+1.10GHz&id=3714",
         "rawname": "i31000ng4"
     },
@@ -2921,7 +3271,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 5213,
+        "passmark": 5114,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-1005G1+%40+1.20GHz&id=3560",
         "rawname": "i31005g1"
     },
@@ -2935,7 +3285,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 7468,
+        "passmark": 7407,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10100T+%40+3.00GHz&id=3796",
         "rawname": "i310100t"
     },
@@ -2949,7 +3299,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 2,
         "thread": 4,
-        "passmark": 4037,
+        "passmark": 3984,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10110U+%40+2.10GHz&id=3573",
         "rawname": "i310110u"
     },
@@ -2963,7 +3313,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 2,
         "thread": 4,
-        "passmark": 3444,
+        "passmark": 3278,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10110Y+%40+1.00GHz&id=3707",
         "rawname": "i310110y"
     },
@@ -2977,7 +3327,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 2,
         "thread": 4,
-        "passmark": 6429,
+        "passmark": 6256,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-1115G4+%40+3.00GHz&id=3877",
         "rawname": "i31115g4"
     },
@@ -2991,9 +3341,51 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 9172,
+        "passmark": 9912,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-1125G4+%40+2.00GHz&id=3995",
         "rawname": "i31125g4"
+    },
+    {
+        "name": "Intel Core i3-1210U",
+        "date": "Jun 2022",
+        "socket": "BGA1781",
+        "platform": "laptop",
+        "tdp": 9,
+        "base": 1000,
+        "turbo": 4400,
+        "core": 2,
+        "thread": 4,
+        "passmark": 12130,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-1210U&id=4886",
+        "rawname": "i31210u"
+    },
+    {
+        "name": "Intel Core i3-1215U",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 1200,
+        "turbo": 4400,
+        "core": 2,
+        "thread": 4,
+        "passmark": 12988,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-1215U&id=4754",
+        "rawname": "i31215u"
+    },
+    {
+        "name": "Intel Core i3-1220P",
+        "date": "Apr 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 1500,
+        "turbo": 4400,
+        "core": 2,
+        "thread": 4,
+        "passmark": 18329,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-1220P&id=4819",
+        "rawname": "i31220p"
     },
     {
         "name": "Intel Core i3-4110U @ 1.90GHz",
@@ -3047,7 +3439,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2033,
+        "passmark": 2020,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-5005U+%40+2.00GHz&id=2484",
         "rawname": "i35005u"
     },
@@ -3061,7 +3453,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2117,
+        "passmark": 2169,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-5010U+%40+2.10GHz&id=2467",
         "rawname": "i35010u"
     },
@@ -3075,7 +3467,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2097,
+        "passmark": 1914,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-5015U+%40+2.10GHz&id=2551",
         "rawname": "i35015u"
     },
@@ -3089,7 +3481,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2178,
+        "passmark": 2224,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-5020U+%40+2.20GHz&id=2597",
         "rawname": "i35020u"
     },
@@ -3117,7 +3509,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2279,
+        "passmark": 2278,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6006U+%40+2.00GHz&id=2912",
         "rawname": "i36006u"
     },
@@ -3145,7 +3537,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2982,
+        "passmark": 3041,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6100H+%40+2.70GHz&id=2645",
         "rawname": "i36100h"
     },
@@ -3159,7 +3551,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2615,
+        "passmark": 2639,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6100U+%40+2.30GHz&id=2623",
         "rawname": "i36100u"
     },
@@ -3187,7 +3579,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2666,
+        "passmark": 2786,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6157U+%40+2.40GHz&id=2871",
         "rawname": "i36157u"
     },
@@ -3201,7 +3593,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2575,
+        "passmark": 2569,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7020U+%40+2.30GHz&id=3255",
         "rawname": "i37020u"
     },
@@ -3229,7 +3621,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2717,
+        "passmark": 2722,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7100U+%40+2.40GHz&id=2879",
         "rawname": "i37100u"
     },
@@ -3257,7 +3649,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2980,
+        "passmark": 2988,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7130U+%40+2.70GHz&id=3120",
         "rawname": "i37130u"
     },
@@ -3271,7 +3663,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 3489,
+        "passmark": 3280,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7167U+%40+2.80GHz&id=3370",
         "rawname": "i37167u"
     },
@@ -3285,7 +3677,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 4,
         "thread": 4,
-        "passmark": 5951,
+        "passmark": 6059,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8100B+%40+3.60GHz&id=3406",
         "rawname": "i38100b"
     },
@@ -3299,7 +3691,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 2,
         "thread": 4,
-        "passmark": 4340,
+        "passmark": 4301,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8109U+%40+3.00GHz&id=3333",
         "rawname": "i38109u"
     },
@@ -3313,7 +3705,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 4369,
+        "passmark": 4384,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8121U+%40+2.20GHz&id=3368",
         "rawname": "i38121u"
     },
@@ -3327,9 +3719,23 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 3679,
+        "passmark": 3644,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8130U+%40+2.20GHz&id=3225",
         "rawname": "i38130u"
+    },
+    {
+        "name": "Intel Core i3-8140U @ 2.10GHz",
+        "date": "Jan 2022",
+        "socket": "FCBGA1528",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 2100,
+        "turbo": 3900,
+        "core": 2,
+        "thread": 4,
+        "passmark": 4227,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8140U+%40+2.10GHz&id=4680",
+        "rawname": "i38140u"
     },
     {
         "name": "Intel Core i3-8145U @ 2.10GHz",
@@ -3341,7 +3747,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 2,
         "thread": 4,
-        "passmark": 3821,
+        "passmark": 3846,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8145U+%40+2.10GHz&id=3349",
         "rawname": "i38145u"
     },
@@ -3355,7 +3761,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 2,
         "thread": 4,
-        "passmark": 4133,
+        "passmark": 4087,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8145UE+%40+2.20GHz&id=3825",
         "rawname": "i38145ue"
     },
@@ -3369,7 +3775,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 4,
         "thread": 4,
-        "passmark": 5705,
+        "passmark": 4501,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100TE+%40+2.20GHz&id=3893",
         "rawname": "i39100te"
     },
@@ -3383,7 +3789,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 8391,
+        "passmark": 8408,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10200H+%40+2.40GHz&id=3867",
         "rawname": "i510200h"
     },
@@ -3397,7 +3803,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 4,
         "thread": 8,
-        "passmark": 6488,
+        "passmark": 6383,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10210U+%40+1.60GHz&id=3542",
         "rawname": "i510210u"
     },
@@ -3411,7 +3817,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 4836,
+        "passmark": 4964,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10210Y+%40+1.00GHz&id=3643",
         "rawname": "i510210y"
     },
@@ -3425,7 +3831,7 @@ const passmarkcpus = [
         "turbo": 4500,
         "core": 4,
         "thread": 8,
-        "passmark": 8769,
+        "passmark": 8662,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10300H+%40+2.50GHz&id=3646",
         "rawname": "i510300h"
     },
@@ -3439,7 +3845,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 8,
-        "passmark": 5830,
+        "passmark": 6132,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1030NG7+%40+1.10GHz&id=3695",
         "rawname": "i51030ng7"
     },
@@ -3453,7 +3859,7 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 4,
         "thread": 8,
-        "passmark": 6987,
+        "passmark": 6565,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10310U+%40+1.70GHz&id=3698",
         "rawname": "i510310u"
     },
@@ -3467,7 +3873,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 8,
-        "passmark": 7910,
+        "passmark": 7670,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1035G1+%40+1.00GHz&id=3558",
         "rawname": "i51035g1"
     },
@@ -3481,7 +3887,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 8289,
+        "passmark": 8223,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1035G4+%40+1.10GHz&id=3581",
         "rawname": "i51035g4"
     },
@@ -3495,7 +3901,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 8407,
+        "passmark": 8518,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1035G7+%40+1.20GHz&id=3582",
         "rawname": "i51035g7"
     },
@@ -3509,7 +3915,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 9639,
+        "passmark": 9637,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1038NG7+%40+2.00GHz&id=3723",
         "rawname": "i51038ng7"
     },
@@ -3523,7 +3929,7 @@ const passmarkcpus = [
         "turbo": 4600,
         "core": 4,
         "thread": 8,
-        "passmark": 9008,
+        "passmark": 8938,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10400H+%40+2.60GHz&id=3775",
         "rawname": "i510400h"
     },
@@ -3537,9 +3943,37 @@ const passmarkcpus = [
         "turbo": 4500,
         "core": 6,
         "thread": 12,
-        "passmark": 12297,
+        "passmark": 11606,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10500H+%40+2.50GHz&id=4158",
         "rawname": "i510500h"
+    },
+    {
+        "name": "Intel Core i5-10500TE @ 2.30GHz",
+        "date": "May 2022",
+        "socket": "FCLGA1200",
+        "platform": "laptop, mobile/embedded",
+        "tdp": 35,
+        "base": 2300,
+        "turbo": 3700,
+        "core": 6,
+        "thread": 12,
+        "passmark": 9960,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10500TE+%40+2.30GHz&id=4849",
+        "rawname": "i510500te"
+    },
+    {
+        "name": "Intel Core i5-11260H @ 2.60GHz",
+        "date": "Aug 2021",
+        "socket": "FCBGA1787",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2600,
+        "turbo": 4400,
+        "core": 6,
+        "thread": 12,
+        "passmark": 15074,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11260H+%40+2.60GHz&id=4477",
+        "rawname": "i511260h"
     },
     {
         "name": "Intel Core i5-11300H @ 3.10GHz",
@@ -3551,7 +3985,7 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 4,
         "thread": 8,
-        "passmark": 11114,
+        "passmark": 10995,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11300H+%40+3.10GHz&id=4279",
         "rawname": "i511300h"
     },
@@ -3565,9 +3999,23 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 10483,
+        "passmark": 9247,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1130G7+%40+1.10GHz&id=4049",
         "rawname": "i51130g7"
+    },
+    {
+        "name": "Intel Core i5-11320H @ 3.20GHz",
+        "date": "Nov 2021",
+        "socket": "FCBGA1449",
+        "platform": "laptop",
+        "tdp": 35,
+        "base": 3200,
+        "turbo": 4500,
+        "core": 4,
+        "thread": 8,
+        "passmark": 10697,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11320H+%40+3.20GHz&id=4593",
+        "rawname": "i511320h"
     },
     {
         "name": "Intel Core i5-1135G7 @ 2.40GHz",
@@ -3579,9 +4027,23 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 4,
         "thread": 8,
-        "passmark": 10056,
+        "passmark": 10095,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1135G7+%40+2.40GHz&id=3830",
         "rawname": "i51135g7"
+    },
+    {
+        "name": "Intel Core i5-11400H @ 2.70GHz",
+        "date": "Jul 2021",
+        "socket": "FCBGA1787",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2700,
+        "turbo": 4500,
+        "core": 6,
+        "thread": 12,
+        "passmark": 16041,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11400H+%40+2.70GHz&id=4457",
+        "rawname": "i511400h"
     },
     {
         "name": "Intel Core i5-1145G7 @ 2.60GHz",
@@ -3593,7 +4055,7 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 4,
         "thread": 8,
-        "passmark": 10823,
+        "passmark": 10386,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1145G7+%40+2.60GHz&id=3922",
         "rawname": "i51145g7"
     },
@@ -3607,9 +4069,121 @@ const passmarkcpus = [
         "turbo": 4600,
         "core": 6,
         "thread": 12,
-        "passmark": 17655,
+        "passmark": 16233,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11500H+%40+2.90GHz&id=4399",
         "rawname": "i511500h"
+    },
+    {
+        "name": "Intel Core i5-1155G7 @ 2.50GHz",
+        "date": "Oct 2021",
+        "socket": "FCBGA1449",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 2500,
+        "turbo": 4500,
+        "core": 4,
+        "thread": 8,
+        "passmark": 10246,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1155G7+%40+2.50GHz&id=4582",
+        "rawname": "i51155g7"
+    },
+    {
+        "name": "Intel Core i5-1230U",
+        "date": "Jun 2022",
+        "socket": "FCBGA1781",
+        "platform": "laptop",
+        "tdp": 9,
+        "base": 1000,
+        "turbo": 4400,
+        "core": 2,
+        "thread": 4,
+        "passmark": 8591,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1230U&id=4890",
+        "rawname": "i51230u"
+    },
+    {
+        "name": "Intel Core i5-1235U",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop, mobile/embedded",
+        "tdp": 15,
+        "base": 1300,
+        "turbo": 4400,
+        "core": 2,
+        "thread": 4,
+        "passmark": 15354,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1235U&id=4765",
+        "rawname": "i51235u"
+    },
+    {
+        "name": "Intel Core i5-1240P",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 1700,
+        "turbo": 4400,
+        "core": 4,
+        "thread": 8,
+        "passmark": 18187,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1240P&id=4759",
+        "rawname": "i51240p"
+    },
+    {
+        "name": "Intel Core i5-12450H",
+        "date": "Feb 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2000,
+        "turbo": 4400,
+        "core": 4,
+        "thread": 8,
+        "passmark": 19820,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12450H&id=4727",
+        "rawname": "i512450h"
+    },
+    {
+        "name": "Intel Core i5-12500H",
+        "date": "Feb 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2500,
+        "turbo": 4500,
+        "core": 4,
+        "thread": 8,
+        "passmark": 23187,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500H&id=4750",
+        "rawname": "i512500h"
+    },
+    {
+        "name": "Intel Core i5-1250P",
+        "date": "Mar 2022",
+        "socket": "BGA1700",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 1700,
+        "turbo": 4400,
+        "core": 4,
+        "thread": 8,
+        "passmark": 22148,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-1250P&id=4719",
+        "rawname": "i51250p"
+    },
+    {
+        "name": "Intel Core i5-12600H",
+        "date": "Apr 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2700,
+        "turbo": 4500,
+        "core": 4,
+        "thread": 8,
+        "passmark": 20186,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600H&id=4835",
+        "rawname": "i512600h"
     },
     {
         "name": "Intel Core i5-4220Y @ 1.60GHz",
@@ -3677,7 +4251,7 @@ const passmarkcpus = [
         "turbo": 2700,
         "core": 2,
         "thread": 4,
-        "passmark": 2502,
+        "passmark": 2507,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-5250U+%40+1.60GHz&id=2478",
         "rawname": "i55250u"
     },
@@ -3691,7 +4265,7 @@ const passmarkcpus = [
         "turbo": 3100,
         "core": 2,
         "thread": 4,
-        "passmark": 3012,
+        "passmark": 3045,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-5257U+%40+2.70GHz&id=2504",
         "rawname": "i55257u"
     },
@@ -3705,7 +4279,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 2,
         "thread": 4,
-        "passmark": 3427,
+        "passmark": 3221,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-5287U+%40+2.90GHz&id=2575",
         "rawname": "i55287u"
     },
@@ -3719,7 +4293,7 @@ const passmarkcpus = [
         "turbo": 2900,
         "core": 2,
         "thread": 4,
-        "passmark": 2733,
+        "passmark": 2746,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-5300U+%40+2.30GHz&id=2459",
         "rawname": "i55300u"
     },
@@ -3733,7 +4307,7 @@ const passmarkcpus = [
         "turbo": 2900,
         "core": 2,
         "thread": 4,
-        "passmark": 2761,
+        "passmark": 2635,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-5350U+%40+1.80GHz&id=2530",
         "rawname": "i55350u"
     },
@@ -3747,7 +4321,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 2,
         "thread": 4,
-        "passmark": 3163,
+        "passmark": 3177,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6198DU+%40+2.30GHz&id=2854",
         "rawname": "i56198du"
     },
@@ -3761,7 +4335,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 2,
         "thread": 4,
-        "passmark": 3026,
+        "passmark": 3013,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6200U+%40+2.30GHz&id=2556",
         "rawname": "i56200u"
     },
@@ -3775,7 +4349,7 @@ const passmarkcpus = [
         "turbo": 2900,
         "core": 2,
         "thread": 4,
-        "passmark": 3139,
+        "passmark": 3207,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6260U+%40+1.80GHz&id=2671",
         "rawname": "i56260u"
     },
@@ -3789,7 +4363,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 2,
         "thread": 4,
-        "passmark": 3326,
+        "passmark": 3481,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6267U+%40+2.90GHz&id=2757",
         "rawname": "i56267u"
     },
@@ -3803,7 +4377,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 2,
         "thread": 4,
-        "passmark": 3844,
+        "passmark": 3931,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6287U+%40+3.10GHz&id=3109",
         "rawname": "i56287u"
     },
@@ -3817,7 +4391,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 4,
         "thread": 4,
-        "passmark": 4679,
+        "passmark": 4713,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6300HQ+%40+2.30GHz&id=2632",
         "rawname": "i56300hq"
     },
@@ -3831,9 +4405,23 @@ const passmarkcpus = [
         "turbo": 3000,
         "core": 2,
         "thread": 4,
-        "passmark": 3260,
+        "passmark": 3262,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6300U+%40+2.40GHz&id=2609",
         "rawname": "i56300u"
+    },
+    {
+        "name": "Intel Core i5-6350HQ @ 2.30GHz",
+        "date": "Oct 2021",
+        "socket": "LGA 1151",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2300,
+        "turbo": 3200,
+        "core": 4,
+        "thread": 4,
+        "passmark": 4255,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6350HQ+%40+2.30GHz&id=4554",
+        "rawname": "i56350hq"
     },
     {
         "name": "Intel Core i5-6360U @ 2.00GHz",
@@ -3845,7 +4433,7 @@ const passmarkcpus = [
         "turbo": 3100,
         "core": 2,
         "thread": 4,
-        "passmark": 3393,
+        "passmark": 3241,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6360U+%40+2.00GHz&id=2932",
         "rawname": "i56360u"
     },
@@ -3873,7 +4461,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 4,
-        "passmark": 5151,
+        "passmark": 5106,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6440HQ+%40+2.60GHz&id=2691",
         "rawname": "i56440hq"
     },
@@ -3887,7 +4475,7 @@ const passmarkcpus = [
         "turbo": 2700,
         "core": 4,
         "thread": 4,
-        "passmark": 4519,
+        "passmark": 4598,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6442EQ+%40+1.90GHz&id=3544",
         "rawname": "i56442eq"
     },
@@ -3901,7 +4489,7 @@ const passmarkcpus = [
         "turbo": 3100,
         "core": 2,
         "thread": 4,
-        "passmark": 3398,
+        "passmark": 3392,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7200U+%40+2.50GHz&id=2865",
         "rawname": "i57200u"
     },
@@ -3915,7 +4503,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 3931,
+        "passmark": 3904,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7260U+%40+2.20GHz&id=2993",
         "rawname": "i57260u"
     },
@@ -3929,7 +4517,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 2,
         "thread": 4,
-        "passmark": 4048,
+        "passmark": 3933,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7267U+%40+3.10GHz&id=3051",
         "rawname": "i57267u"
     },
@@ -3957,7 +4545,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 4,
-        "passmark": 5120,
+        "passmark": 5106,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7300HQ+%40+2.50GHz&id=2922",
         "rawname": "i57300hq"
     },
@@ -3971,7 +4559,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 2,
         "thread": 4,
-        "passmark": 3737,
+        "passmark": 3728,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7300U+%40+2.60GHz&id=2955",
         "rawname": "i57300u"
     },
@@ -3985,7 +4573,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 2,
         "thread": 4,
-        "passmark": 4263,
+        "passmark": 4059,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7360U+%40+2.30GHz&id=3036",
         "rawname": "i57360u"
     },
@@ -4013,7 +4601,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 4,
-        "passmark": 5565,
+        "passmark": 5526,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7440HQ+%40+2.80GHz&id=2962",
         "rawname": "i57440hq"
     },
@@ -4041,7 +4629,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 2834,
+        "passmark": 2725,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7Y54+%40+1.20GHz&id=2873",
         "rawname": "i57y54"
     },
@@ -4055,7 +4643,7 @@ const passmarkcpus = [
         "turbo": 3300,
         "core": 2,
         "thread": 4,
-        "passmark": 2867,
+        "passmark": 2814,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7Y57+%40+1.20GHz&id=2956",
         "rawname": "i57y57"
     },
@@ -4069,7 +4657,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 2,
         "thread": 4,
-        "passmark": 2308,
+        "passmark": 2189,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8200Y+%40+1.30GHz&id=3372",
         "rawname": "i58200y"
     },
@@ -4083,7 +4671,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 2,
         "thread": 4,
-        "passmark": 2871,
+        "passmark": 2818,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8210Y+%40+1.60GHz&id=3402",
         "rawname": "i58210y"
     },
@@ -4097,7 +4685,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 4,
         "thread": 8,
-        "passmark": 5966,
+        "passmark": 5934,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8250U+%40+1.60GHz&id=3042",
         "rawname": "i58250u"
     },
@@ -4111,7 +4699,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 4,
         "thread": 8,
-        "passmark": 7886,
+        "passmark": 7666,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8257U+%40+1.40GHz&id=3605",
         "rawname": "i58257u"
     },
@@ -4125,7 +4713,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 8206,
+        "passmark": 8070,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8259U+%40+2.30GHz&id=3299",
         "rawname": "i58259u"
     },
@@ -4139,7 +4727,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 4,
         "thread": 8,
-        "passmark": 7869,
+        "passmark": 7854,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8260U+%40+1.60GHz&id=3724",
         "rawname": "i58260u"
     },
@@ -4153,7 +4741,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 4,
         "thread": 8,
-        "passmark": 6125,
+        "passmark": 6083,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8265U+%40+1.60GHz&id=3323",
         "rawname": "i58265u"
     },
@@ -4195,7 +4783,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 7987,
+        "passmark": 7946,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8279U+%40+2.40GHz&id=3552",
         "rawname": "i58279u"
     },
@@ -4209,7 +4797,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 7540,
+        "passmark": 7541,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8300H+%40+2.30GHz&id=3254",
         "rawname": "i58300h"
     },
@@ -4223,7 +4811,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 7073,
+        "passmark": 6984,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8305G+%40+2.80GHz&id=3291",
         "rawname": "i58305g"
     },
@@ -4237,7 +4825,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 8,
-        "passmark": 6292,
+        "passmark": 6261,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8350U+%40+1.70GHz&id=3150",
         "rawname": "i58350u"
     },
@@ -4251,7 +4839,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 6428,
+        "passmark": 6222,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8365U+%40+1.60GHz&id=3447",
         "rawname": "i58365u"
     },
@@ -4265,7 +4853,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 5408,
+        "passmark": 5555,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8365UE+%40+1.60GHz&id=3594",
         "rawname": "i58365ue"
     },
@@ -4279,7 +4867,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 4,
         "thread": 8,
-        "passmark": 8175,
+        "passmark": 8037,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8400H+%40+2.50GHz&id=3286",
         "rawname": "i58400h"
     },
@@ -4293,7 +4881,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 6,
         "thread": 6,
-        "passmark": 9602,
+        "passmark": 9401,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8500B+%40+3.00GHz&id=3382",
         "rawname": "i58500b"
     },
@@ -4307,7 +4895,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 7872,
+        "passmark": 7779,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9300H+%40+2.40GHz&id=3448",
         "rawname": "i59300h"
     },
@@ -4321,7 +4909,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 7650,
+        "passmark": 7629,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9300HF+%40+2.40GHz&id=3706",
         "rawname": "i59300hf"
     },
@@ -4335,7 +4923,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 6,
         "thread": 6,
-        "passmark": 9544,
+        "passmark": 9548,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9400F+%40+2.90GHz&id=3397",
         "rawname": "i59400f"
     },
@@ -4349,14 +4937,14 @@ const passmarkcpus = [
         "turbo": 4300,
         "core": 4,
         "thread": 8,
-        "passmark": 8267,
+        "passmark": 8293,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9400H+%40+2.50GHz&id=3508",
         "rawname": "i59400h"
     },
     {
         "name": "Intel Core i5-9500TE @ 2.20GHz",
         "date": "May 2020",
-        "socket": "FCLGA1151",
+        "socket": "FCLGA1151-2",
         "platform": "laptop",
         "tdp": 35,
         "base": 2200,
@@ -4377,7 +4965,7 @@ const passmarkcpus = [
         "turbo": 3000,
         "core": 5,
         "thread": 5,
-        "passmark": 3390,
+        "passmark": 3421,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-L16G7+%40+1.40GHz&id=3809",
         "rawname": "i5l16g7"
     },
@@ -4391,7 +4979,7 @@ const passmarkcpus = [
         "turbo": 4900,
         "core": 4,
         "thread": 8,
-        "passmark": 6945,
+        "passmark": 6797,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10510U+%40+1.80GHz&id=3549",
         "rawname": "i710510u"
     },
@@ -4405,7 +4993,7 @@ const passmarkcpus = [
         "turbo": 4500,
         "core": 4,
         "thread": 8,
-        "passmark": 5289,
+        "passmark": 5016,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10510Y+%40+1.20GHz&id=3819",
         "rawname": "i710510y"
     },
@@ -4419,7 +5007,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 7101,
+        "passmark": 7057,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1060NG7+%40+1.20GHz&id=3727",
         "rawname": "i71060ng7"
     },
@@ -4433,7 +5021,7 @@ const passmarkcpus = [
         "turbo": 4900,
         "core": 4,
         "thread": 8,
-        "passmark": 7152,
+        "passmark": 7023,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10610U+%40+1.80GHz&id=3738",
         "rawname": "i710610u"
     },
@@ -4447,7 +5035,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 4,
         "thread": 8,
-        "passmark": 8847,
+        "passmark": 8610,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1065G7+%40+1.30GHz&id=3466",
         "rawname": "i71065g7"
     },
@@ -4461,9 +5049,23 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 10373,
+        "passmark": 10093,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1068NG7+%40+2.30GHz&id=3729",
         "rawname": "i71068ng7"
+    },
+    {
+        "name": "Intel Core i7-10700E @ 2.90GHz",
+        "date": "Dec 2021",
+        "socket": "FCLGA1200",
+        "platform": "laptop, mobile/embedded",
+        "tdp": 65,
+        "base": 2900,
+        "turbo": 4500,
+        "core": 8,
+        "thread": 16,
+        "passmark": 16257,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700E+%40+2.90GHz&id=4652",
+        "rawname": "i710700e"
     },
     {
         "name": "Intel Core i7-10700TE @ 2.00GHz",
@@ -4489,7 +5091,7 @@ const passmarkcpus = [
         "turbo": 4700,
         "core": 6,
         "thread": 12,
-        "passmark": 10124,
+        "passmark": 10046,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10710U+%40+1.10GHz&id=3567",
         "rawname": "i710710u"
     },
@@ -4503,7 +5105,7 @@ const passmarkcpus = [
         "turbo": 5000,
         "core": 6,
         "thread": 12,
-        "passmark": 12567,
+        "passmark": 12318,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10750H+%40+2.60GHz&id=3657",
         "rawname": "i710750h"
     },
@@ -4517,7 +5119,7 @@ const passmarkcpus = [
         "turbo": 4900,
         "core": 6,
         "thread": 12,
-        "passmark": 9121,
+        "passmark": 8039,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10810U+%40+1.10GHz&id=3741",
         "rawname": "i710810u"
     },
@@ -4531,7 +5133,7 @@ const passmarkcpus = [
         "turbo": 5100,
         "core": 6,
         "thread": 12,
-        "passmark": 12531,
+        "passmark": 12127,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10850H+%40+2.70GHz&id=3734",
         "rawname": "i710850h"
     },
@@ -4545,7 +5147,7 @@ const passmarkcpus = [
         "turbo": 5000,
         "core": 8,
         "thread": 16,
-        "passmark": 15547,
+        "passmark": 14987,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10870H+%40+2.20GHz&id=3856",
         "rawname": "i710870h"
     },
@@ -4559,7 +5161,7 @@ const passmarkcpus = [
         "turbo": 5100,
         "core": 8,
         "thread": 16,
-        "passmark": 15786,
+        "passmark": 15399,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10875H+%40+2.30GHz&id=3726",
         "rawname": "i710875h"
     },
@@ -4573,7 +5175,7 @@ const passmarkcpus = [
         "turbo": 4800,
         "core": 4,
         "thread": 8,
-        "passmark": 12689,
+        "passmark": 12026,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11370H+%40+3.30GHz&id=4048",
         "rawname": "i711370h"
     },
@@ -4587,9 +5189,37 @@ const passmarkcpus = [
         "turbo": 5000,
         "core": 4,
         "thread": 8,
-        "passmark": 13086,
+        "passmark": 12258,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11375H+%40+3.30GHz&id=4157",
         "rawname": "i711375h"
+    },
+    {
+        "name": "Intel Core i7-11390H @ 3.40GHz",
+        "date": "Nov 2021",
+        "socket": "FCBGA1449",
+        "platform": "laptop",
+        "tdp": 35,
+        "base": 3400,
+        "turbo": 5000,
+        "core": 4,
+        "thread": 8,
+        "passmark": 10721,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11390H+%40+3.40GHz&id=4619",
+        "rawname": "i711390h"
+    },
+    {
+        "name": "Intel Core i7-11600H @ 2.90GHz",
+        "date": "Nov 2021",
+        "socket": "FCBGA1787",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2900,
+        "turbo": 4600,
+        "core": 6,
+        "thread": 12,
+        "passmark": 15907,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11600H+%40+2.90GHz&id=4629",
+        "rawname": "i711600h"
     },
     {
         "name": "Intel Core i7-1160G7 @ 1.20GHz",
@@ -4601,7 +5231,7 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 4,
         "thread": 8,
-        "passmark": 10981,
+        "passmark": 9531,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1160G7+%40+1.20GHz&id=3911",
         "rawname": "i71160g7"
     },
@@ -4615,7 +5245,7 @@ const passmarkcpus = [
         "turbo": 4700,
         "core": 4,
         "thread": 8,
-        "passmark": 10582,
+        "passmark": 10537,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1165G7+%40+2.80GHz&id=3814",
         "rawname": "i71165g7"
     },
@@ -4629,9 +5259,23 @@ const passmarkcpus = [
         "turbo": 4600,
         "core": 8,
         "thread": 16,
-        "passmark": 21358,
+        "passmark": 21260,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11800H+%40+2.30GHz&id=4358",
         "rawname": "i711800h"
+    },
+    {
+        "name": "Intel Core i7-1180G7 @ 1.30GHz",
+        "date": "Feb 2021",
+        "socket": "FCBGA1598",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 1300,
+        "turbo": 4600,
+        "core": 4,
+        "thread": 8,
+        "passmark": 9066,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1180G7+%40+1.30GHz&id=4123",
+        "rawname": "i71180g7"
     },
     {
         "name": "Intel Core i7-11850H @ 2.50GHz",
@@ -4643,7 +5287,7 @@ const passmarkcpus = [
         "turbo": 4800,
         "core": 8,
         "thread": 16,
-        "passmark": 21158,
+        "passmark": 21178,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11850H+%40+2.50GHz&id=4342",
         "rawname": "i711850h"
     },
@@ -4657,7 +5301,7 @@ const passmarkcpus = [
         "turbo": 4800,
         "core": 4,
         "thread": 8,
-        "passmark": 11066,
+        "passmark": 10877,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1185G7+%40+3.00GHz&id=3793",
         "rawname": "i71185g7"
     },
@@ -4671,9 +5315,135 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 4,
         "thread": 8,
-        "passmark": 11645,
+        "passmark": 11114,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1185G7E+%40+2.80GHz&id=4298",
         "rawname": "i71185g7e"
+    },
+    {
+        "name": "Intel Core i7-1195G7 @ 2.90GHz",
+        "date": "Sep 2021",
+        "socket": "FCBGA1449",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 2900,
+        "turbo": 5000,
+        "core": 4,
+        "thread": 8,
+        "passmark": 10865,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1195G7+%40+2.90GHz&id=4514",
+        "rawname": "i71195g7"
+    },
+    {
+        "name": "Intel Core i7-1255U",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 1700,
+        "turbo": 4700,
+        "core": 2,
+        "thread": 4,
+        "passmark": 13386,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1255U&id=4794",
+        "rawname": "i71255u"
+    },
+    {
+        "name": "Intel Core i7-1260P",
+        "date": "Jan 2022",
+        "socket": "BGA1700",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 2100,
+        "turbo": 4700,
+        "core": 4,
+        "thread": 8,
+        "passmark": 16741,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1260P&id=4707",
+        "rawname": "i71260p"
+    },
+    {
+        "name": "Intel Core i7-12650H",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2300,
+        "turbo": 4700,
+        "core": 6,
+        "thread": 12,
+        "passmark": 24191,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12650H&id=4771",
+        "rawname": "i712650h"
+    },
+    {
+        "name": "Intel Core i7-1265U",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop, mobile/embedded",
+        "tdp": 15,
+        "base": 1800,
+        "turbo": 4800,
+        "core": 2,
+        "thread": 4,
+        "passmark": 12679,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1265U&id=4766",
+        "rawname": "i71265u"
+    },
+    {
+        "name": "Intel Core i7-12700H",
+        "date": "Feb 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2300,
+        "turbo": 4700,
+        "core": 6,
+        "thread": 12,
+        "passmark": 27451,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700H&id=4721",
+        "rawname": "i712700h"
+    },
+    {
+        "name": "Intel Core i7-1270P",
+        "date": "Feb 2022",
+        "socket": "BGA1700",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 2200,
+        "turbo": 4800,
+        "core": 4,
+        "thread": 8,
+        "passmark": 19669,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1270P&id=4720",
+        "rawname": "i71270p"
+    },
+    {
+        "name": "Intel Core i7-12800H",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2400,
+        "turbo": 4800,
+        "core": 6,
+        "thread": 12,
+        "passmark": 22799,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12800H&id=4778",
+        "rawname": "i712800h"
+    },
+    {
+        "name": "Intel Core i7-1280P",
+        "date": "Mar 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 28,
+        "base": 1800,
+        "turbo": 4800,
+        "core": 6,
+        "thread": 12,
+        "passmark": 19888,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1280P&id=4783",
+        "rawname": "i71280p"
     },
     {
         "name": "Intel Core i7-4560U @ 1.60GHz",
@@ -4713,7 +5483,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 4,
         "thread": 8,
-        "passmark": 5280,
+        "passmark": 5500,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4860EQ+%40+1.80GHz&id=2661",
         "rawname": "i74860eq"
     },
@@ -4727,7 +5497,7 @@ const passmarkcpus = [
         "turbo": 3000,
         "core": 2,
         "thread": 4,
-        "passmark": 2728,
+        "passmark": 2722,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5500U+%40+2.40GHz&id=2470",
         "rawname": "i75500u"
     },
@@ -4755,7 +5525,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 3498,
+        "passmark": 3197,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5557U+%40+3.10GHz&id=2502",
         "rawname": "i75557u"
     },
@@ -4769,7 +5539,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 2958,
+        "passmark": 2986,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5600U+%40+2.60GHz&id=2456",
         "rawname": "i75600u"
     },
@@ -4783,7 +5553,7 @@ const passmarkcpus = [
         "turbo": 3100,
         "core": 2,
         "thread": 4,
-        "passmark": 3246,
+        "passmark": 3023,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5650U+%40+2.20GHz&id=2503",
         "rawname": "i75650u"
     },
@@ -4811,7 +5581,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 8,
-        "passmark": 5923,
+        "passmark": 5959,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5700HQ+%40+2.70GHz&id=2533",
         "rawname": "i75700hq"
     },
@@ -4853,7 +5623,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 7759,
+        "passmark": 7696,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5950HQ+%40+2.90GHz&id=2543",
         "rawname": "i75950hq"
     },
@@ -4867,7 +5637,7 @@ const passmarkcpus = [
         "turbo": 3100,
         "core": 2,
         "thread": 4,
-        "passmark": 3293,
+        "passmark": 3303,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6498DU+%40+2.50GHz&id=2887",
         "rawname": "i76498du"
     },
@@ -4881,7 +5651,7 @@ const passmarkcpus = [
         "turbo": 3100,
         "core": 2,
         "thread": 4,
-        "passmark": 3281,
+        "passmark": 3274,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6500U+%40+2.50GHz&id=2607",
         "rawname": "i76500u"
     },
@@ -4895,7 +5665,7 @@ const passmarkcpus = [
         "turbo": 3200,
         "core": 2,
         "thread": 4,
-        "passmark": 3404,
+        "passmark": 3398,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6560U+%40+2.20GHz&id=2710",
         "rawname": "i76560u"
     },
@@ -4909,7 +5679,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 2,
         "thread": 4,
-        "passmark": 3817,
+        "passmark": 3825,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6567U+%40+3.30GHz&id=2713",
         "rawname": "i76567u"
     },
@@ -4923,7 +5693,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 3515,
+        "passmark": 3474,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6600U+%40+2.60GHz&id=2608",
         "rawname": "i76600u"
     },
@@ -4937,7 +5707,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 3624,
+        "passmark": 3603,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6650U+%40+2.20GHz&id=2654",
         "rawname": "i76650u"
     },
@@ -4951,7 +5721,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 3879,
+        "passmark": 3851,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6660U+%40+2.40GHz&id=3303",
         "rawname": "i76660u"
     },
@@ -4965,7 +5735,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 8,
-        "passmark": 6525,
+        "passmark": 6550,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6700HQ+%40+2.60GHz&id=2586",
         "rawname": "i76700hq"
     },
@@ -4979,7 +5749,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 4,
         "thread": 8,
-        "passmark": 7237,
+        "passmark": 7091,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6770HQ+%40+2.60GHz&id=2759",
         "rawname": "i76770hq"
     },
@@ -5007,7 +5777,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 8,
-        "passmark": 7057,
+        "passmark": 6934,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6820HK+%40+2.70GHz&id=2616",
         "rawname": "i76820hk"
     },
@@ -5021,7 +5791,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 4,
         "thread": 8,
-        "passmark": 6891,
+        "passmark": 6931,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6820HQ+%40+2.70GHz&id=2659",
         "rawname": "i76820hq"
     },
@@ -5049,7 +5819,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 7429,
+        "passmark": 7353,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6920HQ+%40+2.90GHz&id=2699",
         "rawname": "i76920hq"
     },
@@ -5063,7 +5833,7 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 2,
         "thread": 4,
-        "passmark": 3659,
+        "passmark": 3671,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7500U+%40+2.70GHz&id=2863",
         "rawname": "i77500u"
     },
@@ -5077,7 +5847,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 2,
         "thread": 4,
-        "passmark": 3939,
+        "passmark": 3811,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7560U+%40+2.40GHz&id=2974",
         "rawname": "i77560u"
     },
@@ -5091,7 +5861,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 2,
         "thread": 4,
-        "passmark": 4216,
+        "passmark": 4221,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7567U+%40+3.50GHz&id=2990",
         "rawname": "i77567u"
     },
@@ -5105,7 +5875,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 2,
         "thread": 4,
-        "passmark": 3627,
+        "passmark": 3639,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7600U+%40+2.80GHz&id=2936",
         "rawname": "i77600u"
     },
@@ -5119,7 +5889,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 2,
         "thread": 4,
-        "passmark": 4217,
+        "passmark": 4095,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7660U+%40+2.50GHz&id=3016",
         "rawname": "i77660u"
     },
@@ -5133,7 +5903,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 6948,
+        "passmark": 6971,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7700HQ+%40+2.80GHz&id=2906",
         "rawname": "i77700hq"
     },
@@ -5147,7 +5917,7 @@ const passmarkcpus = [
         "turbo": 3700,
         "core": 4,
         "thread": 8,
-        "passmark": 7059,
+        "passmark": 7453,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7820EQ+%40+3.00GHz&id=3470",
         "rawname": "i77820eq"
     },
@@ -5161,7 +5931,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 4,
         "thread": 8,
-        "passmark": 7824,
+        "passmark": 7555,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7820HK+%40+2.90GHz&id=2938",
         "rawname": "i77820hk"
     },
@@ -5175,7 +5945,7 @@ const passmarkcpus = [
         "turbo": 3900,
         "core": 4,
         "thread": 8,
-        "passmark": 7194,
+        "passmark": 7204,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7820HQ+%40+2.90GHz&id=2952",
         "rawname": "i77820hq"
     },
@@ -5189,7 +5959,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 7769,
+        "passmark": 7502,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7920HQ+%40+3.10GHz&id=3007",
         "rawname": "i77920hq"
     },
@@ -5203,7 +5973,7 @@ const passmarkcpus = [
         "turbo": 3600,
         "core": 2,
         "thread": 4,
-        "passmark": 2576,
+        "passmark": 2713,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7Y75+%40+1.30GHz&id=2880",
         "rawname": "i77y75"
     },
@@ -5217,7 +5987,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 2,
         "thread": 4,
-        "passmark": 2832,
+        "passmark": 2616,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8500Y+%40+1.50GHz&id=3338",
         "rawname": "i78500y"
     },
@@ -5231,7 +6001,7 @@ const passmarkcpus = [
         "turbo": 4000,
         "core": 4,
         "thread": 8,
-        "passmark": 5937,
+        "passmark": 6002,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8550U+%40+1.80GHz&id=3064",
         "rawname": "i78550u"
     },
@@ -5245,7 +6015,7 @@ const passmarkcpus = [
         "turbo": 4500,
         "core": 4,
         "thread": 8,
-        "passmark": 8429,
+        "passmark": 8225,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8557U+%40+1.70GHz&id=3641",
         "rawname": "i78557u"
     },
@@ -5259,7 +6029,7 @@ const passmarkcpus = [
         "turbo": 4500,
         "core": 4,
         "thread": 8,
-        "passmark": 8862,
+        "passmark": 8758,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8559U+%40+2.70GHz&id=3302",
         "rawname": "i78559u"
     },
@@ -5273,7 +6043,7 @@ const passmarkcpus = [
         "turbo": 4600,
         "core": 4,
         "thread": 8,
-        "passmark": 6376,
+        "passmark": 6312,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8565U+%40+1.80GHz&id=3308",
         "rawname": "i78565u"
     },
@@ -5301,7 +6071,7 @@ const passmarkcpus = [
         "turbo": 4700,
         "core": 4,
         "thread": 8,
-        "passmark": 8981,
+        "passmark": 8564,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8569U+%40+2.80GHz&id=3672",
         "rawname": "i78569u"
     },
@@ -5315,7 +6085,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 4,
         "thread": 8,
-        "passmark": 6478,
+        "passmark": 6363,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8650U+%40+1.90GHz&id=3070",
         "rawname": "i78650u"
     },
@@ -5329,7 +6099,7 @@ const passmarkcpus = [
         "turbo": 4800,
         "core": 4,
         "thread": 8,
-        "passmark": 6529,
+        "passmark": 6316,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8665U+%40+1.90GHz&id=3434",
         "rawname": "i78665u"
     },
@@ -5343,7 +6113,7 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 4,
         "thread": 8,
-        "passmark": 6587,
+        "passmark": 5017,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8665UE+%40+1.70GHz&id=3611",
         "rawname": "i78665ue"
     },
@@ -5357,7 +6127,7 @@ const passmarkcpus = [
         "turbo": 4600,
         "core": 6,
         "thread": 12,
-        "passmark": 12652,
+        "passmark": 12137,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8700B+%40+3.20GHz&id=3388",
         "rawname": "i78700b"
     },
@@ -5371,7 +6141,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 7888,
+        "passmark": 7946,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8705G+%40+3.10GHz&id=3201",
         "rawname": "i78705g"
     },
@@ -5385,7 +6155,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 8136,
+        "passmark": 8388,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8706G+%40+3.10GHz&id=3288",
         "rawname": "i78706g"
     },
@@ -5399,7 +6169,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 4,
         "thread": 8,
-        "passmark": 7921,
+        "passmark": 7990,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8709G+%40+3.10GHz&id=3355",
         "rawname": "i78709g"
     },
@@ -5413,7 +6183,7 @@ const passmarkcpus = [
         "turbo": 4100,
         "core": 6,
         "thread": 12,
-        "passmark": 10171,
+        "passmark": 10080,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8750H+%40+2.20GHz&id=3237",
         "rawname": "i78750h"
     },
@@ -5427,7 +6197,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 4,
         "thread": 8,
-        "passmark": 8782,
+        "passmark": 8725,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8809G+%40+3.10GHz&id=3209",
         "rawname": "i78809g"
     },
@@ -5441,7 +6211,7 @@ const passmarkcpus = [
         "turbo": 4300,
         "core": 6,
         "thread": 12,
-        "passmark": 10446,
+        "passmark": 10354,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8850H+%40+2.60GHz&id=3247",
         "rawname": "i78850h"
     },
@@ -5455,7 +6225,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 8,
         "thread": 8,
-        "passmark": 10722,
+        "passmark": 10826,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700TE+%40+1.80GHz&id=3619",
         "rawname": "i79700te"
     },
@@ -5469,7 +6239,7 @@ const passmarkcpus = [
         "turbo": 4500,
         "core": 6,
         "thread": 12,
-        "passmark": 11316,
+        "passmark": 11199,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9750H+%40+2.60GHz&id=3425",
         "rawname": "i79750h"
     },
@@ -5483,7 +6253,7 @@ const passmarkcpus = [
         "turbo": 4500,
         "core": 6,
         "thread": 12,
-        "passmark": 11610,
+        "passmark": 11255,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9750HF+%40+2.60GHz&id=3653",
         "rawname": "i79750hf"
     },
@@ -5497,7 +6267,7 @@ const passmarkcpus = [
         "turbo": 4600,
         "core": 6,
         "thread": 12,
-        "passmark": 11612,
+        "passmark": 11492,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9850H+%40+2.60GHz&id=3478",
         "rawname": "i79850h"
     },
@@ -5525,7 +6295,7 @@ const passmarkcpus = [
         "turbo": 5100,
         "core": 8,
         "thread": 16,
-        "passmark": 15390,
+        "passmark": 14735,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10880H+%40+2.30GHz&id=3783",
         "rawname": "i910880h"
     },
@@ -5539,7 +6309,7 @@ const passmarkcpus = [
         "turbo": 5300,
         "core": 8,
         "thread": 16,
-        "passmark": 16081,
+        "passmark": 15647,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10885H+%40+2.40GHz&id=3782",
         "rawname": "i910885h"
     },
@@ -5553,9 +6323,23 @@ const passmarkcpus = [
         "turbo": 5300,
         "core": 8,
         "thread": 16,
-        "passmark": 16612,
+        "passmark": 16156,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10980HK+%40+2.40GHz&id=3700",
         "rawname": "i910980hk"
+    },
+    {
+        "name": "Intel Core i9-11900H @ 2.50GHz",
+        "date": "Jul 2021",
+        "socket": "FCBGA1787",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2500,
+        "turbo": 4900,
+        "core": 8,
+        "thread": 16,
+        "passmark": 21203,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900H+%40+2.50GHz&id=4436",
+        "rawname": "i911900h"
     },
     {
         "name": "Intel Core i9-11950H @ 2.60GHz",
@@ -5567,7 +6351,7 @@ const passmarkcpus = [
         "turbo": 5000,
         "core": 8,
         "thread": 16,
-        "passmark": 24248,
+        "passmark": 22548,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11950H+%40+2.60GHz&id=4400",
         "rawname": "i911950h"
     },
@@ -5581,9 +6365,51 @@ const passmarkcpus = [
         "turbo": 5000,
         "core": 8,
         "thread": 16,
-        "passmark": 24017,
+        "passmark": 23677,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11980HK+%40+2.60GHz&id=4355",
         "rawname": "i911980hk"
+    },
+    {
+        "name": "Intel Core i9-12900H",
+        "date": "Feb 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2500,
+        "turbo": 5000,
+        "core": 6,
+        "thread": 12,
+        "passmark": 29343,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900H&id=4728",
+        "rawname": "i912900h"
+    },
+    {
+        "name": "Intel Core i9-12900HK",
+        "date": "Jan 2022",
+        "socket": "FCBGA1744",
+        "platform": "laptop",
+        "tdp": 45,
+        "base": 2500,
+        "turbo": 5000,
+        "core": 6,
+        "thread": 12,
+        "passmark": 28459,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900HK&id=4702",
+        "rawname": "i912900hk"
+    },
+    {
+        "name": "Intel Core i9-12950HX",
+        "date": "May 2022",
+        "socket": "FCBGA1964",
+        "platform": "laptop",
+        "tdp": 55,
+        "base": 2500,
+        "turbo": 5000,
+        "core": 8,
+        "thread": 16,
+        "passmark": 39136,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12950HX&id=4860",
+        "rawname": "i912950hx"
     },
     {
         "name": "Intel Core i9-8950HK @ 2.90GHz",
@@ -5595,7 +6421,7 @@ const passmarkcpus = [
         "turbo": 4800,
         "core": 6,
         "thread": 12,
-        "passmark": 10944,
+        "passmark": 10811,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-8950HK+%40+2.90GHz&id=3246",
         "rawname": "i98950hk"
     },
@@ -5609,7 +6435,7 @@ const passmarkcpus = [
         "turbo": 4800,
         "core": 8,
         "thread": 16,
-        "passmark": 13929,
+        "passmark": 14009,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9880H+%40+2.30GHz&id=3456",
         "rawname": "i99880h"
     },
@@ -5623,7 +6449,7 @@ const passmarkcpus = [
         "turbo": 5000,
         "core": 8,
         "thread": 16,
-        "passmark": 15009,
+        "passmark": 14651,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9980HK+%40+2.40GHz&id=3451",
         "rawname": "i99980hk"
     },
@@ -5651,7 +6477,7 @@ const passmarkcpus = [
         "turbo": 2000,
         "core": 2,
         "thread": 4,
-        "passmark": 1896,
+        "passmark": 1885,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+M-5Y10c+%40+0.80GHz&id=2464",
         "rawname": "m5y10c"
     },
@@ -5665,7 +6491,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 2,
         "thread": 4,
-        "passmark": 2087,
+        "passmark": 2106,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+M-5Y31+%40+0.90GHz&id=2515",
         "rawname": "m5y31"
     },
@@ -5679,7 +6505,7 @@ const passmarkcpus = [
         "turbo": 2600,
         "core": 2,
         "thread": 4,
-        "passmark": 2011,
+        "passmark": 2130,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+M-5Y51+%40+1.10GHz&id=2517",
         "rawname": "m5y51"
     },
@@ -5693,7 +6519,7 @@ const passmarkcpus = [
         "turbo": 2900,
         "core": 2,
         "thread": 4,
-        "passmark": 2113,
+        "passmark": 2032,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+M-5Y71+%40+1.20GHz&id=2465",
         "rawname": "m5y71"
     },
@@ -5707,7 +6533,7 @@ const passmarkcpus = [
         "turbo": 2200,
         "core": 2,
         "thread": 4,
-        "passmark": 1821,
+        "passmark": 2190,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+m3-6Y30+%40+0.90GHz&id=2631",
         "rawname": "m36y30"
     },
@@ -5721,7 +6547,7 @@ const passmarkcpus = [
         "turbo": 2600,
         "core": 2,
         "thread": 4,
-        "passmark": 2540,
+        "passmark": 2580,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+m3-7Y30+%40+1.00GHz&id=2864",
         "rawname": "m37y30"
     },
@@ -5735,7 +6561,7 @@ const passmarkcpus = [
         "turbo": 3000,
         "core": 2,
         "thread": 4,
-        "passmark": 2742,
+        "passmark": 2946,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+m3-7Y32+%40+1.10GHz&id=3052",
         "rawname": "m37y32"
     },
@@ -5749,7 +6575,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 2,
         "thread": 4,
-        "passmark": 3023,
+        "passmark": 2949,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+m3-8100Y+%40+1.10GHz&id=3367",
         "rawname": "m38100y"
     },
@@ -5763,7 +6589,7 @@ const passmarkcpus = [
         "turbo": 2700,
         "core": 2,
         "thread": 4,
-        "passmark": 2161,
+        "passmark": 2221,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+m5-6Y54+%40+1.10GHz&id=2664",
         "rawname": "m56y54"
     },
@@ -5777,7 +6603,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 2,
         "thread": 4,
-        "passmark": 2336,
+        "passmark": 2362,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+m5-6Y57+%40+1.10GHz&id=2670",
         "rawname": "m56y57"
     },
@@ -5791,7 +6617,7 @@ const passmarkcpus = [
         "turbo": 3100,
         "core": 2,
         "thread": 4,
-        "passmark": 2339,
+        "passmark": 2328,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+m7-6Y75+%40+1.20GHz&id=2641",
         "rawname": "m76y75"
     },
@@ -5819,7 +6645,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1085,
+        "passmark": 1165,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+3805U+%40+1.90GHz&id=2483",
         "rawname": "3805u"
     },
@@ -5833,7 +6659,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1338,
+        "passmark": 1358,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+3825U+%40+1.90GHz&id=2579",
         "rawname": "3825u"
     },
@@ -5847,7 +6673,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2061,
+        "passmark": 2109,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+4405U+%40+2.10GHz&id=2666",
         "rawname": "4405u"
     },
@@ -5889,7 +6715,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2207,
+        "passmark": 2201,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+4415U+%40+2.30GHz&id=2977",
         "rawname": "4415u"
     },
@@ -5903,7 +6729,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1616,
+        "passmark": 1598,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+4415Y+%40+1.60GHz&id=3300",
         "rawname": "4415y"
     },
@@ -5917,7 +6743,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2242,
+        "passmark": 2276,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+4417U+%40+2.30GHz&id=3417",
         "rawname": "4417u"
     },
@@ -5931,7 +6757,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 1688,
+        "passmark": 1717,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+4425Y+%40+1.70GHz&id=3799",
         "rawname": "4425y"
     },
@@ -5945,7 +6771,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2307,
+        "passmark": 2281,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+5405U+%40+2.30GHz&id=3437",
         "rawname": "5405u"
     },
@@ -5959,9 +6785,23 @@ const passmarkcpus = [
         "turbo": "",
         "core": 2,
         "thread": 4,
-        "passmark": 2348,
+        "passmark": 2364,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+6405U+%40+2.40GHz&id=3712",
         "rawname": "6405u"
+    },
+    {
+        "name": "Intel Pentium 6805 @ 1.10GHz",
+        "date": "Jul 2021",
+        "socket": "FCBGA1526",
+        "platform": "laptop",
+        "tdp": 15,
+        "base": 1100,
+        "turbo": 3000,
+        "core": 2,
+        "thread": 4,
+        "passmark": 4394,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+6805+%40+1.10GHz&id=4431",
+        "rawname": "6805"
     },
     {
         "name": "Intel Pentium A1020 @ 2.41GHz",
@@ -6001,9 +6841,23 @@ const passmarkcpus = [
         "turbo": 3500,
         "core": 2,
         "thread": 4,
-        "passmark": 5507,
+        "passmark": 5342,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+7505+%40+2.00GHz&id=3909",
         "rawname": "gold7505"
+    },
+    {
+        "name": "Intel Pentium Gold 8505",
+        "date": "Mar 2022",
+        "socket": "BGA1700",
+        "platform": "laptop, mobile/embedded",
+        "tdp": 15,
+        "base": 1200,
+        "turbo": 4400,
+        "core": 1,
+        "thread": 2,
+        "passmark": 6771,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+8505&id=4775",
+        "rawname": "gold8505"
     },
     {
         "name": "Intel Pentium N3700 @ 1.60GHz",
@@ -6015,7 +6869,7 @@ const passmarkcpus = [
         "turbo": 2400,
         "core": 4,
         "thread": 4,
-        "passmark": 1314,
+        "passmark": 1270,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+N3700+%40+1.60GHz&id=2513",
         "rawname": "n3700"
     },
@@ -6029,7 +6883,7 @@ const passmarkcpus = [
         "turbo": 2560,
         "core": 4,
         "thread": 4,
-        "passmark": 1353,
+        "passmark": 1366,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+N3710+%40+1.60GHz&id=2730",
         "rawname": "n3710"
     },
@@ -6043,7 +6897,7 @@ const passmarkcpus = [
         "turbo": 2500,
         "core": 4,
         "thread": 4,
-        "passmark": 2148,
+        "passmark": 2149,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+N4200+%40+1.10GHz&id=2886",
         "rawname": "n4200"
     },
@@ -6057,9 +6911,23 @@ const passmarkcpus = [
         "turbo": 2700,
         "core": 4,
         "thread": 4,
-        "passmark": 2613,
+        "passmark": 2593,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Silver+N5000+%40+1.10GHz&id=3204",
         "rawname": "silvern5000"
+    },
+    {
+        "name": "Intel Pentium Silver N5020 @ 1.10GHz",
+        "date": "Nov 2021",
+        "socket": "FCBGA1090",
+        "platform": "laptop",
+        "tdp": 6,
+        "base": 1100,
+        "turbo": "",
+        "core": 4,
+        "thread": 4,
+        "passmark": 3404,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Silver+N5020+%40+1.10GHz&id=4598",
+        "rawname": "silvern5020"
     },
     {
         "name": "Intel Pentium Silver N5030 @ 1.10GHz",
@@ -6071,9 +6939,23 @@ const passmarkcpus = [
         "turbo": 3100,
         "core": 4,
         "thread": 4,
-        "passmark": 2705,
+        "passmark": 2717,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Silver+N5030+%40+1.10GHz&id=3670",
         "rawname": "silvern5030"
+    },
+    {
+        "name": "Intel Pentium Silver N6005 @ 2.00GHz",
+        "date": "Oct 2021",
+        "socket": "FCBGA1338",
+        "platform": "laptop, mobile/embedded",
+        "tdp": 10,
+        "base": 2000,
+        "turbo": 3300,
+        "core": 4,
+        "thread": 4,
+        "passmark": 4616,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Silver+N6005+%40+2.00GHz&id=4565",
+        "rawname": "silvern6005"
     },
     {
         "name": "Intel Xeon D-1528 @ 1.90GHz",
@@ -6099,7 +6981,7 @@ const passmarkcpus = [
         "turbo": 4400,
         "core": 6,
         "thread": 12,
-        "passmark": 11012,
+        "passmark": 10957,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E-2176M+%40+2.70GHz&id=3242",
         "rawname": "xeone2176m"
     },
@@ -6113,7 +6995,7 @@ const passmarkcpus = [
         "turbo": 4800,
         "core": 6,
         "thread": 12,
-        "passmark": 11119,
+        "passmark": 10920,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E-2186M+%40+2.90GHz&id=3232",
         "rawname": "xeone2186m"
     },
@@ -6127,7 +7009,7 @@ const passmarkcpus = [
         "turbo": 4700,
         "core": 6,
         "thread": 12,
-        "passmark": 12252,
+        "passmark": 11866,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E-2276M+%40+2.80GHz&id=3489",
         "rawname": "xeone2276m"
     },
@@ -6141,7 +7023,7 @@ const passmarkcpus = [
         "turbo": 5000,
         "core": 8,
         "thread": 16,
-        "passmark": 15754,
+        "passmark": 15246,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E-2286M+%40+2.40GHz&id=3491",
         "rawname": "xeone2286m"
     },
@@ -6155,7 +7037,7 @@ const passmarkcpus = [
         "turbo": 3400,
         "core": 4,
         "thread": 8,
-        "passmark": 6600,
+        "passmark": 6079,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E3-1268L+v5+%40+2.40GHz&id=3202",
         "rawname": "xeone31268lv5"
     },
@@ -6169,7 +7051,7 @@ const passmarkcpus = [
         "turbo": 2800,
         "core": 4,
         "thread": 8,
-        "passmark": 4838,
+        "passmark": 5301,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E3-1505L+v5+%40+2.00GHz&id=2980",
         "rawname": "xeone31505lv5"
     },
@@ -6197,7 +7079,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 7478,
+        "passmark": 7522,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E3-1535M+v5+%40+2.90GHz&id=2667",
         "rawname": "xeone31535mv5"
     },
@@ -6211,7 +7093,7 @@ const passmarkcpus = [
         "turbo": 4200,
         "core": 4,
         "thread": 8,
-        "passmark": 8335,
+        "passmark": 8203,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E3-1535M+v6+%40+3.10GHz&id=2999",
         "rawname": "xeone31535mv6"
     },
@@ -6225,7 +7107,7 @@ const passmarkcpus = [
         "turbo": 3800,
         "core": 4,
         "thread": 8,
-        "passmark": 7806,
+        "passmark": 7930,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E3-1545M+v5+%40+2.90GHz&id=2711",
         "rawname": "xeone31545mv5"
     },
@@ -6239,7 +7121,7 @@ const passmarkcpus = [
         "turbo": 5100,
         "core": 6,
         "thread": 12,
-        "passmark": 13136,
+        "passmark": 12958,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-10855M+%40+2.80GHz&id=3818",
         "rawname": "xeonw10855m"
     },
@@ -6253,9 +7135,37 @@ const passmarkcpus = [
         "turbo": 5300,
         "core": 8,
         "thread": 16,
-        "passmark": 17160,
+        "passmark": 16068,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-10885M+%40+2.40GHz&id=3762",
         "rawname": "xeonw10885m"
+    },
+    {
+        "name": "Intel Xeon W-11855M @ 3.20GHz",
+        "date": "Jun 2021",
+        "socket": "FCBGA1787",
+        "platform": "laptop, server",
+        "tdp": 45,
+        "base": 3200,
+        "turbo": 4900,
+        "core": 6,
+        "thread": 12,
+        "passmark": 18810,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-11855M+%40+3.20GHz&id=4417",
+        "rawname": "xeonw11855m"
+    },
+    {
+        "name": "Intel Xeon W-11955M @ 2.60GHz",
+        "date": "Jun 2021",
+        "socket": "FCBGA1787",
+        "platform": "laptop, server",
+        "tdp": 45,
+        "base": 2600,
+        "turbo": 5000,
+        "core": 8,
+        "thread": 16,
+        "passmark": 23470,
+        "link": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-11955M+%40+2.60GHz&id=4419",
+        "rawname": "xeonw11955m"
     },
     {
         "name": "Microsoft ARM SQ1 @ 3.0 GHz",
@@ -6267,7 +7177,7 @@ const passmarkcpus = [
         "turbo": "",
         "core": 8,
         "thread": 8,
-        "passmark": 3942,
+        "passmark": 4764,
         "link": "https://www.cpubenchmark.net/cpu.php?cpu=Microsoft+ARM+SQ1+%40+3.0+GHz&id=4113",
         "rawname": "microsoftarmsq1@3.0ghz"
     },

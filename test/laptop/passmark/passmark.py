@@ -1,4 +1,5 @@
 import json
+import re
 
 
 def processData(text, number):
@@ -16,12 +17,45 @@ def processData(text, number):
         processData(text, number)
 
 
+yearlist = ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
+
+
+def findLatest(date, yearlist):
+    for year in yearlist:
+        if year in date:
+            return True
+    return False
+
+
+def getRawname(name):
+    name = re.sub(r'AMD', '', name)
+    name = re.sub(r'APU', '', name)
+    name = re.sub(r'SOC', '', name)
+    name = re.sub(r'Intel Core', '', name)
+    name = re.sub(r'Atom', '', name)
+    name = re.sub(r'Pentium', '', name)
+    name = re.sub(r'Celeron', '', name)
+    name = re.sub(r'Intel', '', name)
+    name = re.sub(r'@ \d\.\d\dGHz', '', name)
+    name = re.sub(r'\d+MHz', '', name)
+    name = re.sub(r'[\s\-]*', '', name)
+
+    return name.lower()
+
+
 with open('passmark.json', 'r') as f:
     jsondata = json.load(f)
-
     cpus = jsondata['data']
 
     fresh = []
+    cpulaptop = []
+    cpudesktop = []
+    cpulaptoplatest = []
+    kountPlatform = []
+    kountCore = []
+    kountThread = []
+    kountTdp = []
+    kountPlatformDict = {}
 
     for cpu in cpus:
         name = processData(cpu['name'], False)
@@ -46,7 +80,9 @@ with open('passmark.json', 'r') as f:
         link = cpu['href'].replace('amp;', '')
         link = f"https://www.cpubenchmark.net/cpu.php?cpu={link}"
 
-        fresh.append({
+        rawname = getRawname(name)
+
+        cpuobj = {
             'name': name,
             'date': date,
             'socket': socket,
@@ -58,8 +94,61 @@ with open('passmark.json', 'r') as f:
             'thread': thread,
             'passmark': passmark,
             'link': link,
-        })
+            'rawname': rawname
+        }
 
-    with open('passmarkfresh.json', 'w') as w:
-        s = json.dumps({'data': fresh}, indent=4)
-        w.write(s)
+        fresh.append(cpuobj)
+
+        if ('desktop' in platform or 'server' in platform):
+            cpudesktop.append(cpuobj)
+
+        if ('laptop' in platform):
+            cpulaptop.append(cpuobj)
+            if (findLatest(date, yearlist)):
+                cpulaptoplatest.append(cpuobj)
+
+        # counting
+        if (platform not in kountPlatform):
+            kountPlatform.append(platform)
+
+        if (core not in kountCore):
+            kountCore.append(core)
+
+        if (thread not in kountThread):
+            kountThread.append(thread)
+
+        if (tdp not in kountTdp):
+            kountTdp.append(tdp)
+
+        if (platform not in kountPlatformDict):
+            kountPlatformDict[platform] = 1
+        else:
+            kountPlatformDict[platform] = kountPlatformDict[platform] + 1
+
+        kountobj = {
+            'kountPlatform': kountPlatform,
+            'kountCore': kountCore,
+            'kountThread': kountThread,
+            'kountTdp': kountTdp,
+            'kountPlatformDict': kountPlatformDict
+        }
+
+    with open('passmarkfresh.json', 'w') as w1:
+        s1 = json.dumps({'data': fresh}, indent=4)
+        w1.write(s1)
+
+        with open('passmarkdesktop.json', 'w') as w2:
+            s2 = json.dumps({'data': cpudesktop}, indent=4)
+            w2.write(s2)
+
+            with open('passmarklaptop.json', 'w') as w3:
+                s3 = json.dumps({'data': cpulaptop}, indent=4)
+                w3.write(s3)
+
+                with open('passmarklaptoplatest.json', 'w') as w4:
+                    s4 = json.dumps({'data': cpulaptoplatest}, indent=4)
+                    w4.write(s4)
+
+                    with open('passmarkcount.json', 'w') as w5:
+                        s5 = json.dumps(kountobj, indent=4)
+                        w5.write(s5)
