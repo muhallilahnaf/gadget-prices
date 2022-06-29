@@ -18,7 +18,8 @@ const validation = () => {
     maxPrice.classList.add('valid')
     maxPrice.classList.remove('invalid')
 
-    if (!startech.checked && !ryans.checked && !techland.checked) {
+    // if (!startech.checked && !ryans.checked && !techland.checked) {
+    if (!startech.checked && !ryans.checked) {
         shopError.textContent = 'select at least 1 shop'
         return false
     }
@@ -44,7 +45,7 @@ const fetchEnd = () => {
     cpuButtonsAdd()
     descriptionButtonsAdd()
     stopLoading()
-    output.scrollIntoView({behavior: "smooth"})
+    output.scrollIntoView({ behavior: "smooth" })
 }
 
 
@@ -115,7 +116,7 @@ sort.addEventListener('submit', (e) => {
         createOutput()
         cpuButtonsAdd()
         descriptionButtonsAdd()
-        output.scrollIntoView({behavior: "smooth"})
+        output.scrollIntoView({ behavior: "smooth" })
     }
 })
 

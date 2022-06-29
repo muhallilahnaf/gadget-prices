@@ -17,7 +17,7 @@ const minPrice = document.getElementById('min-price')
 const maxPrice = document.getElementById('max-price')
 const startech = document.getElementById('startech')
 const ryans = document.getElementById('ryans')
-const techland = document.getElementById('techland')
+// const techland = document.getElementById('techland')
 const shopError = document.getElementById('shop-error')
 const all = document.getElementById('all')
 const inStock = document.getElementById('in-stock')
@@ -32,7 +32,7 @@ const sortDirectionError = document.getElementById('sort-direction-error')
 const output = document.getElementById('output')
 
 const allShops = {
-    startech, ryans, techland
+    startech, ryans, //techland
 }
 
 const sortValues = [

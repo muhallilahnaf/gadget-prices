@@ -14,7 +14,7 @@ const processResponses = (responses, isSecondary) => {
     let resDict = {
         startech: [],
         ryans: [],
-        techland: []
+        // techland: []
     }
     let promiseArrArr = []
     let arrPosTracker = {}
@@ -51,11 +51,11 @@ const processResponses = (responses, isSecondary) => {
                     urls = urls.concat(parseTextRyans(text, isSecondary))
                 })
             }
-            if (key === 'techland') {
-                resultArrArr[value].forEach(text => {
-                    urls = urls.concat(parseTextTechland(text, isSecondary))
-                })
-            }
+            // if (key === 'techland') {
+            //     resultArrArr[value].forEach(text => {
+            //         urls = urls.concat(parseTextTechland(text, isSecondary))
+            //     })
+            // }
         }
 
         if (!isSecondary && urls.length > 0) {
@@ -89,9 +89,9 @@ const primaryFetch = (data) => {
                 ryansStartUrl = getRyansUrl(data)
                 urls.push(ryansStartUrl)
                 break
-            case 'techland':
-                urls.push(getTechlandUrl(data))
-                break
+            // case 'techland':
+            //     urls.push(getTechlandUrl(data))
+            //     break
             default:
                 break
         }
